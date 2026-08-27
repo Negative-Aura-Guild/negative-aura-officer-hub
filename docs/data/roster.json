@@ -1,5 +1,5 @@
 {
- "characterCount": 52,
+ "characterCount": 39,
  "memberCount": 24,
  "members": [
   {
@@ -187,31 +187,31 @@
    "role": "healer"
   },
   {
-   "battletag": null,
+   "battletag": "MedicinalNov#1300",
    "characters": [
-    {
-     "class": "Monk",
-     "inactive": false,
-     "name": "Novaniyuhh",
-     "realm": "Area 52",
-     "spec": "Mistweaver",
-     "status": "main"
-    },
     {
      "class": "Evoker",
      "inactive": false,
      "name": "Keraxya",
      "realm": "Area 52",
      "spec": "Preservation",
+     "status": "main"
+    },
+    {
+     "class": "Monk",
+     "inactive": false,
+     "name": "Novaniyuhh",
+     "realm": "Area 52",
+     "spec": "Mistweaver",
      "status": "alt"
     }
    ],
    "main": {
-    "class": "Monk",
+    "class": "Evoker",
     "inactive": false,
-    "name": "Novaniyuhh",
+    "name": "Keraxya",
     "realm": "Area 52",
-    "spec": "Mistweaver",
+    "spec": "Preservation",
     "status": "main"
    },
    "name": "Nova",
@@ -555,7 +555,7 @@
    "role": "ranged"
   },
   {
-   "battletag": null,
+   "battletag": "Ecko#1573",
    "characters": [
     {
      "class": "Demon Hunter",
@@ -670,38 +670,6 @@
      "status": "main"
     },
     {
-     "class": "Evoker",
-     "inactive": true,
-     "name": "Uoevoker",
-     "realm": "Dalaran",
-     "spec": "Preservation",
-     "status": "inactive"
-    },
-    {
-     "class": "Druid",
-     "inactive": true,
-     "name": "Frankjr",
-     "realm": "Dalaran",
-     "spec": "Feral",
-     "status": "inactive"
-    },
-    {
-     "class": "Death Knight",
-     "inactive": true,
-     "name": "Jefedk",
-     "realm": "Dalaran",
-     "spec": "Frost",
-     "status": "inactive"
-    },
-    {
-     "class": "Demon Hunter",
-     "inactive": true,
-     "name": "Uoe",
-     "realm": "Dalaran",
-     "spec": "Havoc",
-     "status": "inactive"
-    },
-    {
      "class": "Mage",
      "inactive": true,
      "name": "Pandahour",
@@ -710,83 +678,11 @@
      "status": "inactive"
     },
     {
-     "class": "Rogue",
-     "inactive": true,
-     "name": "Moleperson",
-     "realm": "Dalaran",
-     "spec": "Assassination",
-     "status": "inactive"
-    },
-    {
      "class": "Warlock",
      "inactive": true,
      "name": "Sumtìngwong",
      "realm": "Dalaran",
      "spec": "Affliction",
-     "status": "inactive"
-    },
-    {
-     "class": "Shaman",
-     "inactive": true,
-     "name": "Uoesham",
-     "realm": "Dalaran",
-     "spec": "Elemental",
-     "status": "inactive"
-    },
-    {
-     "class": "Monk",
-     "inactive": true,
-     "name": "Beakbaba",
-     "realm": "Dalaran",
-     "spec": "Windwalker",
-     "status": "inactive"
-    },
-    {
-     "class": "Death Knight",
-     "inactive": true,
-     "name": "Meoe",
-     "realm": "Dalaran",
-     "spec": "Frost",
-     "status": "inactive"
-    },
-    {
-     "class": "Warrior",
-     "inactive": true,
-     "name": "Znögias",
-     "realm": "Azshara",
-     "spec": "Arms",
-     "status": "inactive"
-    },
-    {
-     "class": "Warlock",
-     "inactive": true,
-     "name": "Wowoowo",
-     "realm": "Dalaran",
-     "spec": "Affliction",
-     "status": "inactive"
-    },
-    {
-     "class": "Paladin",
-     "inactive": true,
-     "name": "Uoè",
-     "realm": "Bleeding Hollow",
-     "spec": "Protection",
-     "status": "inactive"
-    },
-    {
-     "class": "Warrior",
-     "inactive": true,
-     "name": "Nwarrior",
-     "realm": "Dalaran",
-     "spec": "Protection",
-     "status": "inactive"
-    },
-    {
-     "class": "Priest",
-     "inactive": true,
-     "name": "Çrazzy",
-     "realm": "Azgalor",
-     "spec": "Shadow",
      "status": "inactive"
     }
    ],

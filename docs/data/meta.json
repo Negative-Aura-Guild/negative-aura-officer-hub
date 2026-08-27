@@ -1,9 +1,10 @@
 {
- "generatedAt": "2026-08-27T03:06:41Z",
+ "generatedAt": "2026-08-27T05:40:27Z",
  "sources": {
   "calendar": "ok",
   "droptimizers": "ok",
   "logs": "ok",
+  "loot": "ok",
   "roster": "ok",
   "wishlists": "error:500"
  }

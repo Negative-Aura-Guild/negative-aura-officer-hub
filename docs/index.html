@@ -51,18 +51,46 @@
     el.title = m.generatedAt || "";
   }).catch(function () {});
 
+  var DOW = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  var MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+  function weekKey(iso) {
+    // Monday-anchored week label for grouping
+    var d = new Date(iso + "T00:00:00");
+    var day = (d.getDay() + 6) % 7;
+    d.setDate(d.getDate() - day);
+    return "Week of " + MON[d.getMonth()] + " " + d.getDate();
+  }
+
   H.loadJSON("data/calendar.json").then(function (d) {
     var host = document.getElementById("raids");
-    var ev = (d.events || []).slice(0, 6);
+    var ev = (d.events || []).slice(0, 8);
     if (!ev.length) { host.innerHTML = '<div class="notice">No upcoming raids scheduled.</div>'; return; }
-    host.innerHTML = '<div class="mini-raids">' + ev.map(function (e) {
-      var present = (e.counts && e.counts.present) || 0;
-      return '<div class="r"><b>' + H.esc(e.date) + '</b>' + H.esc(e.name || "Raid") +
-        ' <span class="faint">' + H.esc(e.start || "") + '</span><br>' +
-        '<span class="faint">' + H.esc(e.difficulty || "") + ' &middot; ' + present + '/' +
-        (e.rosterSize || "?") + ' in</span></div>';
-    }).join("") + '</div>' +
-    (d.serverTimeZone ? '<div class="faint" style="margin-top:10px;font-size:12px">Times in ' + H.esc(d.serverTimeZone) + '</div>' : '');
+
+    var groups = [];
+    ev.forEach(function (e) {
+      var k = weekKey(e.date);
+      var g = groups.filter(function (x) { return x.k === k; })[0];
+      if (!g) { g = { k: k, items: [] }; groups.push(g); }
+      g.items.push(e);
+    });
+
+    host.innerHTML = groups.map(function (g) {
+      return '<div class="section-label">' + H.esc(g.k) + '</div>' +
+        '<div class="raidgrid">' + g.items.map(function (e) {
+          var dt = new Date(e.date + "T00:00:00");
+          var present = (e.counts && e.counts.present) || 0;
+          var cancelled = e.status === "cancelled";
+          return '<div class="raidcard' + (cancelled ? ' cancelled' : '') + '">' +
+            '<div class="rc-day">' + DOW[dt.getDay()] + '</div>' +
+            '<div class="rc-date">' + MON[dt.getMonth()] + ' ' + dt.getDate() + '</div>' +
+            '<div class="rc-time">' + H.esc(e.start || "") + (e.end ? "&ndash;" + H.esc(e.end) : "") + '</div>' +
+            '<div class="rc-meta">' + H.esc(e.difficulty || e.name || "Raid") + '</div>' +
+            '<div class="rc-sign">' + (cancelled ? 'Cancelled' : present + ' / ' + (e.rosterSize || "?") + ' signed') + '</div>' +
+          '</div>';
+        }).join("") + '</div>';
+    }).join("") +
+    (d.serverTimeZone ? '<div class="faint" style="margin-top:12px;font-size:12px">Times in ' + H.esc(d.serverTimeZone) + '</div>' : '');
   }).catch(function (e) {
     document.getElementById("raids").innerHTML = '<div class="notice err">' + H.esc(e.message) + '</div>';
   });

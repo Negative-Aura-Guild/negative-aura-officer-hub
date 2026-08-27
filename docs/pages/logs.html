@@ -9,7 +9,7 @@
 <body>
 <div class="wrap">
   <nav class="hubnav">
-    <span class="brand"><span class="s">&#10023;</span> Negative Aura</span>
+    <a href="../index.html" class="brand"><span class="s">&#10023;</span> Negative Aura</a>
     <a href="roster.html">Roster</a>
     <a href="loot.html">Loot Tracking</a>
     <a href="logs.html" class="active">Logs</a>
@@ -23,7 +23,7 @@
   <div id="content">
     <div class="loading">Loading reports…</div>
   </div>
-  <footer class="hub">Live from the WarcraftLogs API. Refreshed hourly.</footer>
+  <footer class="hub">From the WarcraftLogs API. Refreshed hourly.</footer>
 </div>
 
 <script src="../assets/hub.js"></script>
@@ -35,34 +35,67 @@
     render: function (meta) {
       H.loadJSON("../data/logs.json").then(function (data) {
         var content = document.getElementById("content");
-        var reports = data.reports || [];
+        var reports = (data.reports || []).map(function (r) {
+          return {
+            date: H.fmtDateFromEpoch(r.start),
+            title: r.title || "(untitled)",
+            zone: r.zone || "",
+            duration: r.durationMin,
+            owner: r.owner || "",
+            url: r.url
+          };
+        });
 
-        var head = '<div class="card"><div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">' +
-          '<h2 style="margin:0">Recent raid reports</h2>' +
-          '<a class="btn ghost" style="margin-left:auto" target="_blank" rel="noopener" href="' +
-          H.esc(data.guildPage) + '">Open full history on WarcraftLogs &rarr;</a></div>';
+        content.innerHTML =
+          '<div class="card">' +
+          '<div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:16px">' +
+            '<h2 style="margin:0">Recent raid reports</h2>' +
+            '<a class="btn ghost" style="margin-left:auto" target="_blank" rel="noopener" href="' +
+              H.esc(data.guildPage) + '">Open full history on WarcraftLogs &rarr;</a>' +
+          '</div>' +
+          '<div id="tbl"></div></div>';
 
         if (!reports.length) {
-          content.innerHTML = head + '<div class="notice">No reports returned. ' +
+          document.getElementById("tbl").innerHTML = '<div class="notice">No reports returned' +
             (meta.sources && meta.sources.logs && meta.sources.logs !== "ok"
-              ? "Source status: " + H.esc(meta.sources.logs) : "") + '</div></div>';
+              ? " (source status: " + H.esc(meta.sources.logs) + ")" : "") + '.</div>';
           return;
         }
 
-        var rows = reports.map(function (r) {
-          var date = H.fmtDateFromEpoch(r.start);
-          var meta2 = [];
-          if (r.zone) meta2.push(H.esc(r.zone));
-          if (r.durationMin != null) meta2.push(r.durationMin + " min");
-          if (r.owner) meta2.push("by " + H.esc(r.owner));
-          return '<a class="log-row" target="_blank" rel="noopener" href="' + H.esc(r.url) + '" style="color:inherit">' +
-            '<span class="log-date">' + H.esc(date) + '</span>' +
-            '<span class="log-title">' + H.esc(r.title || "(untitled)") + '</span>' +
-            '<span class="log-meta">' + meta2.join(" &middot; ") + '</span>' +
-            '</a>';
-        }).join("");
+        var t = H.renderTable(document.getElementById("tbl"), {
+          filter: true,
+          pageSize: 25,
+          controls: 'From <input type="date" id="from"> to <input type="date" id="to">' +
+                    ' <button class="tbl-pg" id="clr">Clear</button>',
+          defaultSortKey: "date",
+          defaultSortDir: -1,
+          emptyText: "No reports in that range.",
+          columns: [
+            { key: "date", label: "Date", sort: "date", cls: "faint" },
+            { key: "title", label: "Report", sort: "text",
+              render: function (v, r) { return '<a target="_blank" rel="noopener" href="' + H.esc(r.url) + '">' + H.esc(v) + '</a>'; } },
+            { key: "zone", label: "Zone", sort: "text", cls: "faint" },
+            { key: "duration", label: "Length", sort: "num",
+              render: function (v) { return v != null ? v + " min" : ""; } },
+            { key: "owner", label: "By", sort: "text", cls: "faint" }
+          ],
+          rows: reports
+        });
 
-        content.innerHTML = head + '<div style="margin-top:8px">' + rows + '</div></div>';
+        var from = document.getElementById("from");
+        var to = document.getElementById("to");
+        function apply() {
+          var f = from.value, tt = to.value;
+          if (!f && !tt) { t.setFilter(null); return; }
+          t.setFilter(function (r) {
+            return (!f || r.date >= f) && (!tt || r.date <= tt);
+          });
+        }
+        from.addEventListener("change", apply);
+        to.addEventListener("change", apply);
+        document.getElementById("clr").addEventListener("click", function () {
+          from.value = ""; to.value = ""; t.setFilter(null);
+        });
       }).catch(function (e) {
         document.getElementById("content").innerHTML =
           '<div class="notice err">Could not load logs.json — ' + H.esc(e.message) + '</div>';

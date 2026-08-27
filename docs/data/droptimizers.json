@@ -1,6 +1,15 @@
 {
  "data": [
   {
+   "character": "Indrra",
+   "class": "Demon Hunter",
+   "dps": 198493,
+   "importedAt": "2026-08-27T04:42:57.249Z",
+   "profile": "heroic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/ngWhhCDxyHDSbu5ken5R7S",
+   "spec": "devourer"
+  },
+  {
    "character": "Bobbyshammy",
    "class": "Shaman",
    "dps": null,

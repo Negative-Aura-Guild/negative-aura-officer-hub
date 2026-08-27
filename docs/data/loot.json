@@ -1,0 +1,2274 @@
+{
+ "history": [
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Hexing Spiritrender",
+   "Player": "Rexxss",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "Personal Loot - Non tradeable",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Vashnik's Sanguine Rancor",
+   "Player": "Rexxss",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "Stat-alo",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Initiate's Sacrificial Tights",
+   "Player": "Ilovewow",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "Stat-alo",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Venomwoven Relic",
+   "Player": "Ilovewow",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Vexhul's Everflowing Gland",
+   "Player": "Ilovewow",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "Stat-alo",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Cackling Soultreads",
+   "Player": "Ilovewow",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "Ilvl Upgrade",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Venomkeeper's Horrific Cowl",
+   "Player": "Ilovewow",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "Response",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Unpossessed Skullsash",
+   "Player": "Illinoev",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "Personal Loot - Non tradeable",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Venom-Slashed Scuteward",
+   "Player": "Miglight",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "Stat-alo",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Venomforged Remnant",
+   "Player": "Miglight",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Reckless Spirit Breastplate",
+   "Player": "Miglight",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Entombed Cultist's Sabatons",
+   "Player": "Miglight",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "Ilvl Upgrade",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Ancient Construct's Venomshiv",
+   "Player": "Zoomi",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "Xmog",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Ravenous Feaster's Fang",
+   "Player": "Zoomi",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "Xmog",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Ophidian Fangmail",
+   "Player": "Uoecell",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "Stat allocation",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Caustic Repose Greatbow",
+   "Player": "Uoecell",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Tomb-Creeper's Claw",
+   "Player": "Indrra",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "Off-Spec",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Gebbo's Bottomless Bag",
+   "Player": "Indrra",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Venomcured Effigy",
+   "Player": "Indrra",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "4pc",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Vestment of the Awakening",
+   "Player": "Indrra",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Sszorak's Ferocity",
+   "Player": "Põoks",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "Personal Loot - Non tradeable",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Strongblood's Ceremonial Cleaver",
+   "Player": "Dankyas",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "Personal Loot - Non tradeable",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Soulcoil Remnant",
+   "Player": "Bonebrunch",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Soulcoiler's Rush'kah",
+   "Player": "Bonebrunch",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "Response",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Caustic Chain-Wrapped Sash",
+   "Player": "Sal",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Caustic Chain-Wrapped Sash",
+   "Player": "Danktemplar",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "Stat-alo",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Venomwoven Icon",
+   "Player": "Danktemplar",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "2pc",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Nek'zali's Spiritwalkers",
+   "Player": "Danktemplar",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Tomb-Creeper's Claw",
+   "Player": "Donkersloot",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "Off-Spec",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Gebbo's Backup Blaster",
+   "Player": "Donkersloot",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "Xmog",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Slithering Savage's Gavel",
+   "Player": "Donkersloot",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "Off-Spec",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Venomcast Idol",
+   "Player": "Donkersloot",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "2pc",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Venomancer's Winged Channeler",
+   "Player": "Donkersloot",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "Xmog",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Vile Alchemist's Band",
+   "Player": "Donkersloot",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Cuisses of the Uncoiled Union",
+   "Player": "Donkersloot",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "Ilvl Upgrade",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Caustic Repose Greatbow",
+   "Player": "Donkersloot",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "Xmog",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Venomforged Relic",
+   "Player": "Ludiously",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Scaled Fiend's Warboots",
+   "Player": "Ludiously",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Cuisses of the Uncoiled Union",
+   "Player": "Archivon",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Awoken Dreadfang Cuirass",
+   "Player": "Archivon",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Slumbering Coil Curio",
+   "Player": "Archivon",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "4pc",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Girdle of Toxic Regret",
+   "Player": "Bwonsuckdik",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Slumbering Coil Curio",
+   "Player": "Bwonsuckdik",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "2pc",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Jaw of the Shackled Goddess",
+   "Player": "Bwonsuckdik",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "Off-Spec",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Entombed Cultist's Sabatons",
+   "Player": "Kridiás",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "Stat-alo",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Skullguard of the Risen Sacrifice",
+   "Player": "Kridiás",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "Button4",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Scaleplate Strangulators",
+   "Player": "Kridiás",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "Stat-alo",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Boots of the Reckless Wayfarer",
+   "Player": "Augtiste",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "Personal Loot - Non tradeable",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Pattern: Adorned Fang",
+   "Player": "Augtiste",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Slumbering Coil Curio",
+   "Player": "Augtiste",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "4pc",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Crown of the Eternal Fang",
+   "Player": "Augtiste",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "Button5",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Sentinel's Vitriolic Chain",
+   "Player": "Karthmonk",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:43:11",
+   "Item": "Shadow Hunter's Warmask",
+   "Player": "Thagphist",
+   "Raid Date": "2026-08-20",
+   "Response / Reason": "Button7",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:44:50",
+   "Item": "Ancient Construct's Venomshiv",
+   "Player": "Inddrraa",
+   "Raid Date": "2026-08-18",
+   "Response / Reason": "Stat-alo",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:44:50",
+   "Item": "Venomcast Effigy",
+   "Player": "Kdvt",
+   "Raid Date": "2026-08-18",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:44:50",
+   "Item": "Venomcast Relic",
+   "Player": "Kdvt",
+   "Raid Date": "2026-08-18",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:44:50",
+   "Item": "Boots of the Reckless Wayfarer",
+   "Player": "Kdvt",
+   "Raid Date": "2026-08-18",
+   "Response / Reason": "Stat-alo",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:44:50",
+   "Item": "Venomcured Idol",
+   "Player": "Norberto",
+   "Raid Date": "2026-08-18",
+   "Response / Reason": "Stat-alo",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:44:50",
+   "Item": "Bespittled Slitherslippers",
+   "Player": "Norberto",
+   "Raid Date": "2026-08-18",
+   "Response / Reason": "Stat-alo",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:44:50",
+   "Item": "Tomb-Creeper's Claw",
+   "Player": "Archivon",
+   "Raid Date": "2026-08-18",
+   "Response / Reason": "Pass",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:44:50",
+   "Item": "Slithering Savage's Gavel",
+   "Player": "Archivon",
+   "Raid Date": "2026-08-18",
+   "Response / Reason": "Stat-alo",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:44:50",
+   "Item": "Cursed Reliquary Cincture",
+   "Player": "Archivon",
+   "Raid Date": "2026-08-18",
+   "Response / Reason": "Stat-alo",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:44:50",
+   "Item": "Venomcured Remnant",
+   "Player": "Exxer",
+   "Raid Date": "2026-08-18",
+   "Response / Reason": "2pc",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:44:50",
+   "Item": "Amani Summoning Shawl",
+   "Player": "Exxer",
+   "Raid Date": "2026-08-18",
+   "Response / Reason": "Stat-alo",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:44:50",
+   "Item": "Strongblood's Ceremonial Cleaver",
+   "Player": "Bwonsuckdik",
+   "Raid Date": "2026-08-18",
+   "Response / Reason": "Off-Spec",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:44:50",
+   "Item": "Soulcoil Remnant",
+   "Player": "Bwonsuckdik",
+   "Raid Date": "2026-08-18",
+   "Response / Reason": "Pass",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:44:50",
+   "Item": "Vile Alchemist's Band",
+   "Player": "Keraxya",
+   "Raid Date": "2026-08-18",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:44:50",
+   "Item": "Ophidian Fangmail",
+   "Player": "Keraxya",
+   "Raid Date": "2026-08-18",
+   "Response / Reason": "Stat-alo",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:44:50",
+   "Item": "Venomcured Icon",
+   "Player": "Pillowtrove",
+   "Raid Date": "2026-08-18",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:44:50",
+   "Item": "Vestment of the Awakening",
+   "Player": "Pillowtrove",
+   "Raid Date": "2026-08-18",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:44:50",
+   "Item": "Spine of the Hissing Abyss",
+   "Player": "Pillowtrove",
+   "Raid Date": "2026-08-18",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:44:50",
+   "Item": "Vexhul's Everflowing Gland",
+   "Player": "Popemig",
+   "Raid Date": "2026-08-18",
+   "Response / Reason": "Pass",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:44:50",
+   "Item": "Caustic Keeper-Crusher",
+   "Player": "Thagin",
+   "Raid Date": "2026-08-18",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:44:50",
+   "Item": "Apex Brute's Claw Ring",
+   "Player": "Thagin",
+   "Raid Date": "2026-08-18",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:44:50",
+   "Item": "Amulet of the Twin Fangs",
+   "Player": "Whurlock",
+   "Raid Date": "2026-08-18",
+   "Response / Reason": "Stat-alo",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:44:50",
+   "Item": "Vile Alchemist's Band",
+   "Player": "Divari",
+   "Raid Date": "2026-08-18",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:44:50",
+   "Item": "Gebbo's Bottomless Bag",
+   "Player": "Divari",
+   "Raid Date": "2026-08-18",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:44:50",
+   "Item": "Initiate's Sacrificial Tights",
+   "Player": "Divari",
+   "Raid Date": "2026-08-18",
+   "Response / Reason": "2pc",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:44:50",
+   "Item": "Shadow Hunter's Warmask",
+   "Player": "Powerwordmu",
+   "Raid Date": "2026-08-18",
+   "Response / Reason": "Pass",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:44:50",
+   "Item": "Amani Summoning Shawl",
+   "Player": "Hufflepuffer",
+   "Raid Date": "2026-08-18",
+   "Response / Reason": "Stat-alo",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:44:50",
+   "Item": "Venomancer's Winged Channeler",
+   "Player": "Uoepriest",
+   "Raid Date": "2026-08-18",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:44:50",
+   "Item": "Venomous Boneglaive",
+   "Player": "Uoepriest",
+   "Raid Date": "2026-08-18",
+   "Response / Reason": "Xmog",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "2026-08-22 16:44:50",
+   "Item": "Gebbo's Backup Blaster",
+   "Player": "Vilihame",
+   "Raid Date": "2026-08-18",
+   "Response / Reason": "Autopass",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787536578-23",
+   "Imported At": "2026-08-23 19:10:08",
+   "Item": "Venomcast Idol",
+   "Player": "Exxer",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "Personal Loot - Non tradeable",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "1787532706-6",
+   "Imported At": "2026-08-23 19:10:08",
+   "Item": "Bubblefin Splash Guard",
+   "Player": "Miglight",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "Stat allocation",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787534699-14",
+   "Imported At": "2026-08-23 19:10:08",
+   "Item": "Abyssal Broodfiend's Bardiche",
+   "Player": "Keraxya",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "Personal Loot - Non tradeable",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787533910-12",
+   "Imported At": "2026-08-23 19:10:08",
+   "Item": "Cackling Soultreads",
+   "Player": "Popemig",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "Ilvl Upgrade",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787532168-3",
+   "Imported At": "2026-08-23 19:10:08",
+   "Item": "Cincture of the Abyssal Grotto",
+   "Player": "Thagin",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "Xmog",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787533915-13",
+   "Imported At": "2026-08-23 19:10:08",
+   "Item": "Soulslither Spaulders",
+   "Player": "Thagin",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "Xmog",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787534881-15",
+   "Imported At": "2026-08-23 19:10:08",
+   "Item": "Jaw of the Shackled Goddess",
+   "Player": "Thagin",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "Off-Spec",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787534977-20",
+   "Imported At": "2026-08-23 19:10:08",
+   "Item": "Slumbering Coil Curio",
+   "Player": "Thagin",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "2pc",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "1787535008-21",
+   "Imported At": "2026-08-23 19:10:08",
+   "Item": "Chausses of Unbound Rancor",
+   "Player": "Thagin",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787532828-8",
+   "Imported At": "2026-08-23 19:10:08",
+   "Item": "Wavecaller's Seastone",
+   "Player": "Indrra",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "Pass",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787536678-27",
+   "Imported At": "2026-08-23 19:10:08",
+   "Item": "Spine of the Hissing Abyss",
+   "Player": "Zoomi",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "Ilvl Upgrade",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787536581-24",
+   "Imported At": "2026-08-23 19:10:08",
+   "Item": "Sentinel's Vitriolic Chain",
+   "Player": "Karthmonk",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "Personal Loot - Non tradeable",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787536761-29",
+   "Imported At": "2026-08-23 19:10:08",
+   "Item": "Venomwoven Idol",
+   "Player": "Uoepriest",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "4pc",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "1787536656-26",
+   "Imported At": "2026-08-23 19:10:08",
+   "Item": "Spine of the Hissing Abyss",
+   "Player": "Pillowtrove",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787534895-16",
+   "Imported At": "2026-08-23 19:10:08",
+   "Item": "Font of Venomous Rage",
+   "Player": "Galatha",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "Ilvl Upgrade",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787533792-9",
+   "Imported At": "2026-08-23 19:10:08",
+   "Item": "Cackling Soultreads",
+   "Player": "Tzuriel",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "Personal Loot - Non tradeable",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787532165-2",
+   "Imported At": "2026-08-23 19:10:08",
+   "Item": "Grips of Swirling Fury",
+   "Player": "Donkersloot",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "Xmog",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787532671-5",
+   "Imported At": "2026-08-23 19:10:08",
+   "Item": "Forgotten Grotto Girdle",
+   "Player": "Ludiously",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "Ilvl Upgrade",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787536682-28",
+   "Imported At": "2026-08-23 19:10:08",
+   "Item": "Keeper's Seething Core",
+   "Player": "Ludiously",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "Ilvl Upgrade",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787532171-4",
+   "Imported At": "2026-08-23 19:10:08",
+   "Item": "Alluring Bubbleband",
+   "Player": "Ilovewow",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787533908-11",
+   "Imported At": "2026-08-23 19:10:08",
+   "Item": "Grasps of the Eternal Shadow",
+   "Player": "Divari",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "Ilvl Upgrade",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787534971-19",
+   "Imported At": "2026-08-23 19:10:08",
+   "Item": "Slumbering Coil Curio",
+   "Player": "Divari",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "2pc",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "1787536575-22",
+   "Imported At": "2026-08-23 19:10:08",
+   "Item": "Keeper's Seething Core",
+   "Player": "Norberto",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "Personal Loot - Non tradeable",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787532155-0",
+   "Imported At": "2026-08-23 19:10:08",
+   "Item": "Swelling Sea Spaulders",
+   "Player": "Hufflepuffer",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "Xmog",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787533903-10",
+   "Imported At": "2026-08-23 19:10:08",
+   "Item": "Grasps of the Eternal Shadow",
+   "Player": "Hufflepuffer",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "Stat allocation",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787534911-17",
+   "Imported At": "2026-08-23 19:10:08",
+   "Item": "Venomkeeper's Horrific Cowl",
+   "Player": "Hufflepuffer",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "Response",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787534915-18",
+   "Imported At": "2026-08-23 19:10:08",
+   "Item": "Slumbering Coil Curio",
+   "Player": "Hufflepuffer",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "4pc",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "1787532161-1",
+   "Imported At": "2026-08-23 19:10:08",
+   "Item": "Rising Tide Wristguards",
+   "Player": "Kdvt",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "Ilvl Upgrade",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787532776-7",
+   "Imported At": "2026-08-23 19:10:08",
+   "Item": "Grips of Swirling Fury",
+   "Player": "Kdvt",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "Ilvl Upgrade",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787536650-25",
+   "Imported At": "2026-08-23 19:10:08",
+   "Item": "Keeper's Seething Core",
+   "Player": "Kdvt",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787540778-7",
+   "Imported At": "2026-08-23 21:32:51",
+   "Item": "Shellbound Bracers",
+   "Player": "Miglight",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787538574-2",
+   "Imported At": "2026-08-23 21:32:51",
+   "Item": "Venomcast Icon",
+   "Player": "Keraxya",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "Pass",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "1787540809-9",
+   "Imported At": "2026-08-23 21:32:51",
+   "Item": "First Mate's Shellward",
+   "Player": "Thagin",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "Off-Spec",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787538606-4",
+   "Imported At": "2026-08-23 21:32:51",
+   "Item": "Venomancer's Winged Channeler",
+   "Player": "Zoomi",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "Ilvl Upgrade",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787538597-3",
+   "Imported At": "2026-08-23 21:32:51",
+   "Item": "Vashnik's Sanguine Rancor",
+   "Player": "Archivon",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "Ilvl Upgrade",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787540771-6",
+   "Imported At": "2026-08-23 21:32:51",
+   "Item": "Errant Scrollsage's Hood",
+   "Player": "Uoepriest",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "Response",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787538440-0",
+   "Imported At": "2026-08-23 21:32:51",
+   "Item": "Venomwoven Icon",
+   "Player": "Sal",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "4pc",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "1787540742-5",
+   "Imported At": "2026-08-23 21:32:51",
+   "Item": "Venomwoven Remnant",
+   "Player": "Sal",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "4pc",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "1787538451-1",
+   "Imported At": "2026-08-23 21:32:51",
+   "Item": "Serpentine Mixing Belt",
+   "Player": "Donkersloot",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787541015-10",
+   "Imported At": "2026-08-23 21:32:51",
+   "Item": "Venomwoven Idol",
+   "Player": "Ilovewow",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "4pc",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "1787540793-8",
+   "Imported At": "2026-08-23 21:32:51",
+   "Item": "Gebbo's Backup Blaster",
+   "Player": "Kdvt",
+   "Raid Date": "2026-08-23",
+   "Response / Reason": "Stat allocation",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "",
+   "Imported At": "",
+   "Item": "",
+   "Player": "",
+   "Raid Date": "",
+   "Response / Reason": "",
+   "Tier Item?": "FALSE"
+  }
+ ],
+ "historyCols": [
+  "Raid Date",
+  "Player",
+  "Item",
+  "Response / Reason",
+  "Tier Item?",
+  "Imported At",
+  "Entry ID"
+ ],
+ "tier": [
+  {
+   "Class": "Shaman",
+   "Full Tier History": "Slumbering Coil Curio (2026-08-20)",
+   "Last Received Date": "2026-08-20",
+   "Last Tier Item": "Slumbering Coil Curio",
+   "Player": "Archivon",
+   "Roster Status": "Main",
+   "Tier Pieces Received": "1"
+  },
+  {
+   "Class": "Evoker",
+   "Full Tier History": "Slumbering Coil Curio (2026-08-20)",
+   "Last Received Date": "2026-08-20",
+   "Last Tier Item": "Slumbering Coil Curio",
+   "Player": "Augtiste",
+   "Roster Status": "Main",
+   "Tier Pieces Received": "1"
+  },
+  {
+   "Class": "Shaman",
+   "Full Tier History": "",
+   "Last Received Date": "",
+   "Last Tier Item": "",
+   "Player": "Bobbyshammy",
+   "Roster Status": "Main",
+   "Tier Pieces Received": "0"
+  },
+  {
+   "Class": "Death Knight",
+   "Full Tier History": "Slumbering Coil Curio (2026-08-20)",
+   "Last Received Date": "2026-08-20",
+   "Last Tier Item": "Slumbering Coil Curio",
+   "Player": "Bwonsuckdik",
+   "Roster Status": "Main",
+   "Tier Pieces Received": "1"
+  },
+  {
+   "Class": "Warlock",
+   "Full Tier History": "Venomwoven Icon (2026-08-20)",
+   "Last Received Date": "2026-08-20",
+   "Last Tier Item": "Venomwoven Icon",
+   "Player": "Danktemplar",
+   "Roster Status": "Main",
+   "Tier Pieces Received": "1"
+  },
+  {
+   "Class": "Mage",
+   "Full Tier History": "Slumbering Coil Curio (2026-08-23)",
+   "Last Received Date": "2026-08-23",
+   "Last Tier Item": "Slumbering Coil Curio",
+   "Player": "Divari",
+   "Roster Status": "Main",
+   "Tier Pieces Received": "1"
+  },
+  {
+   "Class": "Shaman",
+   "Full Tier History": "Venomcast Idol (2026-08-20)",
+   "Last Received Date": "2026-08-20",
+   "Last Tier Item": "Venomcast Idol",
+   "Player": "Donkersloot",
+   "Roster Status": "Main",
+   "Tier Pieces Received": "1"
+  },
+  {
+   "Class": "Demon Hunter",
+   "Full Tier History": "Venomcured Remnant (2026-08-18)",
+   "Last Received Date": "2026-08-18",
+   "Last Tier Item": "Venomcured Remnant",
+   "Player": "Exxer",
+   "Roster Status": "Main",
+   "Tier Pieces Received": "1"
+  },
+  {
+   "Class": "Mage",
+   "Full Tier History": "Slumbering Coil Curio (2026-08-23)",
+   "Last Received Date": "2026-08-23",
+   "Last Tier Item": "Slumbering Coil Curio",
+   "Player": "Hufflepuffer",
+   "Roster Status": "Main",
+   "Tier Pieces Received": "1"
+  },
+  {
+   "Class": "Mage",
+   "Full Tier History": "Venomwoven Relic (2026-08-20); Venomwoven Idol (2026-08-23)",
+   "Last Received Date": "2026-08-23",
+   "Last Tier Item": "Venomwoven Idol",
+   "Player": "Ilovewow",
+   "Roster Status": "Main",
+   "Tier Pieces Received": "2"
+  },
+  {
+   "Class": "Demon Hunter",
+   "Full Tier History": "Venomcured Effigy (2026-08-20)",
+   "Last Received Date": "2026-08-20",
+   "Last Tier Item": "Venomcured Effigy",
+   "Player": "Indrra",
+   "Roster Status": "Main",
+   "Tier Pieces Received": "1"
+  },
+  {
+   "Class": "Death Knight",
+   "Full Tier History": "",
+   "Last Received Date": "",
+   "Last Tier Item": "",
+   "Player": "Johnsonn",
+   "Roster Status": "Main",
+   "Tier Pieces Received": "0"
+  },
+  {
+   "Class": "Monk",
+   "Full Tier History": "",
+   "Last Received Date": "",
+   "Last Tier Item": "",
+   "Player": "Karthmonk",
+   "Roster Status": "Main",
+   "Tier Pieces Received": "0"
+  },
+  {
+   "Class": "Hunter",
+   "Full Tier History": "Venomcast Effigy (2026-08-18); Venomcast Relic (2026-08-18)",
+   "Last Received Date": "2026-08-18",
+   "Last Tier Item": "Venomcast Relic",
+   "Player": "Kdvt",
+   "Roster Status": "Main",
+   "Tier Pieces Received": "2"
+  },
+  {
+   "Class": "Evoker",
+   "Full Tier History": "Venomcast Icon (2026-08-23)",
+   "Last Received Date": "2026-08-23",
+   "Last Tier Item": "Venomcast Icon",
+   "Player": "Keraxya",
+   "Roster Status": "Main",
+   "Tier Pieces Received": "1"
+  },
+  {
+   "Class": "Death Knight",
+   "Full Tier History": "Venomforged Relic (2026-08-20)",
+   "Last Received Date": "2026-08-20",
+   "Last Tier Item": "Venomforged Relic",
+   "Player": "Ludiously",
+   "Roster Status": "Main",
+   "Tier Pieces Received": "1"
+  },
+  {
+   "Class": "Paladin",
+   "Full Tier History": "Venomforged Remnant (2026-08-20)",
+   "Last Received Date": "2026-08-20",
+   "Last Tier Item": "Venomforged Remnant",
+   "Player": "Miglight",
+   "Roster Status": "Main",
+   "Tier Pieces Received": "1"
+  },
+  {
+   "Class": "Monk",
+   "Full Tier History": "Venomcured Idol (2026-08-18)",
+   "Last Received Date": "2026-08-18",
+   "Last Tier Item": "Venomcured Idol",
+   "Player": "Norberto",
+   "Roster Status": "Main",
+   "Tier Pieces Received": "1"
+  },
+  {
+   "Class": "Druid",
+   "Full Tier History": "Venomcured Icon (2026-08-18)",
+   "Last Received Date": "2026-08-18",
+   "Last Tier Item": "Venomcured Icon",
+   "Player": "Pillowtrove",
+   "Roster Status": "Main",
+   "Tier Pieces Received": "1"
+  },
+  {
+   "Class": "Priest",
+   "Full Tier History": "Venomwoven Icon (2026-08-23); Venomwoven Remnant (2026-08-23)",
+   "Last Received Date": "2026-08-23",
+   "Last Tier Item": "Venomwoven Remnant",
+   "Player": "Sal",
+   "Roster Status": "Main",
+   "Tier Pieces Received": "2"
+  },
+  {
+   "Class": "Warrior",
+   "Full Tier History": "Slumbering Coil Curio (2026-08-23)",
+   "Last Received Date": "2026-08-23",
+   "Last Tier Item": "Slumbering Coil Curio",
+   "Player": "Thagin",
+   "Roster Status": "Main",
+   "Tier Pieces Received": "1"
+  },
+  {
+   "Class": "Priest",
+   "Full Tier History": "Venomwoven Idol (2026-08-23)",
+   "Last Received Date": "2026-08-23",
+   "Last Tier Item": "Venomwoven Idol",
+   "Player": "Uoepriest",
+   "Roster Status": "Main",
+   "Tier Pieces Received": "1"
+  },
+  {
+   "Class": "Paladin",
+   "Full Tier History": "",
+   "Last Received Date": "",
+   "Last Tier Item": "",
+   "Player": "Vilihame",
+   "Roster Status": "Main",
+   "Tier Pieces Received": "0"
+  },
+  {
+   "Class": "Shaman",
+   "Full Tier History": "",
+   "Last Received Date": "",
+   "Last Tier Item": "",
+   "Player": "Mintsmoothie",
+   "Roster Status": "Alt",
+   "Tier Pieces Received": "0"
+  },
+  {
+   "Class": "Monk",
+   "Full Tier History": "",
+   "Last Received Date": "",
+   "Last Tier Item": "",
+   "Player": "Novaniyuhh",
+   "Roster Status": "Alt",
+   "Tier Pieces Received": "0"
+  },
+  {
+   "Class": "Priest",
+   "Full Tier History": "",
+   "Last Received Date": "",
+   "Last Tier Item": "",
+   "Player": "Popemig",
+   "Roster Status": "Alt",
+   "Tier Pieces Received": "0"
+  },
+  {
+   "Class": "Druid",
+   "Full Tier History": "",
+   "Last Received Date": "",
+   "Last Tier Item": "",
+   "Player": "Rexxss",
+   "Roster Status": "Alt",
+   "Tier Pieces Received": "0"
+  }
+ ],
+ "tierCols": [
+  "Player",
+  "Class",
+  "Roster Status",
+  "Tier Pieces Received",
+  "Last Tier Item",
+  "Last Received Date",
+  "Full Tier History"
+ ]
+}

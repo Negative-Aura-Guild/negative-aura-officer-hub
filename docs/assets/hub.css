@@ -176,6 +176,66 @@ a:hover { text-decoration: underline; }
 
 .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
 
+/* reusable table tools */
+.tbl-tools {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  flex-wrap: wrap;
+  margin-bottom: var(--sp-3);
+}
+.tbl-tools .tbl-filter {
+  background: var(--bg-3);
+  border: 1px solid var(--border-2);
+  border-radius: var(--r-sm);
+  color: var(--text);
+  padding: 6px 10px;
+  font-size: 13px;
+  min-width: 180px;
+}
+.tbl-tools .tbl-filter:focus { outline: none; border-color: var(--accent); }
+.tbl-tools .tbl-count { margin-left: auto; font-size: 12px; }
+.tbl-tools .tbl-select {
+  background: var(--bg-3);
+  border: 1px solid var(--border-2);
+  border-radius: var(--r-sm);
+  color: var(--text);
+  padding: 6px 10px;
+  font-size: 13px;
+}
+.tbl-tools .tbl-select:focus { outline: none; border-color: var(--accent); }
+.tbl-tools input[type="date"] {
+  background: var(--bg-3);
+  border: 1px solid var(--border-2);
+  border-radius: var(--r-sm);
+  color: var(--text);
+  padding: 5px 8px;
+  font-size: 12.5px;
+  color-scheme: dark;
+}
+table.grid th.sortable { cursor: pointer; user-select: none; }
+table.grid th.sortable:hover { color: var(--text); }
+table.grid th .sar { color: var(--accent); font-size: 11px; }
+.tbl-pager {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  justify-content: flex-end;
+  margin-top: var(--sp-3);
+  font-size: 12.5px;
+}
+.tbl-pager .tbl-pg {
+  background: var(--bg-3);
+  border: 1px solid var(--border-2);
+  color: var(--text);
+  border-radius: var(--r-sm);
+  padding: 4px 10px;
+  font-size: 12.5px;
+  cursor: pointer;
+}
+.tbl-pager .tbl-pg:disabled { opacity: 0.4; cursor: default; }
+.tbl-pager .tbl-pg:not(:disabled):hover { border-color: var(--accent); }
+
 table.grid {
   width: 100%;
   border-collapse: collapse;
@@ -300,15 +360,30 @@ table.grid tr:hover td { background: rgba(124, 92, 255, 0.05); }
 
 /* ---- misc -------------------------------------------------------- */
 
-.mini-raids { display: flex; gap: var(--sp-3); flex-wrap: wrap; }
-.mini-raids .r {
-  padding: var(--sp-3) var(--sp-4);
+.raidgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: var(--sp-3);
+  margin-bottom: var(--sp-4);
+}
+.raidcard {
   background: var(--bg-3);
   border: 1px solid var(--border);
-  border-radius: var(--r-sm);
-  font-size: 13px;
+  border-radius: var(--r);
+  padding: var(--sp-4);
+  text-align: center;
 }
-.mini-raids .r b { display: block; font-family: var(--mono); color: var(--venom); font-size: 12px; }
+.raidcard.cancelled { opacity: 0.5; }
+.raidcard .rc-day {
+  font-family: var(--serif);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text);
+}
+.raidcard .rc-date { color: var(--venom); font-family: var(--mono); font-size: 12px; margin-top: 2px; }
+.raidcard .rc-time { color: var(--muted); font-size: 12.5px; margin-top: var(--sp-2); }
+.raidcard .rc-meta { color: var(--text); font-size: 12.5px; font-weight: 600; margin-top: var(--sp-1); }
+.raidcard .rc-sign { color: var(--faint); font-size: 11.5px; margin-top: var(--sp-2); }
 
 footer.hub {
   margin-top: var(--sp-6);

@@ -16,6 +16,8 @@ Local run:
     WOWUTILS_API_KEY=... WCL_V1_API_KEY=... python scripts/refresh_data.py
 """
 
+import csv
+import io
 import json
 import os
 import sys
@@ -35,6 +37,11 @@ WCL_GUILD_REALM = "Dalaran"
 WCL_GUILD_REGION = "US"
 WCL_GUILD_ID = 738983
 WCL_GUILD_PAGE = f"https://www.warcraftlogs.com/guild/reports-list/{WCL_GUILD_ID}"
+
+# Loot Tracker sheet, "Publish to web" token (Entire Document). CSV export per tab.
+LOOT_PUB = ("https://docs.google.com/spreadsheets/d/e/"
+            "2PACX-1vTmqucJwPzXkAxaFAaWTTki7gVEDRdQMziehVp6cWu6LwQqCKNspq6WRXxT_I8jr1MYHMcvh3by88Ly/pub")
+LOOT_TABS = {"history": "1065887371", "tier": "625156953"}
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(REPO_ROOT, "docs", "data")
@@ -201,6 +208,35 @@ def fetch_logs(key):
     return {"guildPage": WCL_GUILD_PAGE, "reports": reports[:25]}
 
 
+# --- google sheet (published CSV) ------------------------------------------
+
+def _fetch_csv(url):
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        text = resp.read().decode("utf-8")
+    rows = list(csv.reader(io.StringIO(text)))
+    if not rows:
+        return [], []
+    header = [h.strip() for h in rows[0]]
+    width = max([len(header)] + [len(r) for r in rows[1:]] or [0])
+    out = []
+    for r in rows[1:]:
+        if not any(cell.strip() for cell in r):
+            continue
+        out.append({(header[i] if i < len(header) and header[i] else f"col{i}"):
+                    (r[i].strip() if i < len(r) else "") for i in range(width)})
+    return header, out
+
+
+def fetch_loot():
+    result = {}
+    for name, gid in LOOT_TABS.items():
+        header, rows = _fetch_csv(f"{LOOT_PUB}?gid={gid}&single=true&output=csv")
+        result[name] = rows
+        result[name + "Cols"] = [h for h in header if h]
+    return result
+
+
 # --- write / diff --------------------------------------------------------------
 
 def write_if_changed(name, payload):
@@ -233,6 +269,7 @@ def main():
         ("droptimizers", lambda: fetch_droptimizers(wu_key), bool(wu_key)),
         ("wishlists", lambda: fetch_wishlists(wu_key), bool(wu_key)),
         ("logs", lambda: fetch_logs(wcl_key), bool(wcl_key)),
+        ("loot", fetch_loot, True),  # published Google Sheet CSV - no key needed
     ]
 
     sources = {}
@@ -248,7 +285,7 @@ def main():
             changed = write_if_changed(name, payload)
             any_changed = any_changed or changed
             n = len(payload.get("members") or payload.get("events") or payload.get("data")
-                    or payload.get("reports") or [])
+                    or payload.get("reports") or payload.get("history") or [])
             sources[name] = "ok"
             ok_count += 1
             print(f"- {name}: ok ({n} rows){' [changed]' if changed else ''}")

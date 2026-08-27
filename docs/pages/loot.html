@@ -9,7 +9,7 @@
 <body>
 <div class="wrap">
   <nav class="hubnav">
-    <span class="brand"><span class="s">&#10023;</span> Negative Aura</span>
+    <a href="../index.html" class="brand"><span class="s">&#10023;</span> Negative Aura</a>
     <a href="roster.html">Roster</a>
     <a href="loot.html" class="active">Loot Tracking</a>
     <a href="logs.html">Logs</a>
@@ -22,20 +22,20 @@
   </div>
 
   <div id="content">
-    <!-- ============================================================
-         Google Sheet embeds.
-         After File > Share > Publish to web on the Loot Tracker sheet,
-         each published tab gives a URL ending in /pubhtml?gid=<GID>&single=true .
-         Put those tab GIDs + labels here:
-         ============================================================ -->
     <div class="card">
-      <h2>Loot Tracker</h2>
-      <div id="sheets"></div>
+      <h2>Tier Tracker</h2>
+      <div id="tier"><div class="loading">Loading…</div></div>
+    </div>
+
+    <div class="card">
+      <h2>Loot History</h2>
+      <div id="history"><div class="loading">Loading…</div></div>
       <div class="faint" style="margin-top:12px;font-size:12.5px">
-        Source of truth: the
+        Source: the
         <a target="_blank" rel="noopener"
            href="https://docs.google.com/spreadsheets/d/1ZNf-uSfHsBAYue-KOxItRnPwAHpT1OAYGkTvOJyG7g0/edit">Negative
-        Aura &ndash; Loot Tracker</a> sheet, written by the desktop importer.
+        Aura &ndash; Loot Tracker</a> sheet, written by the desktop importer. Pulled in and
+        refreshed hourly.
       </div>
     </div>
 
@@ -50,7 +50,7 @@
     </div>
   </div>
 
-  <footer class="hub">Sheet embeds are live Google Sheets. Droptimizer &amp; wishlist data from Viserio Cooldowns, refreshed hourly.</footer>
+  <footer class="hub">Loot &amp; tier from the Loot Tracker sheet; droptimizers &amp; wishlists from Viserio Cooldowns. Refreshed hourly.</footer>
 </div>
 
 <script src="../assets/hub.js"></script>
@@ -58,42 +58,88 @@
 (function () {
   var H = window.NAHub;
 
-  // "Publish to web" token for the Loot Tracker sheet (File > Share > Publish to web).
-  // If you re-publish, this changes — grab it from the /d/e/2PACX-.../pubhtml URL.
-  var PUB = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTmqucJwPzXkAxaFAaWTTki7gVEDRdQMziehVp6cWu6LwQqCKNspq6WRXxT_I8jr1MYHMcvh3by88Ly/pubhtml";
-  var TABS = [
-    { label: "Tier Tracker", gid: "625156953", height: 640 },
-    { label: "Loot History", gid: "1065887371", height: 700 }
-  ];
+  function yes(v) { return String(v).toUpperCase() === "TRUE" || v === "✔" || v === "Yes"; }
 
-  function renderSheets() {
-    var host = document.getElementById("sheets");
-    host.innerHTML = TABS.map(function (t) {
-      var url = PUB + "?gid=" + t.gid + "&single=true&widget=true&headers=false&chrome=false";
-      return '<div class="section-label">' + H.esc(t.label) + '</div>' +
-        '<div class="sheet-frame"><iframe loading="lazy" height="' + t.height + '" src="' + url + '"></iframe></div>';
-    }).join("");
+  function renderLoot() {
+    H.loadJSON("../data/loot.json").then(function (d) {
+      // ---- Tier Tracker ----
+      H.renderTable(document.getElementById("tier"), {
+        filter: true,
+        pageSize: 0,
+        defaultSortKey: "Tier Pieces Received",
+        defaultSortDir: -1,
+        emptyText: "Tier Tracker is empty.",
+        columns: [
+          { key: "Player", label: "Player", sort: "text",
+            render: function (v, r) { return '<span style="color:' + H.classColor(r["Class"]) + ';font-weight:600">' + H.esc(v) + '</span>'; } },
+          { key: "Class", label: "Class", sort: "text", cls: "faint" },
+          { key: "Roster Status", label: "Status", sort: "text" },
+          { key: "Tier Pieces Received", label: "Pieces", sort: "num" },
+          { key: "Last Tier Item", label: "Last Item", sort: "text" },
+          { key: "Last Received Date", label: "Last Date", sort: "date", cls: "faint" },
+          { key: "Full Tier History", label: "History", cls: "faint" }
+        ],
+        rows: d.tier || []
+      });
+
+      // ---- Loot History ----
+      var raids = Array.from(new Set((d.history || []).map(function (r) { return r["Raid Date"]; })))
+                       .filter(Boolean).sort().reverse();
+      var raidSel = '<select class="tbl-select" id="raidPick"><option value="">All raid nights</option>' +
+        raids.map(function (x) { return '<option>' + H.esc(x) + '</option>'; }).join("") + '</select>';
+
+      var t = H.renderTable(document.getElementById("history"), {
+        filter: true,
+        pageSize: 40,
+        controls: raidSel,
+        defaultSortKey: "Raid Date",
+        defaultSortDir: -1,
+        emptyText: "No loot recorded.",
+        columns: [
+          { key: "Raid Date", label: "Raid Date", sort: "date", cls: "faint" },
+          { key: "Player", label: "Player", sort: "text",
+            render: function (v) { return '<span style="font-weight:600">' + H.esc(v) + '</span>'; } },
+          { key: "Item", label: "Item", sort: "text" },
+          { key: "Response / Reason", label: "Response", sort: "text" },
+          { key: "Tier Item?", label: "Tier", cls: "faint",
+            render: function (v) { return yes(v) ? '<span style="color:var(--venom)">&#10004;</span>' : ""; } },
+          { key: "Imported At", label: "Imported", sort: "date", cls: "faint" }
+        ],
+        rows: d.history || []
+      });
+
+      var pick = document.getElementById("raidPick");
+      pick.addEventListener("change", function () {
+        var v = pick.value;
+        t.setFilter(v ? function (r) { return r["Raid Date"] === v; } : null);
+      });
+    }).catch(function (e) {
+      document.getElementById("tier").innerHTML = '<div class="notice err">' + H.esc(e.message) + '</div>';
+      document.getElementById("history").innerHTML = "";
+    });
   }
 
   function renderDropts() {
     H.loadJSON("../data/droptimizers.json").then(function (d) {
-      var rows = (d.data || []);
+      var rows = d.data || [];
       var host = document.getElementById("dropts");
       if (!rows.length) { host.innerHTML = '<div class="notice">No droptimizers imported.</div>'; return; }
-      host.innerHTML = '<div class="table-scroll"><table class="grid"><thead><tr>' +
-        '<th>Character</th><th>Spec</th><th>Profile</th><th>Baseline DPS</th><th>Imported</th><th></th>' +
-        '</tr></thead><tbody>' +
-        rows.map(function (r) {
-          return '<tr>' +
-            '<td style="color:' + H.classColor(r.class) + '">' + H.esc(r.character) + '</td>' +
-            '<td class="spec">' + H.esc(r.spec) + " " + H.esc(r.class) + '</td>' +
-            '<td class="faint">' + H.esc(r.profile) + '</td>' +
-            '<td>' + (r.dps ? Number(r.dps).toLocaleString() : '<span class="faint">&mdash;</span>') + '</td>' +
-            '<td class="faint">' + H.timeAgo(r.importedAt) + '</td>' +
-            '<td>' + (r.reportUrl ? '<a target="_blank" rel="noopener" href="' + H.esc(r.reportUrl) + '">report &rarr;</a>' : '') + '</td>' +
-            '</tr>';
-        }).join("") +
-        '</tbody></table></div>';
+      H.renderTable(host, {
+        filter: true, pageSize: 0, defaultSortKey: "importedAt", defaultSortDir: -1,
+        columns: [
+          { key: "character", label: "Character", sort: "text",
+            render: function (v, r) { return '<span style="color:' + H.classColor(r["class"]) + ';font-weight:600">' + H.esc(v) + '</span>'; } },
+          { key: "spec", label: "Spec", sort: "text", cls: "faint",
+            render: function (v, r) { return H.esc(v) + " " + H.esc(r["class"]); } },
+          { key: "profile", label: "Profile", sort: "text", cls: "faint" },
+          { key: "dps", label: "Baseline DPS", sort: "num",
+            render: function (v) { return v ? Number(v).toLocaleString() : '<span class="faint">&mdash;</span>'; } },
+          { key: "importedAt", label: "Imported", sort: "date", cls: "faint",
+            render: function (v) { return H.timeAgo(v); } },
+          { key: "reportUrl", label: "", render: function (v) { return v ? '<a target="_blank" rel="noopener" href="' + H.esc(v) + '">report &rarr;</a>' : ""; } }
+        ],
+        rows: rows
+      });
     }).catch(function (e) {
       document.getElementById("dropts").innerHTML = '<div class="notice err">' + H.esc(e.message) + '</div>';
     });
@@ -132,7 +178,7 @@
 
   H.boot({
     render: function (meta) {
-      renderSheets();
+      renderLoot();
       renderDropts();
       renderWishlists(meta);
     }
