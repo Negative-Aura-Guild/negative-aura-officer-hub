@@ -1,0 +1,281 @@
+/* Negative Aura - Officer Hub : shared theme
+   Dark arcane/venom aesthetic. Pages are deliberately dark regardless of the
+   host (they render inside Google Sites embed iframes). */
+
+:root {
+  --bg:       #0f0e13;
+  --bg-2:     #16151d;
+  --bg-3:     #1e1c28;
+  --border:   #2a2735;
+  --border-2: #3a3550;
+  --text:     #e7e5ef;
+  --muted:    #9b95ac;
+  --faint:    #6c667e;
+  --accent:   #7c5cff;
+  --accent-hover: #6a4ae6;
+  --venom:    #38e8a0;
+  --warn:     #ffb020;
+  --danger:   #ff5c7a;
+
+  --r-sm: 8px;
+  --r:    12px;
+  --r-lg: 16px;
+
+  --sp-1: 4px;  --sp-2: 8px;  --sp-3: 12px;  --sp-4: 16px;
+  --sp-5: 24px; --sp-6: 32px; --sp-7: 48px;
+
+  --sans: "Segoe UI", system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif;
+  --serif: "Georgia", "Times New Roman", serif;
+  --mono: "Consolas", ui-monospace, "SF Mono", Menlo, monospace;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 15px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+body { padding: var(--sp-5); }
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ---- page shell ------------------------------------------------------- */
+
+.wrap { max-width: 1100px; margin: 0 auto; }
+
+.page-head {
+  display: flex;
+  align-items: baseline;
+  gap: var(--sp-3);
+  flex-wrap: wrap;
+  padding-bottom: var(--sp-4);
+  margin-bottom: var(--sp-5);
+  border-bottom: 1px solid var(--border);
+}
+
+.page-head h1 {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 26px;
+  letter-spacing: 0.2px;
+  margin: 0;
+}
+
+.page-head .sigil { color: var(--accent); font-size: 22px; }
+
+.page-head .updated {
+  margin-left: auto;
+  color: var(--faint);
+  font-size: 12.5px;
+}
+
+.subtle { color: var(--muted); }
+.faint  { color: var(--faint); }
+
+/* ---- nav (index) --------------------------------------------------------- */
+
+.nav {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--sp-4);
+  margin-top: var(--sp-5);
+}
+
+.nav a {
+  display: block;
+  padding: var(--sp-5);
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  color: var(--text);
+  transition: border-color .15s, transform .15s, background .15s;
+}
+.nav a:hover {
+  text-decoration: none;
+  border-color: var(--accent);
+  background: var(--bg-3);
+  transform: translateY(-2px);
+}
+.nav a .t { font-family: var(--serif); font-size: 18px; display: block; margin-bottom: 4px; }
+.nav a .d { color: var(--muted); font-size: 13px; }
+
+/* ---- cards ------------------------------------------------------------- */
+
+.card {
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: var(--sp-5);
+  margin-bottom: var(--sp-4);
+}
+
+.card > h2 {
+  margin: 0 0 var(--sp-4);
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.section-label {
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--faint);
+  margin: var(--sp-6) 0 var(--sp-3);
+}
+.section-label:first-child { margin-top: 0; }
+
+/* ---- tables ---------------------------------------------------------- */
+
+.table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+table.grid {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+table.grid th {
+  text-align: left;
+  padding: var(--sp-2) var(--sp-3);
+  color: var(--faint);
+  font-weight: 600;
+  font-size: 11.5px;
+  text-transform: uppercase;
+  letter-spacing: .6px;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+table.grid td {
+  padding: var(--sp-3);
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.grid tr:last-child td { border-bottom: 0; }
+table.grid tr:hover td { background: rgba(124, 92, 255, 0.05); }
+
+/* ---- roster bits ---------------------------------------------------- */
+
+.mainname { font-weight: 600; }
+.spec { color: var(--muted); font-size: 13px; }
+
+.chip {
+  display: inline-block;
+  padding: 1px 8px;
+  border-radius: 999px;
+  font-size: 11.5px;
+  border: 1px solid var(--border-2);
+  color: var(--muted);
+  margin: 2px 4px 2px 0;
+  white-space: nowrap;
+}
+.chip.inactive { opacity: .5; text-decoration: line-through; }
+
+.role-pill {
+  display: inline-block;
+  min-width: 62px;
+  text-align: center;
+  padding: 2px 8px;
+  border-radius: var(--r-sm);
+  font-size: 11.5px;
+  font-weight: 700;
+  text-transform: capitalize;
+  background: var(--bg-3);
+  border: 1px solid var(--border-2);
+}
+.role-tank   { color: #8fb7ff; }
+.role-healer { color: #6ee7a8; }
+.role-melee  { color: #ffb27a; }
+.role-ranged { color: #d7a6ff; }
+
+.bt { color: var(--faint); font-size: 12.5px; font-family: var(--mono); }
+
+/* ---- logs ---------------------------------------------------------- */
+
+.log-row {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-4);
+  padding: var(--sp-3) 0;
+  border-bottom: 1px solid var(--border);
+}
+.log-row:last-child { border-bottom: 0; }
+.log-date { font-family: var(--mono); color: var(--venom); font-size: 13px; min-width: 92px; }
+.log-title { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.log-meta { color: var(--faint); font-size: 12.5px; white-space: nowrap; }
+
+/* ---- buttons ------------------------------------------------------- */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border-radius: var(--r-sm);
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+  font-size: 13.5px;
+  border: 0;
+  cursor: pointer;
+}
+.btn:hover { background: var(--accent-hover); text-decoration: none; }
+.btn.ghost {
+  background: transparent;
+  color: var(--text);
+  border: 1px solid var(--border-2);
+}
+.btn.ghost:hover { background: var(--bg-3); }
+
+/* ---- states ------------------------------------------------------- */
+
+.notice {
+  padding: var(--sp-4);
+  border-radius: var(--r-sm);
+  border: 1px solid var(--border-2);
+  background: var(--bg-3);
+  color: var(--muted);
+  font-size: 13.5px;
+}
+.notice.warn { border-color: color-mix(in srgb, var(--warn) 40%, var(--border-2)); color: var(--warn); }
+.notice.err  { border-color: color-mix(in srgb, var(--danger) 40%, var(--border-2)); color: var(--danger); }
+
+.loading { color: var(--faint); padding: var(--sp-5); text-align: center; }
+
+/* ---- iframe frame (loot sheet) ----------------------------------- */
+
+.sheet-frame {
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  overflow: hidden;
+  background: #fff;
+}
+.sheet-frame iframe { display: block; width: 100%; border: 0; }
+
+/* ---- misc -------------------------------------------------------- */
+
+.mini-raids { display: flex; gap: var(--sp-3); flex-wrap: wrap; }
+.mini-raids .r {
+  padding: var(--sp-3) var(--sp-4);
+  background: var(--bg-3);
+  border: 1px solid var(--border);
+  border-radius: var(--r-sm);
+  font-size: 13px;
+}
+.mini-raids .r b { display: block; font-family: var(--mono); color: var(--venom); font-size: 12px; }
+
+footer.hub {
+  margin-top: var(--sp-6);
+  padding-top: var(--sp-4);
+  border-top: 1px solid var(--border);
+  color: var(--faint);
+  font-size: 12px;
+}

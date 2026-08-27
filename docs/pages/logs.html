@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Logs — Negative Aura</title>
+<link rel="stylesheet" href="../assets/hub.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="page-head">
+    <span class="sigil">&#10023;</span>
+    <h1>Logs</h1>
+    <span class="updated">loading…</span>
+  </div>
+  <div id="content">
+    <div class="loading">Loading reports…</div>
+  </div>
+  <footer class="hub">Live from the WarcraftLogs API. Refreshed hourly.</footer>
+</div>
+
+<script src="../assets/hub.js"></script>
+<script>
+(function () {
+  var H = window.NAHub;
+
+  H.boot({
+    render: function (meta) {
+      H.loadJSON("../data/logs.json").then(function (data) {
+        var content = document.getElementById("content");
+        var reports = data.reports || [];
+
+        var head = '<div class="card"><div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">' +
+          '<h2 style="margin:0">Recent raid reports</h2>' +
+          '<a class="btn ghost" style="margin-left:auto" target="_blank" rel="noopener" href="' +
+          H.esc(data.guildPage) + '">Open full history on WarcraftLogs &rarr;</a></div>';
+
+        if (!reports.length) {
+          content.innerHTML = head + '<div class="notice">No reports returned. ' +
+            (meta.sources && meta.sources.logs && meta.sources.logs !== "ok"
+              ? "Source status: " + H.esc(meta.sources.logs) : "") + '</div></div>';
+          return;
+        }
+
+        var rows = reports.map(function (r) {
+          var date = H.fmtDateFromEpoch(r.start);
+          var meta2 = [];
+          if (r.zone) meta2.push(H.esc(r.zone));
+          if (r.durationMin != null) meta2.push(r.durationMin + " min");
+          if (r.owner) meta2.push("by " + H.esc(r.owner));
+          return '<a class="log-row" target="_blank" rel="noopener" href="' + H.esc(r.url) + '" style="color:inherit">' +
+            '<span class="log-date">' + H.esc(date) + '</span>' +
+            '<span class="log-title">' + H.esc(r.title || "(untitled)") + '</span>' +
+            '<span class="log-meta">' + meta2.join(" &middot; ") + '</span>' +
+            '</a>';
+        }).join("");
+
+        content.innerHTML = head + '<div style="margin-top:8px">' + rows + '</div></div>';
+      }).catch(function (e) {
+        document.getElementById("content").innerHTML =
+          '<div class="notice err">Could not load logs.json — ' + H.esc(e.message) + '</div>';
+      });
+    }
+  });
+})();
+</script>
+</body>
+</html>

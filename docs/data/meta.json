@@ -1,0 +1,10 @@
+{
+ "generatedAt": "2026-08-27T03:06:41Z",
+ "sources": {
+  "calendar": "ok",
+  "droptimizers": "ok",
+  "logs": "ok",
+  "roster": "ok",
+  "wishlists": "error:500"
+ }
+}

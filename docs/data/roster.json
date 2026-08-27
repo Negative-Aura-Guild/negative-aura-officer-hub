@@ -1,0 +1,806 @@
+{
+ "characterCount": 52,
+ "memberCount": 24,
+ "members": [
+  {
+   "battletag": "Tsunami#12275",
+   "characters": [
+    {
+     "class": "Death Knight",
+     "inactive": false,
+     "name": "Johnsonn",
+     "realm": "Dalaran",
+     "spec": "Blood",
+     "status": "main"
+    },
+    {
+     "class": "Paladin",
+     "inactive": false,
+     "name": "Dankyâ",
+     "realm": "Dalaran",
+     "spec": "Protection",
+     "status": "alt"
+    },
+    {
+     "class": "Monk",
+     "inactive": false,
+     "name": "Dankyas",
+     "realm": "Dalaran",
+     "spec": "Brewmaster",
+     "status": "alt"
+    }
+   ],
+   "main": {
+    "class": "Death Knight",
+    "inactive": false,
+    "name": "Johnsonn",
+    "realm": "Dalaran",
+    "spec": "Blood",
+    "status": "main"
+   },
+   "name": "Dankyas",
+   "rank": "Raider",
+   "role": "tank"
+  },
+  {
+   "battletag": null,
+   "characters": [
+    {
+     "class": "Death Knight",
+     "inactive": false,
+     "name": "Ludiously",
+     "realm": "Dalaran",
+     "spec": "Blood",
+     "status": "main"
+    },
+    {
+     "class": "Druid",
+     "inactive": false,
+     "name": "Pomelor",
+     "realm": "Dalaran",
+     "spec": "Guardian",
+     "status": "alt"
+    }
+   ],
+   "main": {
+    "class": "Death Knight",
+    "inactive": false,
+    "name": "Ludiously",
+    "realm": "Dalaran",
+    "spec": "Blood",
+    "status": "main"
+   },
+   "name": "Pom",
+   "rank": "Raider",
+   "role": "tank"
+  },
+  {
+   "battletag": "Bobbyfrank#11803",
+   "characters": [
+    {
+     "class": "Shaman",
+     "inactive": false,
+     "name": "Bobbyshammy",
+     "realm": "Area 52",
+     "spec": "Restoration",
+     "status": "main"
+    },
+    {
+     "class": "Evoker",
+     "inactive": true,
+     "name": "Bobbyevo",
+     "realm": "Area 52",
+     "spec": "Devastation",
+     "status": "inactive"
+    }
+   ],
+   "main": {
+    "class": "Shaman",
+    "inactive": false,
+    "name": "Bobbyshammy",
+    "realm": "Area 52",
+    "spec": "Restoration",
+    "status": "main"
+   },
+   "name": "Bobby",
+   "rank": "Raider",
+   "role": "healer"
+  },
+  {
+   "battletag": "Karth#11900",
+   "characters": [
+    {
+     "class": "Monk",
+     "inactive": false,
+     "name": "Karthmonk",
+     "realm": "Area 52",
+     "spec": "Mistweaver",
+     "status": "main"
+    }
+   ],
+   "main": {
+    "class": "Monk",
+    "inactive": false,
+    "name": "Karthmonk",
+    "realm": "Area 52",
+    "spec": "Mistweaver",
+    "status": "main"
+   },
+   "name": "Karth",
+   "rank": "Raider",
+   "role": "healer"
+  },
+  {
+   "battletag": "Gnomez#11287",
+   "characters": [
+    {
+     "class": "Paladin",
+     "inactive": false,
+     "name": "Miglight",
+     "realm": "Dalaran",
+     "spec": "Holy",
+     "status": "main"
+    },
+    {
+     "class": "Priest",
+     "inactive": false,
+     "name": "Popemig",
+     "realm": "Dalaran",
+     "spec": "Holy",
+     "status": "alt"
+    }
+   ],
+   "main": {
+    "class": "Paladin",
+    "inactive": false,
+    "name": "Miglight",
+    "realm": "Dalaran",
+    "spec": "Holy",
+    "status": "main"
+   },
+   "name": "Mig",
+   "rank": "Raider",
+   "role": "healer"
+  },
+  {
+   "battletag": "Rhosten#1874",
+   "characters": [
+    {
+     "class": "Druid",
+     "inactive": false,
+     "name": "Pillowtrove",
+     "realm": "Proudmoore",
+     "spec": "Restoration",
+     "status": "main"
+    }
+   ],
+   "main": {
+    "class": "Druid",
+    "inactive": false,
+    "name": "Pillowtrove",
+    "realm": "Proudmoore",
+    "spec": "Restoration",
+    "status": "main"
+   },
+   "name": "Mint",
+   "rank": "Raider",
+   "role": "healer"
+  },
+  {
+   "battletag": null,
+   "characters": [
+    {
+     "class": "Monk",
+     "inactive": false,
+     "name": "Novaniyuhh",
+     "realm": "Area 52",
+     "spec": "Mistweaver",
+     "status": "main"
+    },
+    {
+     "class": "Evoker",
+     "inactive": false,
+     "name": "Keraxya",
+     "realm": "Area 52",
+     "spec": "Preservation",
+     "status": "alt"
+    }
+   ],
+   "main": {
+    "class": "Monk",
+    "inactive": false,
+    "name": "Novaniyuhh",
+    "realm": "Area 52",
+    "spec": "Mistweaver",
+    "status": "main"
+   },
+   "name": "Nova",
+   "rank": "Raider",
+   "role": "healer"
+  },
+  {
+   "battletag": null,
+   "characters": [
+    {
+     "class": "Shaman",
+     "inactive": false,
+     "name": "Archivon",
+     "realm": "Area 52",
+     "spec": "Enhancement",
+     "status": "main"
+    }
+   ],
+   "main": {
+    "class": "Shaman",
+    "inactive": false,
+    "name": "Archivon",
+    "realm": "Area 52",
+    "spec": "Enhancement",
+    "status": "main"
+   },
+   "name": "Archivon",
+   "rank": "Raider",
+   "role": "melee"
+  },
+  {
+   "battletag": null,
+   "characters": [
+    {
+     "class": "Death Knight",
+     "inactive": false,
+     "name": "Bwonsuckdik",
+     "realm": "Illidan",
+     "spec": "Unholy",
+     "status": "main"
+    }
+   ],
+   "main": {
+    "class": "Death Knight",
+    "inactive": false,
+    "name": "Bwonsuckdik",
+    "realm": "Illidan",
+    "spec": "Unholy",
+    "status": "main"
+   },
+   "name": "Greg",
+   "rank": "Raider",
+   "role": "melee"
+  },
+  {
+   "battletag": "Jarco#11446",
+   "characters": [
+    {
+     "class": "Warrior",
+     "inactive": false,
+     "name": "Jarco",
+     "realm": "Moon Guard",
+     "spec": "Arms",
+     "status": "alt"
+    },
+    {
+     "class": "Rogue",
+     "inactive": false,
+     "name": "Jarco",
+     "realm": "Warsong",
+     "spec": "Outlaw",
+     "status": "main"
+    }
+   ],
+   "main": {
+    "class": "Rogue",
+    "inactive": false,
+    "name": "Jarco",
+    "realm": "Warsong",
+    "spec": "Outlaw",
+    "status": "main"
+   },
+   "name": "Jarco",
+   "rank": "Raider",
+   "role": "melee"
+  },
+  {
+   "battletag": null,
+   "characters": [
+    {
+     "class": "Death Knight",
+     "inactive": false,
+     "name": "Goygrips",
+     "realm": "Stormrage",
+     "spec": "Unholy",
+     "status": "main"
+    },
+    {
+     "class": "Hunter",
+     "inactive": true,
+     "name": "Lèo",
+     "realm": "Illidan",
+     "spec": "Survival",
+     "status": "inactive"
+    }
+   ],
+   "main": {
+    "class": "Death Knight",
+    "inactive": false,
+    "name": "Goygrips",
+    "realm": "Stormrage",
+    "spec": "Unholy",
+    "status": "main"
+   },
+   "name": "Leo",
+   "rank": "Raider",
+   "role": "melee"
+  },
+  {
+   "battletag": null,
+   "characters": [
+    {
+     "class": "Warrior",
+     "inactive": false,
+     "name": "Thagin",
+     "realm": "Dalaran",
+     "spec": "Arms",
+     "status": "main"
+    }
+   ],
+   "main": {
+    "class": "Warrior",
+    "inactive": false,
+    "name": "Thagin",
+    "realm": "Dalaran",
+    "spec": "Arms",
+    "status": "main"
+   },
+   "name": "Mal",
+   "rank": "Raider",
+   "role": "melee"
+  },
+  {
+   "battletag": null,
+   "characters": [
+    {
+     "class": "Monk",
+     "inactive": false,
+     "name": "Norberto",
+     "realm": "Bleeding Hollow",
+     "spec": "Windwalker",
+     "status": "main"
+    },
+    {
+     "class": "Demon Hunter",
+     "inactive": true,
+     "name": "Illinoev",
+     "realm": "Dalaran",
+     "spec": "Havoc",
+     "status": "inactive"
+    },
+    {
+     "class": "Death Knight",
+     "inactive": true,
+     "name": "Dkno",
+     "realm": "Dalaran",
+     "spec": "Blood",
+     "status": "inactive"
+    }
+   ],
+   "main": {
+    "class": "Monk",
+    "inactive": false,
+    "name": "Norberto",
+    "realm": "Bleeding Hollow",
+    "spec": "Windwalker",
+    "status": "main"
+   },
+   "name": "Noevil",
+   "rank": "Raider",
+   "role": "melee"
+  },
+  {
+   "battletag": null,
+   "characters": [
+    {
+     "class": "Druid",
+     "inactive": false,
+     "name": "Rexxss",
+     "realm": "Dalaran",
+     "spec": "Feral",
+     "status": "main"
+    },
+    {
+     "class": "Death Knight",
+     "inactive": true,
+     "name": "Rexxae",
+     "realm": "Dalaran",
+     "spec": "Blood",
+     "status": "inactive"
+    }
+   ],
+   "main": {
+    "class": "Druid",
+    "inactive": false,
+    "name": "Rexxss",
+    "realm": "Dalaran",
+    "spec": "Feral",
+    "status": "main"
+   },
+   "name": "Rex",
+   "rank": "Raider",
+   "role": "melee"
+  },
+  {
+   "battletag": null,
+   "characters": [
+    {
+     "class": "Paladin",
+     "inactive": false,
+     "name": "Vilihame",
+     "realm": "Dalaran",
+     "spec": "Retribution",
+     "status": "main"
+    }
+   ],
+   "main": {
+    "class": "Paladin",
+    "inactive": false,
+    "name": "Vilihame",
+    "realm": "Dalaran",
+    "spec": "Retribution",
+    "status": "main"
+   },
+   "name": "Vilihame",
+   "rank": "Raider",
+   "role": "melee"
+  },
+  {
+   "battletag": null,
+   "characters": [
+    {
+     "class": "Warlock",
+     "inactive": false,
+     "name": "Danktemplar",
+     "realm": "Tichondrius",
+     "spec": "Demonology",
+     "status": "main"
+    }
+   ],
+   "main": {
+    "class": "Warlock",
+    "inactive": false,
+    "name": "Danktemplar",
+    "realm": "Tichondrius",
+    "spec": "Demonology",
+    "status": "main"
+   },
+   "name": "Danktemplar",
+   "rank": "Raider",
+   "role": "ranged"
+  },
+  {
+   "battletag": null,
+   "characters": [
+    {
+     "class": "Mage",
+     "inactive": false,
+     "name": "Divari",
+     "realm": "Dalaran",
+     "spec": "Frost",
+     "status": "main"
+    },
+    {
+     "class": "Demon Hunter",
+     "inactive": true,
+     "name": "Põoks",
+     "realm": "Dalaran",
+     "spec": "Devourer",
+     "status": "inactive"
+    }
+   ],
+   "main": {
+    "class": "Mage",
+    "inactive": false,
+    "name": "Divari",
+    "realm": "Dalaran",
+    "spec": "Frost",
+    "status": "main"
+   },
+   "name": "Divari",
+   "rank": "Raider",
+   "role": "ranged"
+  },
+  {
+   "battletag": null,
+   "characters": [
+    {
+     "class": "Shaman",
+     "inactive": false,
+     "name": "Donkersloot",
+     "realm": "Dalaran",
+     "spec": "Elemental",
+     "status": "main"
+    }
+   ],
+   "main": {
+    "class": "Shaman",
+    "inactive": false,
+    "name": "Donkersloot",
+    "realm": "Dalaran",
+    "spec": "Elemental",
+    "status": "main"
+   },
+   "name": "Donkersloot",
+   "rank": "Raider",
+   "role": "ranged"
+  },
+  {
+   "battletag": null,
+   "characters": [
+    {
+     "class": "Mage",
+     "inactive": false,
+     "name": "Hufflepuffer",
+     "realm": "Proudmoore",
+     "spec": "Arcane",
+     "status": "main"
+    }
+   ],
+   "main": {
+    "class": "Mage",
+    "inactive": false,
+    "name": "Hufflepuffer",
+    "realm": "Proudmoore",
+    "spec": "Arcane",
+    "status": "main"
+   },
+   "name": "Fresh",
+   "rank": "Raider",
+   "role": "ranged"
+  },
+  {
+   "battletag": null,
+   "characters": [
+    {
+     "class": "Demon Hunter",
+     "inactive": false,
+     "name": "Indrra",
+     "realm": "Illidan",
+     "spec": "Devourer",
+     "status": "main"
+    },
+    {
+     "class": "Rogue",
+     "inactive": true,
+     "name": "Inddrraa",
+     "realm": "Stormrage",
+     "spec": "Subtlety",
+     "status": "inactive"
+    }
+   ],
+   "main": {
+    "class": "Demon Hunter",
+    "inactive": false,
+    "name": "Indrra",
+    "realm": "Illidan",
+    "spec": "Devourer",
+    "status": "main"
+   },
+   "name": "Indrra",
+   "rank": "Raider",
+   "role": "ranged"
+  },
+  {
+   "battletag": "KEnODvT#6224",
+   "characters": [
+    {
+     "class": "Hunter",
+     "inactive": false,
+     "name": "Kdvt",
+     "realm": "Barthilas",
+     "spec": "Beast Mastery",
+     "status": "main"
+    }
+   ],
+   "main": {
+    "class": "Hunter",
+    "inactive": false,
+    "name": "Kdvt",
+    "realm": "Barthilas",
+    "spec": "Beast Mastery",
+    "status": "main"
+   },
+   "name": "Kdvt",
+   "rank": "Raider",
+   "role": "ranged"
+  },
+  {
+   "battletag": "Zebracakes#1472",
+   "characters": [
+    {
+     "class": "Evoker",
+     "inactive": false,
+     "name": "Augtiste",
+     "realm": "Zul'jin",
+     "spec": "Augmentation",
+     "status": "main"
+    }
+   ],
+   "main": {
+    "class": "Evoker",
+    "inactive": false,
+    "name": "Augtiste",
+    "realm": "Zul'jin",
+    "spec": "Augmentation",
+    "status": "main"
+   },
+   "name": "Mu",
+   "rank": "Raider",
+   "role": "ranged"
+  },
+  {
+   "battletag": null,
+   "characters": [
+    {
+     "class": "Priest",
+     "inactive": false,
+     "name": "Sal",
+     "realm": "Khadgar",
+     "spec": "Shadow",
+     "status": "main"
+    }
+   ],
+   "main": {
+    "class": "Priest",
+    "inactive": false,
+    "name": "Sal",
+    "realm": "Khadgar",
+    "spec": "Shadow",
+    "status": "main"
+   },
+   "name": "Sal",
+   "rank": "Raider",
+   "role": "ranged"
+  },
+  {
+   "battletag": "SmokePurpp#1126",
+   "characters": [
+    {
+     "class": "Priest",
+     "inactive": false,
+     "name": "Uoepriest",
+     "realm": "Illidan",
+     "spec": "Shadow",
+     "status": "main"
+    },
+    {
+     "class": "Evoker",
+     "inactive": true,
+     "name": "Uoevoker",
+     "realm": "Dalaran",
+     "spec": "Preservation",
+     "status": "inactive"
+    },
+    {
+     "class": "Druid",
+     "inactive": true,
+     "name": "Frankjr",
+     "realm": "Dalaran",
+     "spec": "Feral",
+     "status": "inactive"
+    },
+    {
+     "class": "Death Knight",
+     "inactive": true,
+     "name": "Jefedk",
+     "realm": "Dalaran",
+     "spec": "Frost",
+     "status": "inactive"
+    },
+    {
+     "class": "Demon Hunter",
+     "inactive": true,
+     "name": "Uoe",
+     "realm": "Dalaran",
+     "spec": "Havoc",
+     "status": "inactive"
+    },
+    {
+     "class": "Mage",
+     "inactive": true,
+     "name": "Pandahour",
+     "realm": "Dalaran",
+     "spec": "Arcane",
+     "status": "inactive"
+    },
+    {
+     "class": "Rogue",
+     "inactive": true,
+     "name": "Moleperson",
+     "realm": "Dalaran",
+     "spec": "Assassination",
+     "status": "inactive"
+    },
+    {
+     "class": "Warlock",
+     "inactive": true,
+     "name": "Sumtìngwong",
+     "realm": "Dalaran",
+     "spec": "Affliction",
+     "status": "inactive"
+    },
+    {
+     "class": "Shaman",
+     "inactive": true,
+     "name": "Uoesham",
+     "realm": "Dalaran",
+     "spec": "Elemental",
+     "status": "inactive"
+    },
+    {
+     "class": "Monk",
+     "inactive": true,
+     "name": "Beakbaba",
+     "realm": "Dalaran",
+     "spec": "Windwalker",
+     "status": "inactive"
+    },
+    {
+     "class": "Death Knight",
+     "inactive": true,
+     "name": "Meoe",
+     "realm": "Dalaran",
+     "spec": "Frost",
+     "status": "inactive"
+    },
+    {
+     "class": "Warrior",
+     "inactive": true,
+     "name": "Znögias",
+     "realm": "Azshara",
+     "spec": "Arms",
+     "status": "inactive"
+    },
+    {
+     "class": "Warlock",
+     "inactive": true,
+     "name": "Wowoowo",
+     "realm": "Dalaran",
+     "spec": "Affliction",
+     "status": "inactive"
+    },
+    {
+     "class": "Paladin",
+     "inactive": true,
+     "name": "Uoè",
+     "realm": "Bleeding Hollow",
+     "spec": "Protection",
+     "status": "inactive"
+    },
+    {
+     "class": "Warrior",
+     "inactive": true,
+     "name": "Nwarrior",
+     "realm": "Dalaran",
+     "spec": "Protection",
+     "status": "inactive"
+    },
+    {
+     "class": "Priest",
+     "inactive": true,
+     "name": "Çrazzy",
+     "realm": "Azgalor",
+     "spec": "Shadow",
+     "status": "inactive"
+    }
+   ],
+   "main": {
+    "class": "Priest",
+    "inactive": false,
+    "name": "Uoepriest",
+    "realm": "Illidan",
+    "spec": "Shadow",
+    "status": "main"
+   },
+   "name": "Uoe",
+   "rank": "Raider",
+   "role": "ranged"
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Negative Aura — Officer Hub</title>
+<link rel="stylesheet" href="assets/hub.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="page-head">
+    <span class="sigil">&#10023;</span>
+    <h1>Negative Aura — Officer Hub</h1>
+    <span class="updated" id="updated"></span>
+  </div>
+
+  <p class="subtle">
+    One place for the guild's officer data. Each section below is also embedded as a
+    tab in the Google Sites site.
+  </p>
+
+  <div class="nav">
+    <a href="pages/roster.html"><span class="t">Roster</span><span class="d">Raiders, mains &amp; alts, ranks — live from Viserio Cooldowns</span></a>
+    <a href="pages/loot.html"><span class="t">Loot Tracking</span><span class="d">Loot history sheet, droptimizers, wishlists</span></a>
+    <a href="pages/logs.html"><span class="t">Logs</span><span class="d">Recent raid reports from WarcraftLogs</span></a>
+    <a href="pages/recruitment.html"><span class="t">Recruitment</span><span class="d">Applications &amp; trials — coming soon</span></a>
+  </div>
+
+  <div class="card" style="margin-top:32px">
+    <h2>Next raid nights</h2>
+    <div id="raids"><div class="loading">Loading…</div></div>
+  </div>
+
+  <footer class="hub">Data refreshes hourly via GitHub Actions. Static site on GitHub Pages.</footer>
+</div>
+
+<script src="assets/hub.js"></script>
+<script>
+(function () {
+  var H = window.NAHub;
+  H.loadJSON("data/meta.json").then(function (m) {
+    var el = document.getElementById("updated");
+    el.textContent = "data as of " + H.timeAgo(m.generatedAt);
+    el.title = m.generatedAt || "";
+  }).catch(function () {});
+
+  H.loadJSON("data/calendar.json").then(function (d) {
+    var host = document.getElementById("raids");
+    var ev = (d.events || []).slice(0, 6);
+    if (!ev.length) { host.innerHTML = '<div class="notice">No upcoming raids scheduled.</div>'; return; }
+    host.innerHTML = '<div class="mini-raids">' + ev.map(function (e) {
+      var present = (e.counts && e.counts.present) || 0;
+      return '<div class="r"><b>' + H.esc(e.date) + '</b>' + H.esc(e.name || "Raid") +
+        ' <span class="faint">' + H.esc(e.start || "") + '</span><br>' +
+        '<span class="faint">' + H.esc(e.difficulty || "") + ' &middot; ' + present + '/' +
+        (e.rosterSize || "?") + ' in</span></div>';
+    }).join("") + '</div>' +
+    (d.serverTimeZone ? '<div class="faint" style="margin-top:10px;font-size:12px">Times in ' + H.esc(d.serverTimeZone) + '</div>' : '');
+  }).catch(function (e) {
+    document.getElementById("raids").innerHTML = '<div class="notice err">' + H.esc(e.message) + '</div>';
+  });
+})();
+</script>
+</body>
+</html>

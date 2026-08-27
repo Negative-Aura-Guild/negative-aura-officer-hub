@@ -1,0 +1,130 @@
+{
+ "data": [
+  {
+   "character": "Bobbyshammy",
+   "class": "Shaman",
+   "dps": null,
+   "importedAt": "2026-08-26T17:58:36.420Z",
+   "profile": "mplus-vault",
+   "reportUrl": "https://questionablyepic.com/live/upgradereport/liaknatuhnbz",
+   "spec": "restoration"
+  },
+  {
+   "character": "Bobbyshammy",
+   "class": "Shaman",
+   "dps": null,
+   "importedAt": "2026-08-26T17:58:36.148Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://questionablyepic.com/live/upgradereport/liaknatuhnbz",
+   "spec": "restoration"
+  },
+  {
+   "character": "Bobbyshammy",
+   "class": "Shaman",
+   "dps": null,
+   "importedAt": "2026-08-26T17:57:58.245Z",
+   "profile": "heroic-max",
+   "reportUrl": "https://questionablyepic.com/live/upgradereport/afsqzilcrjzr",
+   "spec": "restoration"
+  },
+  {
+   "character": "Augtiste",
+   "class": "Evoker",
+   "dps": 165286,
+   "importedAt": "2026-08-26T14:41:34.237Z",
+   "profile": "heroic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/gap28BZbTP4sK6Fwihkxpk",
+   "spec": "devastation"
+  },
+  {
+   "character": "Jarco",
+   "class": "Rogue",
+   "dps": 168875,
+   "importedAt": "2026-08-26T07:17:59.002Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/5jUCnQFyu4vJS15JsdgqQb",
+   "spec": "outlaw"
+  },
+  {
+   "character": "Jarco",
+   "class": "Rogue",
+   "dps": 168962,
+   "importedAt": "2026-08-26T07:17:49.458Z",
+   "profile": "heroic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/qQh6jCS7UQiFy8AY6tANHc",
+   "spec": "outlaw"
+  },
+  {
+   "character": "Jarco",
+   "class": "Rogue",
+   "dps": 168929,
+   "importedAt": "2026-08-26T07:17:37.797Z",
+   "profile": "normal-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/3W2cECFwLqx42j91doMpHj",
+   "spec": "outlaw"
+  },
+  {
+   "character": "Kdvt",
+   "class": "Hunter",
+   "dps": 157811,
+   "importedAt": "2026-08-26T05:47:21.094Z",
+   "profile": "normal-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/19vUKWZs3NiWNKvXrd1WpR",
+   "spec": "beastmastery"
+  },
+  {
+   "character": "Kdvt",
+   "class": "Hunter",
+   "dps": 157831,
+   "importedAt": "2026-08-26T05:46:14.845Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/7G4hhcyDRiDAphAMFaXP5r",
+   "spec": "beastmastery"
+  },
+  {
+   "character": "Kdvt",
+   "class": "Hunter",
+   "dps": 157740,
+   "importedAt": "2026-08-26T05:44:32.041Z",
+   "profile": "heroic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/4fumfjKXm1gJWuxCFs9Cep",
+   "spec": "beastmastery"
+  },
+  {
+   "character": "Jarco",
+   "class": "Rogue",
+   "dps": 164917,
+   "importedAt": "2026-08-26T05:12:48.081Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/rtWsQxqZkXQxQ6uLTKJoUz",
+   "spec": "subtlety"
+  },
+  {
+   "character": "Jarco",
+   "class": "Rogue",
+   "dps": 164879,
+   "importedAt": "2026-08-26T05:12:29.673Z",
+   "profile": "heroic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/bNBZf3GXg9n6zxAEbb9KFV",
+   "spec": "subtlety"
+  },
+  {
+   "character": "Jarco",
+   "class": "Rogue",
+   "dps": 164944,
+   "importedAt": "2026-08-26T05:12:21.579Z",
+   "profile": "normal-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/5DH6uqPGug7qDFX5bwQrEq",
+   "spec": "subtlety"
+  },
+  {
+   "character": "Uoepriest",
+   "class": "Priest",
+   "dps": 150402,
+   "importedAt": "2026-08-26T05:06:42.911Z",
+   "profile": "heroic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/j519LeubgWAoAowGcoA1ZT",
+   "spec": "shadow"
+  }
+ ]
+}

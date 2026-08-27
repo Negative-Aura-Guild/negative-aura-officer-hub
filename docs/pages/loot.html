@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Loot Tracking — Negative Aura</title>
+<link rel="stylesheet" href="../assets/hub.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="page-head">
+    <span class="sigil">&#10023;</span>
+    <h1>Loot Tracking</h1>
+    <span class="updated">loading…</span>
+  </div>
+
+  <div id="content">
+    <!-- ============================================================
+         Google Sheet embeds.
+         After File > Share > Publish to web on the Loot Tracker sheet,
+         each published tab gives a URL ending in /pubhtml?gid=<GID>&single=true .
+         Put those tab GIDs + labels here:
+         ============================================================ -->
+    <div class="card">
+      <h2>Loot Tracker</h2>
+      <div id="sheets"></div>
+      <div class="faint" style="margin-top:12px;font-size:12.5px">
+        Source of truth: the
+        <a target="_blank" rel="noopener"
+           href="https://docs.google.com/spreadsheets/d/1ZNf-uSfHsBAYue-KOxItRnPwAHpT1OAYGkTvOJyG7g0/edit">Negative
+        Aura &ndash; Loot Tracker</a> sheet, written by the desktop importer.
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Droptimizer freshness</h2>
+      <div id="dropts"><div class="loading">Loading…</div></div>
+    </div>
+
+    <div class="card">
+      <h2>Wishlists</h2>
+      <div id="wishlists"></div>
+    </div>
+  </div>
+
+  <footer class="hub">Sheet embeds are live Google Sheets. Droptimizer &amp; wishlist data from Viserio Cooldowns, refreshed hourly.</footer>
+</div>
+
+<script src="../assets/hub.js"></script>
+<script>
+(function () {
+  var H = window.NAHub;
+
+  var SHEET_ID = "1ZNf-uSfHsBAYue-KOxItRnPwAHpT1OAYGkTvOJyG7g0";
+  // Edit these once the tabs are Published to web. label + gid.
+  var TABS = [
+    { label: "Loot History", gid: "625156953", height: 620 }
+    // { label: "Tier Tracker", gid: "PUT_GID_HERE", height: 520 },
+  ];
+
+  function renderSheets() {
+    var host = document.getElementById("sheets");
+    host.innerHTML = TABS.map(function (t) {
+      var url = "https://docs.google.com/spreadsheets/d/" + SHEET_ID +
+        "/pubhtml?gid=" + t.gid + "&single=true&widget=true&headers=false&chrome=false";
+      return '<div class="section-label">' + H.esc(t.label) + '</div>' +
+        '<div class="sheet-frame"><iframe loading="lazy" height="' + t.height + '" src="' + url + '"></iframe></div>';
+    }).join("");
+  }
+
+  function renderDropts() {
+    H.loadJSON("../data/droptimizers.json").then(function (d) {
+      var rows = (d.data || []);
+      var host = document.getElementById("dropts");
+      if (!rows.length) { host.innerHTML = '<div class="notice">No droptimizers imported.</div>'; return; }
+      host.innerHTML = '<div class="table-scroll"><table class="grid"><thead><tr>' +
+        '<th>Character</th><th>Spec</th><th>Profile</th><th>Baseline DPS</th><th>Imported</th><th></th>' +
+        '</tr></thead><tbody>' +
+        rows.map(function (r) {
+          return '<tr>' +
+            '<td style="color:' + H.classColor(r.class) + '">' + H.esc(r.character) + '</td>' +
+            '<td class="spec">' + H.esc(r.spec) + " " + H.esc(r.class) + '</td>' +
+            '<td class="faint">' + H.esc(r.profile) + '</td>' +
+            '<td>' + (r.dps ? Number(r.dps).toLocaleString() : '<span class="faint">&mdash;</span>') + '</td>' +
+            '<td class="faint">' + H.timeAgo(r.importedAt) + '</td>' +
+            '<td>' + (r.reportUrl ? '<a target="_blank" rel="noopener" href="' + H.esc(r.reportUrl) + '">report &rarr;</a>' : '') + '</td>' +
+            '</tr>';
+        }).join("") +
+        '</tbody></table></div>';
+    }).catch(function (e) {
+      document.getElementById("dropts").innerHTML = '<div class="notice err">' + H.esc(e.message) + '</div>';
+    });
+  }
+
+  function renderWishlists(meta) {
+    var host = document.getElementById("wishlists");
+    var status = (meta.sources && meta.sources.wishlists) || "unknown";
+    if (status !== "ok") {
+      host.innerHTML = '<div class="notice warn">Wishlist data is temporarily unavailable ' +
+        '(<span class="mono">' + H.esc(status) + '</span> from the Viserio Cooldowns API). ' +
+        'This section fills in automatically once their endpoint is fixed.</div>';
+      return;
+    }
+    H.loadJSON("../data/wishlists.json").then(function (d) {
+      var chars = d.data || [];
+      if (!chars.length) { host.innerHTML = '<div class="notice">No wishlists submitted.</div>'; return; }
+      host.innerHTML = chars.map(function (c) {
+        var sels = (c.selections || []).slice().sort(function (a, b) { return (a.priority || 9) - (b.priority || 9); });
+        return '<div class="section-label" style="color:' + H.classColor(c.class) + '">' + H.esc(c.character) + '</div>' +
+          '<div class="table-scroll"><table class="grid"><thead><tr>' +
+          '<th>Prio</th><th>Slot</th><th>Source</th><th>Difficulty</th><th>Item</th><th>Note</th>' +
+          '</tr></thead><tbody>' +
+          sels.map(function (s) {
+            return '<tr><td>' + H.esc(s.priority) + '</td><td>' + H.esc(s.slot) + '</td>' +
+              '<td class="faint">' + H.esc(s.source) + '</td><td class="faint">' + H.esc(s.difficulty) + '</td>' +
+              '<td><a target="_blank" rel="noopener" href="https://www.wowhead.com/item=' + H.esc(s.itemId) + '">item ' + H.esc(s.itemId) + '</a></td>' +
+              '<td class="faint">' + H.esc(s.note || "") + '</td></tr>';
+          }).join("") +
+          '</tbody></table></div>';
+      }).join("");
+    }).catch(function (e) {
+      host.innerHTML = '<div class="notice err">' + H.esc(e.message) + '</div>';
+    });
+  }
+
+  H.boot({
+    render: function (meta) {
+      renderSheets();
+      renderDropts();
+      renderWishlists(meta);
+    }
+  });
+})();
+</script>
+</body>
+</html>

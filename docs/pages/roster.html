@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Roster — Negative Aura</title>
+<link rel="stylesheet" href="../assets/hub.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="page-head">
+    <span class="sigil">&#10023;</span>
+    <h1>Roster</h1>
+    <span class="updated">loading…</span>
+  </div>
+  <div id="content">
+    <div class="loading">Loading roster…</div>
+  </div>
+  <footer class="hub">Live from Viserio Cooldowns (wowutils). Refreshed hourly.</footer>
+</div>
+
+<script src="../assets/hub.js"></script>
+<script>
+(function () {
+  var H = window.NAHub;
+  var ROLES = ["tank", "healer", "melee", "ranged"];
+  var ROLE_LABEL = { tank: "Tanks", healer: "Healers", melee: "Melee", ranged: "Ranged", other: "Other" };
+
+  H.boot({
+    render: function () {
+      H.loadJSON("../data/roster.json").then(function (data) {
+        var content = document.getElementById("content");
+        var groups = { tank: [], healer: [], melee: [], ranged: [], other: [] };
+        data.members.forEach(function (m) {
+          (groups[m.role] || groups.other).push(m);
+        });
+
+        var html = '<div class="card">' +
+          '<h2>' + data.memberCount + ' raiders &middot; ' +
+          (data.characterCount || "?") + ' characters</h2>';
+
+        ROLES.concat(["other"]).forEach(function (role) {
+          var list = groups[role];
+          if (!list.length) return;
+          html += '<div class="section-label">' + ROLE_LABEL[role] + ' &middot; ' + list.length + '</div>';
+          html += '<div class="table-scroll"><table class="grid"><thead><tr>' +
+            '<th>Main</th><th>Spec</th><th>Rank</th><th>Alts</th><th>BattleTag</th>' +
+            '</tr></thead><tbody>';
+          list.forEach(function (m) {
+            var main = m.main || {};
+            var alts = (m.characters || []).filter(function (c) { return c.status !== "main"; });
+            var altHtml = alts.length
+              ? alts.map(function (c) {
+                  return '<span class="chip' + (c.inactive ? " inactive" : "") + '" style="border-color:' +
+                    H.classColor(c.class) + '44">' + H.esc(c.name) +
+                    ' <span class="faint">' + H.esc(c.spec) + " " + H.esc(c.class) + '</span></span>';
+                }).join("")
+              : '<span class="faint">&mdash;</span>';
+            html += '<tr>' +
+              '<td><span class="mainname" style="color:' + H.classColor(main.class) + '">' +
+                H.esc(main.name || m.name) + '</span></td>' +
+              '<td class="spec">' + H.esc(main.spec) + " " + H.esc(main.class) + '</td>' +
+              '<td><span class="role-pill role-' + H.esc(m.role || "") + '">' + H.esc(m.rank) + '</span></td>' +
+              '<td>' + altHtml + '</td>' +
+              '<td class="bt">' + H.esc(m.battletag || "") + '</td>' +
+              '</tr>';
+          });
+          html += '</tbody></table></div>';
+        });
+
+        html += '</div>';
+        content.innerHTML = html;
+      }).catch(function (e) {
+        document.getElementById("content").innerHTML =
+          '<div class="notice err">Could not load roster.json — ' + H.esc(e.message) + '</div>';
+      });
+    }
+  });
+})();
+</script>
+</body>
+</html>

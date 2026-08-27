@@ -1,0 +1,41 @@
+name: Refresh hub data
+
+on:
+  schedule:
+    - cron: "17 * * * *"   # hourly, at :17
+  workflow_dispatch: {}
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch + normalize data
+        env:
+          WOWUTILS_API_KEY: ${{ secrets.WOWUTILS_API_KEY }}
+          WCL_V1_API_KEY: ${{ secrets.WCL_V1_API_KEY }}
+        run: python scripts/refresh_data.py
+
+      - name: Commit changed data
+        run: |
+          git config user.name  "na-hub-bot"
+          git config user.email "na-hub-bot@users.noreply.github.com"
+          if git diff --quiet -- docs/data; then
+            echo "No data changes."
+            exit 0
+          fi
+          git add docs/data
+          git commit -m "data: hourly refresh ($(date -u +%FT%TZ))"
+          git push
