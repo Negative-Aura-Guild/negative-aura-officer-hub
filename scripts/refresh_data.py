@@ -20,6 +20,7 @@ import csv
 import io
 import json
 import os
+import re
 import sys
 import time
 import urllib.error
@@ -42,6 +43,13 @@ WCL_GUILD_PAGE = f"https://www.warcraftlogs.com/guild/reports-list/{WCL_GUILD_ID
 LOOT_PUB = ("https://docs.google.com/spreadsheets/d/e/"
             "2PACX-1vTmqucJwPzXkAxaFAaWTTki7gVEDRdQMziehVp6cWu6LwQqCKNspq6WRXxT_I8jr1MYHMcvh3by88Ly/pub")
 LOOT_TABS = {"history": "1065887371", "tier": "625156953"}
+
+# Recruitment: the "Jump on J -- Recruitment" Google Form's linked responses sheet
+# (published to web, single sheet). Public "apply" link is the form's /viewform.
+APPLICANTS_PUB = ("https://docs.google.com/spreadsheets/d/e/"
+                  "2PACX-1vTf-2QZfSpQl0dg_RW3c4UxJmvx7xmqphxRlRU8zNcELXljdbND7XSJkg3Py4WtrBhKJO_eILxwPuT0/pub")
+RECRUIT_FORM = "https://docs.google.com/forms/d/1ElyYQ9qLSF1lG2I6K66x4_PCqCy1q_Q1eihZLTOriqA/viewform"
+RAIDERIO_PROFILE = "https://raider.io/api/v1/characters/profile"
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(REPO_ROOT, "docs", "data")
@@ -237,6 +245,95 @@ def fetch_loot():
     return result
 
 
+# --- recruitment: form responses + Raider.IO enrichment -------------------
+
+def _first(row, *needles):
+    """Value of the first column whose header contains any needle (case-insensitive)."""
+    for k, v in row.items():
+        kl = k.lower()
+        if any(n in kl for n in needles):
+            return (v or "").strip()
+    return ""
+
+
+def _slug_realm(s):
+    s = s.strip().lower()
+    for ch in ["'", ".", "(", ")"]:
+        s = s.replace(ch, "")
+    return "-".join(s.split())
+
+
+def _parse_char(rio_url, name_server):
+    """-> (region, realm_slug, name) best-effort, or None."""
+    if rio_url:
+        m = re.search(r"raider\.io/characters/([a-z]{2})/([^/]+)/([^/?#]+)", rio_url, re.I)
+        if m:
+            return m.group(1).lower(), m.group(2).lower(), urllib.parse.unquote(m.group(3))
+    if name_server:
+        parts = re.split(r"\s*[-–]\s*|\s+", name_server.strip(), maxsplit=1)
+        if len(parts) == 2:
+            return "us", _slug_realm(parts[1]), parts[0].strip()
+    return None
+
+
+def _raiderio(region, realm, name):
+    q = urllib.parse.urlencode({
+        "region": region, "realm": realm, "name": name,
+        "fields": "gear,mythic_plus_scores_by_season:current,raid_progression",
+    })
+    data = http_get_json(f"{RAIDERIO_PROFILE}?{q}")
+    season = (data.get("mythic_plus_scores_by_season") or [{}])[0]
+    score = ((season.get("scores") or {}).get("all"))
+    prog = data.get("raid_progression") or {}
+    # newest raid = last key
+    latest = list(prog.values())[-1] if prog else {}
+    return {
+        "class": data.get("class", ""),
+        "spec": data.get("active_spec_name", ""),
+        "ilvl": (data.get("gear") or {}).get("item_level_equipped"),
+        "ioScore": round(score) if score else None,
+        "progress": latest.get("summary", ""),
+        "rioProfile": data.get("profile_url", ""),
+    }
+
+
+def fetch_applicants():
+    header, rows = _fetch_csv(f"{APPLICANTS_PUB}?output=csv")
+    out = []
+    for r in rows:
+        rio_url = _first(r, "raider.io", "raiderio", "rio url")
+        name_server = _first(r, "character name", "character +", "char name")
+        applicant = {
+            "applied": _first(r, "timestamp"),
+            "nameServer": name_server,
+            "discord": _first(r, "discord"),
+            "battletag": _first(r, "battle.net", "battlenet", "btag"),
+            "classPref": _first(r, "class/spec", "class /spec", "class spec"),
+            "wclUrl": _first(r, "warcraft logs", "warcraftlogs", "wcl url"),
+            "rioUrl": rio_url,
+            "history": _first(r, "raiding history"),
+            "whyJoin": _first(r, "why are you interested", "why join"),
+            "notes": _first(r, "anything else"),
+            "uiLink": _first(r, "screenshot/video", "screenshot / video"),
+            "rio": None,
+            "rioError": None,
+        }
+        ident = _parse_char(rio_url, name_server)
+        if ident:
+            try:
+                applicant["rio"] = _raiderio(*ident)
+            except urllib.error.HTTPError as e:
+                applicant["rioError"] = "not found" if e.code == 400 else f"HTTP {e.code}"
+            except (urllib.error.URLError, ValueError, TimeoutError) as e:
+                applicant["rioError"] = type(e).__name__
+            time.sleep(0.4)  # be polite to Raider.IO
+        else:
+            applicant["rioError"] = "couldn't parse character"
+        out.append(applicant)
+    out.sort(key=lambda a: a["applied"], reverse=True)
+    return {"formUrl": RECRUIT_FORM, "applicants": out}
+
+
 # --- write / diff --------------------------------------------------------------
 
 def write_if_changed(name, payload):
@@ -270,6 +367,7 @@ def main():
         ("wishlists", lambda: fetch_wishlists(wu_key), bool(wu_key)),
         ("logs", lambda: fetch_logs(wcl_key), bool(wcl_key)),
         ("loot", fetch_loot, True),  # published Google Sheet CSV - no key needed
+        ("applicants", fetch_applicants, True),  # form responses + Raider.IO
     ]
 
     sources = {}
@@ -285,7 +383,8 @@ def main():
             changed = write_if_changed(name, payload)
             any_changed = any_changed or changed
             n = len(payload.get("members") or payload.get("events") or payload.get("data")
-                    or payload.get("reports") or payload.get("history") or [])
+                    or payload.get("reports") or payload.get("history")
+                    or payload.get("applicants") or [])
             sources[name] = "ok"
             ok_count += 1
             print(f"- {name}: ok ({n} rows){' [changed]' if changed else ''}")

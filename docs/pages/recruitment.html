@@ -18,25 +18,109 @@
   <div class="page-head">
     <span class="sigil">&#10023;</span>
     <h1>Recruitment</h1>
-    <span class="updated"></span>
+    <span class="updated">loading…</span>
   </div>
 
-  <div class="card">
-    <h2>Coming soon</h2>
-    <p class="subtle">
-      This tab will pull open applications and trial status straight from the guild
-      Discord once the Discord integration is built. Planned:
-    </p>
-    <ul class="subtle">
-      <li>Live application queue from the <span class="mono">#applications</span> channel</li>
-      <li>Trial raiders with start date and days remaining (cross-referenced with the Roster tab)</li>
-      <li>Class / role needs pulled from the current setup</li>
-      <li>One-click links to each applicant's WarcraftLogs and Raider.IO</li>
-    </ul>
-    <div class="notice" style="margin-top:16px">Nothing to configure here yet.</div>
-  </div>
+  <div id="content"><div class="loading">Loading applications…</div></div>
 
-  <footer class="hub">Placeholder — Discord integration not yet built.</footer>
+  <footer class="hub">Applications from the recruitment Google Form; gear / score / progression pulled from Raider.IO. Refreshed hourly.</footer>
 </div>
+
+<script src="../assets/hub.js"></script>
+<script>
+(function () {
+  var H = window.NAHub;
+
+  H.boot({
+    render: function () {
+      H.loadJSON("../data/applicants.json").then(function (d) {
+        var content = document.getElementById("content");
+        var apps = d.applicants || [];
+        var applyBtn = '<a class="btn" target="_blank" rel="noopener" href="' +
+          H.esc(d.formUrl) + '">Open application form &rarr;</a>';
+
+        if (!apps.length) {
+          content.innerHTML = '<div class="card">' +
+            '<div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap">' +
+            '<h2 style="margin:0">No applications yet</h2>' +
+            '<span style="margin-left:auto">' + applyBtn + '</span></div>' +
+            '<div class="notice" style="margin-top:16px">New submissions show up here within an hour, ' +
+            'with Raider.IO score, item level and raid progression pulled in automatically.</div></div>';
+          return;
+        }
+
+        content.innerHTML =
+          '<div class="card">' +
+          '<div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:16px">' +
+            '<h2 style="margin:0">' + apps.length + ' application' + (apps.length === 1 ? '' : 's') + '</h2>' +
+            '<span style="margin-left:auto">' + applyBtn + '</span></div>' +
+          '<div id="tbl"></div></div>' +
+          '<div class="card"><h2>Written responses</h2><div id="detail"></div></div>';
+
+        var rows = apps.map(function (a, i) {
+          var r = a.rio || {};
+          return {
+            _i: i,
+            applied: (a.applied || "").split(" ")[0],
+            character: a.nameServer || (a.rioUrl || "").split("/").pop() || "?",
+            cls: r.class || "",
+            classPref: a.classPref || "",
+            ilvl: r.ilvl || "",
+            io: r.ioScore || "",
+            progress: r.progress || (a.rioError ? "(" + a.rioError + ")" : ""),
+            discord: a.discord || "",
+            wcl: a.wclUrl || "",
+            rio: a.rioUrl || r.rioProfile || ""
+          };
+        });
+
+        H.renderTable(document.getElementById("tbl"), {
+          filter: true,
+          pageSize: 0,
+          defaultSortKey: "applied",
+          defaultSortDir: -1,
+          columns: [
+            { key: "applied", label: "Applied", sort: "date", cls: "faint" },
+            { key: "character", label: "Character", sort: "text",
+              render: function (v, r) { return '<span style="color:' + H.classColor(r.cls) + ';font-weight:600">' + H.esc(v) + '</span>'; } },
+            { key: "classPref", label: "Class/Spec pref", sort: "text", cls: "faint" },
+            { key: "ilvl", label: "iLvl", sort: "num" },
+            { key: "io", label: "M+ Score", sort: "num" },
+            { key: "progress", label: "Raid", sort: "text", cls: "faint" },
+            { key: "discord", label: "Discord", sort: "text", cls: "bt" },
+            { key: "_i", label: "Links", render: function (v, r) {
+                var out = [];
+                if (r.wcl) out.push('<a target="_blank" rel="noopener" href="' + H.esc(r.wcl) + '">Logs</a>');
+                if (r.rio) out.push('<a target="_blank" rel="noopener" href="' + H.esc(r.rio) + '">Raider.IO</a>');
+                return out.join(" &middot; ");
+              } }
+          ],
+          rows: rows
+        });
+
+        document.getElementById("detail").innerHTML = apps.map(function (a) {
+          function block(label, val) {
+            return val ? '<div style="margin-top:8px"><span class="faint" style="font-size:11.5px;text-transform:uppercase;letter-spacing:.6px">' +
+              H.esc(label) + '</span><div>' + H.esc(val) + '</div></div>' : '';
+          }
+          return '<details class="appdetail"><summary>' +
+            H.esc(a.nameServer || "Applicant") +
+            (a.discord ? ' <span class="faint">&mdash; ' + H.esc(a.discord) + '</span>' : '') +
+            '</summary>' +
+            block("Class/Spec preference", a.classPref) +
+            block("Raiding history / why they left", a.history) +
+            block("Why join", a.whyJoin) +
+            block("Anything else", a.notes) +
+            (a.uiLink ? '<div style="margin-top:8px"><a target="_blank" rel="noopener" href="' + H.esc(a.uiLink) + '">UI screenshot / VOD &rarr;</a></div>' : '') +
+            '</details>';
+        }).join("");
+      }).catch(function (e) {
+        document.getElementById("content").innerHTML =
+          '<div class="notice err">Could not load applicants.json — ' + H.esc(e.message) + '</div>';
+      });
+    }
+  });
+})();
+</script>
 </body>
 </html>

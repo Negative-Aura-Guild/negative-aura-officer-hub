@@ -348,6 +348,21 @@ table.grid tr:hover td { background: rgba(124, 92, 255, 0.05); }
 
 .loading { color: var(--faint); padding: var(--sp-5); text-align: center; }
 
+.appdetail {
+  border: 1px solid var(--border);
+  border-radius: var(--r-sm);
+  padding: var(--sp-3) var(--sp-4);
+  margin-bottom: var(--sp-3);
+  background: var(--bg-3);
+}
+.appdetail > summary {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+}
+.appdetail[open] > summary { margin-bottom: var(--sp-2); }
+.appdetail div { font-size: 13.5px; white-space: pre-wrap; }
+
 /* ---- iframe frame (loot sheet) ----------------------------------- */
 
 .sheet-frame {
