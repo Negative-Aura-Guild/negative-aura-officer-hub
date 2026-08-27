@@ -39,7 +39,7 @@ WCL_GUILD_PAGE = f"https://www.warcraftlogs.com/guild/reports-list/{WCL_GUILD_ID
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(REPO_ROOT, "docs", "data")
 
-USER_AGENT = "negative-aura-officer-hub/1.0 (+https://github.com/cbarnesedu/negative-aura-officer-hub)"
+USER_AGENT = "negative-aura-officer-hub/1.0 (+https://github.com/Negative-Aura-Guild/negative-aura-officer-hub)"
 
 
 # --- tiny http helper ----------------------------------------------------------

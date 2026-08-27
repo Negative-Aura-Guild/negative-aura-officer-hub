@@ -27,7 +27,7 @@ Repo → **Settings → Pages**:
 - **Branch:** `main`, folder **`/docs`** → Save
 
 After a minute the site is at
-`https://cbarnesedu.github.io/negative-aura-officer-hub/`.
+`https://negative-aura-guild.github.io/negative-aura-officer-hub/`.
 
 ## 3. Run the data refresh once
 

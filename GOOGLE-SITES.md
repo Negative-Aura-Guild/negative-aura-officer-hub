@@ -4,7 +4,7 @@ Google Sites is the officer-only front door. Each tab is just an embed of one Gi
 page from this repo. ~20 minutes.
 
 Prereq: [`SETUP.md`](SETUP.md) done, so the pages are live at
-`https://cbarnesedu.github.io/negative-aura-officer-hub/`.
+`https://negative-aura-guild.github.io/negative-aura-officer-hub/`.
 
 ## 1. Create the site
 
@@ -33,7 +33,7 @@ On each page, delete any placeholder text box, then:
 
    ```html
    <iframe
-     src="https://cbarnesedu.github.io/negative-aura-officer-hub/pages/<name>.html"
+     src="https://negative-aura-guild.github.io/negative-aura-officer-hub/pages/<name>.html"
      width="100%" height="1400" style="border:0"
      loading="lazy"></iframe>
    ```
