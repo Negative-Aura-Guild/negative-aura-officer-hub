@@ -1,6 +1,69 @@
 {
  "data": [
   {
+   "character": "Jarco",
+   "class": "Rogue",
+   "dps": 188990,
+   "importedAt": "2026-08-27T23:57:53.133Z",
+   "profile": "heroic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/raSHG5jyTHCJGmm9HEhS83",
+   "spec": "outlaw"
+  },
+  {
+   "character": "Jarco",
+   "class": "Rogue",
+   "dps": 189044,
+   "importedAt": "2026-08-27T23:57:44.204Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/sarPidAczbzoHrCDpZ33se",
+   "spec": "outlaw"
+  },
+  {
+   "character": "Thagin",
+   "class": "Warrior",
+   "dps": 142343,
+   "importedAt": "2026-08-27T23:55:49.912Z",
+   "profile": "heroic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/jkcVn5FErWmwWhMvJRtcDj",
+   "spec": "arms"
+  },
+  {
+   "character": "Divari",
+   "class": "Mage",
+   "dps": 167631,
+   "importedAt": "2026-08-27T23:55:22.994Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/rfN1XpLE6urjygmFRM2Kdv",
+   "spec": "arcane"
+  },
+  {
+   "character": "Divari",
+   "class": "Mage",
+   "dps": 167652,
+   "importedAt": "2026-08-27T23:55:02.517Z",
+   "profile": "heroic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/uZ2uh1Pd1BjEMZNZifN3cV",
+   "spec": "arcane"
+  },
+  {
+   "character": "Thagin",
+   "class": "Warrior",
+   "dps": 142270,
+   "importedAt": "2026-08-27T23:51:13.152Z",
+   "profile": "normal-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/vn3ZNBdqzgC1i9sP9BL2RL",
+   "spec": "arms"
+  },
+  {
+   "character": "Kyki",
+   "class": "Rogue",
+   "dps": 179773,
+   "importedAt": "2026-08-27T23:45:06.803Z",
+   "profile": "heroic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/hV1A2RH5o3cw7RHsPuzhzm",
+   "spec": "subtlety"
+  },
+  {
    "character": "Indrra",
    "class": "Demon Hunter",
    "dps": 198493,
@@ -44,33 +107,6 @@
    "profile": "heroic-max",
    "reportUrl": "https://www.raidbots.com/simbot/report/gap28BZbTP4sK6Fwihkxpk",
    "spec": "devastation"
-  },
-  {
-   "character": "Jarco",
-   "class": "Rogue",
-   "dps": 168875,
-   "importedAt": "2026-08-26T07:17:59.002Z",
-   "profile": "mythic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/5jUCnQFyu4vJS15JsdgqQb",
-   "spec": "outlaw"
-  },
-  {
-   "character": "Jarco",
-   "class": "Rogue",
-   "dps": 168962,
-   "importedAt": "2026-08-26T07:17:49.458Z",
-   "profile": "heroic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/qQh6jCS7UQiFy8AY6tANHc",
-   "spec": "outlaw"
-  },
-  {
-   "character": "Jarco",
-   "class": "Rogue",
-   "dps": 168929,
-   "importedAt": "2026-08-26T07:17:37.797Z",
-   "profile": "normal-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/3W2cECFwLqx42j91doMpHj",
-   "spec": "outlaw"
   },
   {
    "character": "Kdvt",

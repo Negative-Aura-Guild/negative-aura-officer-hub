@@ -1,6 +1,6 @@
 {
- "characterCount": 39,
- "memberCount": 24,
+ "characterCount": 40,
+ "memberCount": 25,
  "members": [
   {
    "battletag": "Tsunami#12275",
@@ -299,6 +299,30 @@
    "role": "melee"
   },
   {
+   "battletag": "Kiki#12652",
+   "characters": [
+    {
+     "class": "Rogue",
+     "inactive": false,
+     "name": "Kyki",
+     "realm": "Stormrage",
+     "spec": "Subtlety",
+     "status": "main"
+    }
+   ],
+   "main": {
+    "class": "Rogue",
+    "inactive": false,
+    "name": "Kyki",
+    "realm": "Stormrage",
+    "spec": "Subtlety",
+    "status": "main"
+   },
+   "name": "Kiki",
+   "rank": "Raider",
+   "role": "melee"
+  },
+  {
    "battletag": null,
    "characters": [
     {
@@ -331,7 +355,7 @@
    "role": "melee"
   },
   {
-   "battletag": null,
+   "battletag": "adrum67#1434",
    "characters": [
     {
      "class": "Warrior",
@@ -475,7 +499,7 @@
    "role": "ranged"
   },
   {
-   "battletag": null,
+   "battletag": "Jac0byBryant#1114",
    "characters": [
     {
      "class": "Mage",
