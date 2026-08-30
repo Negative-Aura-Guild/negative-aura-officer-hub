@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-08-29T18:19:38Z",
+ "generatedAt": "2026-08-30T03:20:03Z",
  "sources": {
-  "applicants": "ok",
+  "applicants": "error:TimeoutError",
   "calendar": "ok",
   "droptimizers": "ok",
   "logs": "ok",
