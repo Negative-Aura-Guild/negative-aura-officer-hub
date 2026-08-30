@@ -3,20 +3,11 @@
   {
    "character": "Jarco",
    "class": "Rogue",
-   "dps": 188990,
-   "importedAt": "2026-08-27T23:57:53.133Z",
+   "dps": 197469,
+   "importedAt": "2026-08-30T23:17:54.104Z",
    "profile": "heroic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/raSHG5jyTHCJGmm9HEhS83",
-   "spec": "outlaw"
-  },
-  {
-   "character": "Jarco",
-   "class": "Rogue",
-   "dps": 189044,
-   "importedAt": "2026-08-27T23:57:44.204Z",
-   "profile": "mythic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/sarPidAczbzoHrCDpZ33se",
-   "spec": "outlaw"
+   "reportUrl": "https://www.raidbots.com/simbot/report/taNcT3HYiRG6J9cwM9zy7a",
+   "spec": "subtlety"
   },
   {
    "character": "Thagin",
@@ -134,33 +125,6 @@
    "profile": "heroic-max",
    "reportUrl": "https://www.raidbots.com/simbot/report/4fumfjKXm1gJWuxCFs9Cep",
    "spec": "beastmastery"
-  },
-  {
-   "character": "Jarco",
-   "class": "Rogue",
-   "dps": 164917,
-   "importedAt": "2026-08-26T05:12:48.081Z",
-   "profile": "mythic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/rtWsQxqZkXQxQ6uLTKJoUz",
-   "spec": "subtlety"
-  },
-  {
-   "character": "Jarco",
-   "class": "Rogue",
-   "dps": 164879,
-   "importedAt": "2026-08-26T05:12:29.673Z",
-   "profile": "heroic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/bNBZf3GXg9n6zxAEbb9KFV",
-   "spec": "subtlety"
-  },
-  {
-   "character": "Jarco",
-   "class": "Rogue",
-   "dps": 164944,
-   "importedAt": "2026-08-26T05:12:21.579Z",
-   "profile": "normal-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/5DH6uqPGug7qDFX5bwQrEq",
-   "spec": "subtlety"
   },
   {
    "character": "Uoepriest",
