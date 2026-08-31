@@ -1,6 +1,15 @@
 {
  "data": [
   {
+   "character": "Bobbyshammy",
+   "class": "Shaman",
+   "dps": null,
+   "importedAt": "2026-08-31T00:41:13.670Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://questionablyepic.com/live/upgradereport/kjziatnaajav",
+   "spec": "restoration"
+  },
+  {
    "character": "Jarco",
    "class": "Rogue",
    "dps": 197435,
@@ -78,15 +87,6 @@
    "dps": null,
    "importedAt": "2026-08-26T17:58:36.420Z",
    "profile": "mplus-vault",
-   "reportUrl": "https://questionablyepic.com/live/upgradereport/liaknatuhnbz",
-   "spec": "restoration"
-  },
-  {
-   "character": "Bobbyshammy",
-   "class": "Shaman",
-   "dps": null,
-   "importedAt": "2026-08-26T17:58:36.148Z",
-   "profile": "mythic-max",
    "reportUrl": "https://questionablyepic.com/live/upgradereport/liaknatuhnbz",
    "spec": "restoration"
   },
