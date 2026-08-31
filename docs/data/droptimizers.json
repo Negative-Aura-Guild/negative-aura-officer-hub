@@ -3,6 +3,15 @@
   {
    "character": "Jarco",
    "class": "Rogue",
+   "dps": 197435,
+   "importedAt": "2026-08-30T23:20:57.386Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/11fZtAhCkr6yP4zDgsUWkq",
+   "spec": "subtlety"
+  },
+  {
+   "character": "Jarco",
+   "class": "Rogue",
    "dps": 197469,
    "importedAt": "2026-08-30T23:17:54.104Z",
    "profile": "heroic-max",
