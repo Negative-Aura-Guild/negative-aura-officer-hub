@@ -1,0 +1,1572 @@
+{
+ "data": [
+  {
+   "character": "jarco",
+   "class": "Rogue",
+   "selections": [
+    {
+     "difficulty": "mplus",
+     "itemId": 159317,
+     "note": "",
+     "priority": 5,
+     "slot": "Waist",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 250215,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 250259,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 251124,
+     "note": "",
+     "priority": 5,
+     "slot": "Hands",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 251130,
+     "note": "",
+     "priority": 5,
+     "slot": "Legs",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 251135,
+     "note": "",
+     "priority": 5,
+     "slot": "Wrist",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 251140,
+     "note": "",
+     "priority": 5,
+     "slot": "Head",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 251142,
+     "note": "",
+     "priority": 5,
+     "slot": "Neck",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 251153,
+     "note": "",
+     "priority": 5,
+     "slot": "Feet",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 251159,
+     "note": "",
+     "priority": 5,
+     "slot": "Chest",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 251190,
+     "note": "",
+     "priority": 5,
+     "slot": "Back",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 251194,
+     "note": "",
+     "priority": 1,
+     "slot": "Finger",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 251223,
+     "note": "",
+     "priority": 5,
+     "slot": "Shoulder",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 252258,
+     "note": "",
+     "priority": 5,
+     "slot": "Finger",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 275070,
+     "note": "",
+     "priority": 5,
+     "slot": "One-Hand",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 270175,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268265,
+     "note": "",
+     "priority": 5,
+     "slot": "Neck",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 271875,
+     "note": "",
+     "priority": 1,
+     "slot": "Head",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 270168,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 271093,
+     "note": "",
+     "priority": 1,
+     "slot": "Main Hand",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 270909,
+     "note": "",
+     "priority": 5,
+     "slot": "Head",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 271436,
+     "note": "",
+     "priority": 5,
+     "slot": "Waist",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 271638,
+     "note": "",
+     "priority": 5,
+     "slot": "Neck",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 271438,
+     "note": "",
+     "priority": 5,
+     "slot": "Head",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268266,
+     "note": "",
+     "priority": 5,
+     "slot": "Finger",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268247,
+     "note": "",
+     "priority": 5,
+     "slot": "Feet",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 270173,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268225,
+     "note": "",
+     "priority": 1,
+     "slot": "Legs",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268253,
+     "note": "",
+     "priority": 1,
+     "slot": "Back",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268256,
+     "note": "",
+     "priority": 1,
+     "slot": "Waist",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268261,
+     "note": "",
+     "priority": 5,
+     "slot": "Feet",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 271510,
+     "note": "",
+     "priority": 5,
+     "slot": "Head",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268264,
+     "note": "",
+     "priority": 5,
+     "slot": "One-Hand",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268251,
+     "note": "",
+     "priority": 5,
+     "slot": "Neck",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268252,
+     "note": "",
+     "priority": 5,
+     "slot": "Finger",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268234,
+     "note": "",
+     "priority": 1,
+     "slot": "Hands",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 271509,
+     "note": "",
+     "priority": 5,
+     "slot": "Legs",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268227,
+     "note": "",
+     "priority": 3,
+     "slot": "Waist",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 271508,
+     "note": "",
+     "priority": 3,
+     "slot": "Shoulder",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 270164,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 271513,
+     "note": "",
+     "priority": 3,
+     "slot": "Chest",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268246,
+     "note": "",
+     "priority": 1,
+     "slot": "Shoulder",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268249,
+     "note": "",
+     "priority": 3,
+     "slot": "Finger",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 270166,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268204,
+     "note": "",
+     "priority": 5,
+     "slot": "One-Hand",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 271511,
+     "note": "",
+     "priority": 3,
+     "slot": "Hands",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268219,
+     "note": "",
+     "priority": 5,
+     "slot": "Head",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268250,
+     "note": "",
+     "priority": 5,
+     "slot": "Neck",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 270165,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268248,
+     "note": "",
+     "priority": 5,
+     "slot": "Back",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268240,
+     "note": "",
+     "priority": 2,
+     "slot": "Wrist",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268235,
+     "note": "",
+     "priority": 3,
+     "slot": "Chest",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 270162,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 270161,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 270160,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 270174,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 270163,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 270169,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 270167,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 270930,
+     "note": "",
+     "priority": 5,
+     "slot": "One-Hand",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268206,
+     "note": "",
+     "priority": 5,
+     "slot": "One-Hand",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268209,
+     "note": "",
+     "priority": 1,
+     "slot": "One-Hand",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268240,
+     "note": "",
+     "priority": 2,
+     "slot": "Wrist",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268235,
+     "note": "",
+     "priority": 2,
+     "slot": "Chest",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 270930,
+     "note": "",
+     "priority": 2,
+     "slot": "One-Hand",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268248,
+     "note": "",
+     "priority": 3,
+     "slot": "Back",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 270165,
+     "note": "",
+     "priority": 3,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 271511,
+     "note": "",
+     "priority": 2,
+     "slot": "Hands",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268250,
+     "note": "",
+     "priority": 5,
+     "slot": "Neck",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268219,
+     "note": "",
+     "priority": 2,
+     "slot": "Head",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268204,
+     "note": "",
+     "priority": 3,
+     "slot": "One-Hand",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 271513,
+     "note": "",
+     "priority": 2,
+     "slot": "Chest",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 270166,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268246,
+     "note": "",
+     "priority": 1,
+     "slot": "Shoulder",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268249,
+     "note": "",
+     "priority": 2,
+     "slot": "Finger",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 270164,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268227,
+     "note": "",
+     "priority": 2,
+     "slot": "Waist",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 271508,
+     "note": "",
+     "priority": 2,
+     "slot": "Shoulder",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 271509,
+     "note": "",
+     "priority": 3,
+     "slot": "Legs",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268252,
+     "note": "",
+     "priority": 5,
+     "slot": "Finger",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268206,
+     "note": "",
+     "priority": 3,
+     "slot": "One-Hand",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268234,
+     "note": "",
+     "priority": 1,
+     "slot": "Hands",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 271510,
+     "note": "",
+     "priority": 2,
+     "slot": "Head",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268261,
+     "note": "",
+     "priority": 5,
+     "slot": "Feet",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268251,
+     "note": "",
+     "priority": 5,
+     "slot": "Neck",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268264,
+     "note": "",
+     "priority": 3,
+     "slot": "One-Hand",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 270173,
+     "note": "",
+     "priority": 1,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268209,
+     "note": "",
+     "priority": 1,
+     "slot": "One-Hand",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268225,
+     "note": "",
+     "priority": 1,
+     "slot": "Legs",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268256,
+     "note": "",
+     "priority": 1,
+     "slot": "Waist",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268253,
+     "note": "",
+     "priority": 1,
+     "slot": "Back",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 270175,
+     "note": "",
+     "priority": 1,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 271875,
+     "note": "",
+     "priority": 1,
+     "slot": "Head",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268265,
+     "note": "",
+     "priority": 1,
+     "slot": "Neck",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 270168,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 271093,
+     "note": "",
+     "priority": 1,
+     "slot": "Main Hand",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 270909,
+     "note": "",
+     "priority": 2,
+     "slot": "Head",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 271436,
+     "note": "",
+     "priority": 2,
+     "slot": "Waist",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 271638,
+     "note": "",
+     "priority": 5,
+     "slot": "Neck",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 271438,
+     "note": "",
+     "priority": 5,
+     "slot": "Head",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268266,
+     "note": "",
+     "priority": 5,
+     "slot": "Finger",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268247,
+     "note": "",
+     "priority": 5,
+     "slot": "Feet",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 251136,
+     "note": "",
+     "priority": 5,
+     "slot": "Finger",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 251128,
+     "note": "",
+     "priority": 5,
+     "slot": "One-Hand",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 251132,
+     "note": "",
+     "priority": 5,
+     "slot": "Back",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 250228,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 273792,
+     "note": "",
+     "priority": 5,
+     "slot": "Finger",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 273774,
+     "note": "",
+     "priority": 5,
+     "slot": "Shoulder",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 273791,
+     "note": "",
+     "priority": 5,
+     "slot": "Head",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 273781,
+     "note": "",
+     "priority": 5,
+     "slot": "Neck",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 273797,
+     "note": "",
+     "priority": 2,
+     "slot": "Trinket",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 273796,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 251180,
+     "note": "",
+     "priority": 5,
+     "slot": "One-Hand",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 251198,
+     "note": "",
+     "priority": 5,
+     "slot": "Legs",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 251189,
+     "note": "",
+     "priority": 5,
+     "slot": "Waist",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 251183,
+     "note": "",
+     "priority": 5,
+     "slot": "Wrist",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 250214,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 251148,
+     "note": "",
+     "priority": 5,
+     "slot": "Finger",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 251146,
+     "note": "",
+     "priority": 5,
+     "slot": "Shoulder",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 251173,
+     "note": "",
+     "priority": 5,
+     "slot": "Neck",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 159136,
+     "note": "",
+     "priority": 5,
+     "slot": "One-Hand",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 159313,
+     "note": "",
+     "priority": 5,
+     "slot": "Legs",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 159304,
+     "note": "",
+     "priority": 1,
+     "slot": "Feet",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 159312,
+     "note": "",
+     "priority": 5,
+     "slot": "Hands",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 159288,
+     "note": "",
+     "priority": 5,
+     "slot": "Back",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 159300,
+     "note": "",
+     "priority": 5,
+     "slot": "Wrist",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 159301,
+     "note": "",
+     "priority": 5,
+     "slot": "Waist",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 159459,
+     "note": "",
+     "priority": 5,
+     "slot": "Finger",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 239048,
+     "note": "",
+     "priority": 5,
+     "slot": "Chest",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 159617,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 193756,
+     "note": "",
+     "priority": 5,
+     "slot": "One-Hand",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 193751,
+     "note": "",
+     "priority": 5,
+     "slot": "Head",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 193763,
+     "note": "",
+     "priority": 5,
+     "slot": "Back",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 193764,
+     "note": "",
+     "priority": 5,
+     "slot": "Chest",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 193758,
+     "note": "",
+     "priority": 5,
+     "slot": "Hands",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 193757,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 162544,
+     "note": "",
+     "priority": 1,
+     "slot": "Finger",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 158366,
+     "note": "",
+     "priority": 5,
+     "slot": "Finger",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 159337,
+     "note": "",
+     "priority": 5,
+     "slot": "Hands",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 239033,
+     "note": "",
+     "priority": 5,
+     "slot": "Head",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 159329,
+     "note": "",
+     "priority": 5,
+     "slot": "Legs",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 159327,
+     "note": "",
+     "priority": 5,
+     "slot": "Feet",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 158374,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 251234,
+     "note": "",
+     "priority": 5,
+     "slot": "Neck",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 251235,
+     "note": "",
+     "priority": 5,
+     "slot": "Waist",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 251226,
+     "note": "",
+     "priority": 5,
+     "slot": "Chest",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 250225,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "mplus"
+    }
+   ],
+   "spec": null,
+   "updatedAt": "2026-09-01T20:25:34.819Z"
+  },
+  {
+   "character": "bobbyshammy",
+   "class": "Shaman",
+   "selections": [
+    {
+     "difficulty": "mythic",
+     "itemId": 270162,
+     "note": "",
+     "priority": 1,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268203,
+     "note": "",
+     "priority": 5,
+     "slot": "One-Hand",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268230,
+     "note": "",
+     "priority": 1,
+     "slot": "Head",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268216,
+     "note": "",
+     "priority": 1,
+     "slot": "Waist",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268248,
+     "note": "",
+     "priority": 1,
+     "slot": "Back",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 270162,
+     "note": "",
+     "priority": 1,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 270164,
+     "note": "",
+     "priority": 1,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268252,
+     "note": "",
+     "priority": 1,
+     "slot": "Finger",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268223,
+     "note": "",
+     "priority": 2,
+     "slot": "Chest",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 271092,
+     "note": "",
+     "priority": 1,
+     "slot": "One-Hand",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268265,
+     "note": "",
+     "priority": 1,
+     "slot": "Neck",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 271876,
+     "note": "",
+     "priority": 1,
+     "slot": "Chest",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 270909,
+     "note": "",
+     "priority": 2,
+     "slot": "Head",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 270167,
+     "note": "",
+     "priority": 1,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268238,
+     "note": "",
+     "priority": 2,
+     "slot": "Hands",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268266,
+     "note": "",
+     "priority": 5,
+     "slot": "Finger",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268217,
+     "note": "",
+     "priority": 5,
+     "slot": "Wrist",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268250,
+     "note": "",
+     "priority": 5,
+     "slot": "Neck",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 271484,
+     "note": "",
+     "priority": 5,
+     "slot": "Hands",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 271486,
+     "note": "",
+     "priority": 2,
+     "slot": "Chest",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268249,
+     "note": "",
+     "priority": 5,
+     "slot": "Finger",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268254,
+     "note": "",
+     "priority": 5,
+     "slot": "Waist",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268205,
+     "note": "",
+     "priority": 5,
+     "slot": "Two-Hand",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268258,
+     "note": "",
+     "priority": 2,
+     "slot": "Feet",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268196,
+     "note": "",
+     "priority": 5,
+     "slot": "Off Hand",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268210,
+     "note": "",
+     "priority": 5,
+     "slot": "One-Hand",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268233,
+     "note": "",
+     "priority": 5,
+     "slot": "Feet",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268216,
+     "note": "",
+     "priority": 1,
+     "slot": "Waist",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268230,
+     "note": "",
+     "priority": 2,
+     "slot": "Head",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268248,
+     "note": "",
+     "priority": 1,
+     "slot": "Back",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268203,
+     "note": "",
+     "priority": 5,
+     "slot": "One-Hand",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268251,
+     "note": "",
+     "priority": 5,
+     "slot": "Neck",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 270171,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268231,
+     "note": "",
+     "priority": 5,
+     "slot": "Shoulder",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268253,
+     "note": "",
+     "priority": 5,
+     "slot": "Back",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 270169,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 268237,
+     "note": "",
+     "priority": 5,
+     "slot": "Legs",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 271440,
+     "note": "",
+     "priority": 5,
+     "slot": "Feet",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 271441,
+     "note": "",
+     "priority": 5,
+     "slot": "Head",
+     "source": "raid"
+    },
+    {
+     "difficulty": "heroic",
+     "itemId": 271638,
+     "note": "",
+     "priority": 5,
+     "slot": "Neck",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268250,
+     "note": "",
+     "priority": 5,
+     "slot": "Neck",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268205,
+     "note": "",
+     "priority": 5,
+     "slot": "Two-Hand",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268249,
+     "note": "",
+     "priority": 5,
+     "slot": "Finger",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268210,
+     "note": "",
+     "priority": 5,
+     "slot": "One-Hand",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268251,
+     "note": "",
+     "priority": 5,
+     "slot": "Neck",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 270171,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268196,
+     "note": "Shows 0 value because an embellish is on my crafted shield. Will move embellish",
+     "priority": 1,
+     "slot": "Off Hand",
+     "source": "raid"
+    }
+   ],
+   "spec": null,
+   "updatedAt": "2026-09-01T18:17:15.788Z"
+  }
+ ]
+}

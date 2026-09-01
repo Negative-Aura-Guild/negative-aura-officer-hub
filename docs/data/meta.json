@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-01T21:24:28Z",
+ "generatedAt": "2026-09-01T23:21:23Z",
  "sources": {
   "applicants": "ok",
   "calendar": "ok",
@@ -7,6 +7,6 @@
   "logs": "ok",
   "loot": "ok",
   "roster": "ok",
-  "wishlists": "error:500"
+  "wishlists": "ok"
  }
 }
