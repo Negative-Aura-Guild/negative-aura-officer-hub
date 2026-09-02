@@ -1117,6 +1117,870 @@
    "Tier Item?": "FALSE"
   },
   {
+   "Entry ID": "1788310585-10",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Venomforged Idol",
+   "Player": "Miglight",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "1788311148-14",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Scaled Fiend's Warboots",
+   "Player": "Miglight",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788313859-26",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Ruthless Slaughtergrips",
+   "Player": "Miglight",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Personal Loot - Non tradeable",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788314080-31",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Idol of the Howling Nexus",
+   "Player": "Miglight",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Pass",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788318099-46",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Girdle of Toxic Regret",
+   "Player": "Miglight",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788319042-58",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Aqirbane Reliquary",
+   "Player": "Miglight",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Bonus Loot",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788319559-75",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Slumbering Coil Curio",
+   "Player": "Miglight",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "1788313858-25",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Ruthless Slaughtergrips",
+   "Player": "Keraxya",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Personal Loot - Non tradeable",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788319043-60",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Awoken Dreadfang Cuirass",
+   "Player": "Keraxya",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Bonus Loot",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788313899-27",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Idol of the Howling Nexus",
+   "Player": "Indrra",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Personal Loot - Non tradeable",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788317925-43",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Silken Voodoo Drape",
+   "Player": "Indrra",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Bonus Loot",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788319035-51",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Font of Venomous Rage",
+   "Player": "Indrra",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Bonus Loot",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788319043-61",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Aqirbane Reliquary",
+   "Player": "Norberto",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Bonus Loot",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788319238-69",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Gaze of the Coiled Watcher",
+   "Player": "Norberto",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Response",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788309871-0",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Soulcoiler's Rush'kah",
+   "Player": "Sal",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Response",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788310578-8",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Venom-Singed Cuffs",
+   "Player": "Sal",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Stat allocation",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788311212-17",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Vile Alchemist's Band",
+   "Player": "Sal",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788311804-18",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Venomwoven Remnant",
+   "Player": "Sal",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Bonus Loot",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "1788318095-45",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Grasps of the Eternal Shadow",
+   "Player": "Sal",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Ilvl Upgrade",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788319040-56",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Font of Venomous Rage",
+   "Player": "Sal",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Bonus Loot",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788309922-5",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Hexing Spiritrender",
+   "Player": "Danktemplar",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Stat allocation",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788319078-66",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Aqirbane Reliquary",
+   "Player": "Danktemplar",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Bonus Loot",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788313996-29",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Caustic Chain-Wrapped Sash",
+   "Player": "Hufflepuffer",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788319045-62",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Venomkeeper's Horrific Cowl",
+   "Player": "Hufflepuffer",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Bonus Loot",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788311178-15",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Vashnik's Sanguine Rancor",
+   "Player": "Rexxss",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Stat allocation",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788312059-21",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Unpossessed Skullsash",
+   "Player": "Rexxss",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788319048-63",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Voracious Heart of Ula'tek",
+   "Player": "Rexxss",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Bonus Loot",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788312055-20",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Gebbo's Bottomless Bag",
+   "Player": "Ilovewow",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788319036-52",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Aqirbane Reliquary",
+   "Player": "Ilovewow",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Bonus Loot",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788319038-54",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Awoken Dreadfang Cuirass",
+   "Player": "Kdvt",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Bonus Loot",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788319575-76",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Slumbering Coil Curio",
+   "Player": "Kdvt",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "1788314050-30",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Sszorak's Ferocity",
+   "Player": "Thagin",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Xmog",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788314742-37",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Venomforged Effigy",
+   "Player": "Thagin",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Ilvl Upgrade",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "1788317924-42",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Zul'jin's Guillotine Technique",
+   "Player": "Thagin",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Bonus Loot",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788318101-47",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Girdle of Toxic Regret",
+   "Player": "Thagin",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788319252-71",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Voracious Heart of Ula'tek",
+   "Player": "Thagin",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788320003-80",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Breakwater Boots",
+   "Player": "Thagin",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Xmog",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788310423-6",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Venomcured Idol",
+   "Player": "Vilihame",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Personal Loot - Non tradeable",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "1788314723-33",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Venomforged Relic",
+   "Player": "Vilihame",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Ilvl Upgrade",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "1788317923-40",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Girdle of Toxic Regret",
+   "Player": "Vilihame",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Bonus Loot",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788319961-78",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Forgotten Grotto Girdle",
+   "Player": "Vilihame",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Personal Loot - Non tradeable",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788311142-13",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Venomforged Icon",
+   "Player": "Bwonsuckdik",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "1788314547-32",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Ophidian Fangmail",
+   "Player": "Bwonsuckdik",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Personal Loot - Non tradeable",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788319057-65",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Chausses of Unbound Rancor",
+   "Player": "Bwonsuckdik",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Bonus Loot",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788319230-68",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Jaw of the Shackled Goddess",
+   "Player": "Bwonsuckdik",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788319247-70",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Voracious Heart of Ula'tek",
+   "Player": "Bwonsuckdik",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788320016-83",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Swelling Sea Spaulders",
+   "Player": "Bwonsuckdik",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788311201-16",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Venomancer's Winged Channeler",
+   "Player": "Archivon",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Off-Spec",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788312068-23",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Venom-Slashed Scuteward",
+   "Player": "Archivon",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Off-Spec",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788319041-57",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Font of Venomous Rage",
+   "Player": "Archivon",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Bonus Loot",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788319262-73",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Awoken Dreadfang Cuirass",
+   "Player": "Archivon",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788310567-7",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Venom-Singed Cuffs",
+   "Player": "Uoepriest",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Stat allocation",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788313857-24",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Idol of the Howling Nexus",
+   "Player": "Uoepriest",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Personal Loot - Non tradeable",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788314735-35",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Preternatural Antivenom",
+   "Player": "Uoepriest",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Off-Spec",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788318108-49",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Cackling Soultreads",
+   "Player": "Uoepriest",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788314739-36",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Bespittled Slitherslippers",
+   "Player": "Augtiste",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Xmog",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788319055-64",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Font of Venomous Rage",
+   "Player": "Augtiste",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Bonus Loot",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788319094-67",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Jan'thrazet, the Soul Fang",
+   "Player": "Pillowtrove",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Bonus Loot",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788309893-3",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Restless Spirit Shackles",
+   "Player": "Karthmonk",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Ilvl Upgrade",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788311874-19",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Venomcured Remnant",
+   "Player": "Karthmonk",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Ilvl Upgrade",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "1788314745-38",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Preternatural Antivenom",
+   "Player": "Karthmonk",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Ilvl Upgrade",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788319043-59",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Gaze of the Coiled Watcher",
+   "Player": "Karthmonk",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Bonus Loot",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788319962-79",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Wavecaller's Seastone",
+   "Player": "Karthmonk",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Bonus Loot",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788317923-41",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Zul'jin's Guillotine Technique",
+   "Player": "Ludiously",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Bonus Loot",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788319958-77",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Tidebound Sorcereress's Robes",
+   "Player": "Ludiously",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Personal Loot - Non tradeable",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788320006-81",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Forgotten Grotto Girdle",
+   "Player": "Ludiously",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Off-Spec",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788320011-82",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Swelling Sea Spaulders",
+   "Player": "Ludiously",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Pass",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788310977-12",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Venomcured Icon",
+   "Player": "Donkersloot",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Personal Loot - Non tradeable",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "1788312064-22",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Malevolent Spiritcudgel",
+   "Player": "Donkersloot",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Xmog",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788319033-50",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Font of Venomous Rage",
+   "Player": "Donkersloot",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Bonus Loot",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788310581-9",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Venomcast Idol",
+   "Player": "Wolfxhunt",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Ilvl Upgrade",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "1788310589-11",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Ancient Construct's Venomshiv",
+   "Player": "Wolfxhunt",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Off-Spec",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788314728-34",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Ravenous Feaster's Fang",
+   "Player": "Wolfxhunt",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Off-Spec",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788317949-44",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Silken Voodoo Drape",
+   "Player": "Wolfxhunt",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Bonus Loot",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788319258-72",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Zatha'tek, Breath of Corruption",
+   "Player": "Wolfxhunt",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Off-Spec",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788317921-39",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Maze-roa, Warlord's Fury",
+   "Player": "Johnsonn",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Bonus Loot",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788309890-2",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Vestment of the Awakening",
+   "Player": "Jarco",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Stat allocation",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788309898-4",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Restless Spirit Shackles",
+   "Player": "Jarco",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Ilvl Upgrade",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788313992-28",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Ruthless Slaughtergrips",
+   "Player": "Jarco",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788318104-48",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Coiled Hex Legguards",
+   "Player": "Jarco",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788319039-55",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Zatha'tek, Breath of Corruption",
+   "Player": "Jarco",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Bonus Loot",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788319038-53",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Jan'thrazet, the Soul Fang",
+   "Player": "Divari",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Bonus Loot",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1788319320-74",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Slumbering Coil Curio",
+   "Player": "Divari",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "TRUE"
+  },
+  {
+   "Entry ID": "1788309882-1",
+   "Imported At": "2026-09-01 22:59:05",
+   "Item": "Skullguard of the Risen Sacrifice",
+   "Player": "Bobbyshammy",
+   "Raid Date": "2026-09-01",
+   "Response / Reason": "Autopass",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787881580-4",
+   "Imported At": "2026-09-01 22:59:42",
+   "Item": "Girdle of Toxic Regret",
+   "Player": "Miglight",
+   "Raid Date": "2026-08-27",
+   "Response / Reason": "Personal Loot - Non tradeable",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787882111-10",
+   "Imported At": "2026-09-01 22:59:42",
+   "Item": "Coiled Hex Legguards",
+   "Player": "Rexxss",
+   "Raid Date": "2026-08-27",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787881566-2",
+   "Imported At": "2026-09-01 22:59:42",
+   "Item": "Reckless Spirit Breastplate",
+   "Player": "Vilihame",
+   "Raid Date": "2026-08-27",
+   "Response / Reason": "Bonus Loot",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787881583-5",
+   "Imported At": "2026-09-01 22:59:42",
+   "Item": "Silken Voodoo Drape",
+   "Player": "Bwonsuckdik",
+   "Raid Date": "2026-08-27",
+   "Response / Reason": "Bonus Loot",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787882100-8",
+   "Imported At": "2026-09-01 22:59:42",
+   "Item": "Zul'jin's Guillotine Technique",
+   "Player": "Bwonsuckdik",
+   "Raid Date": "2026-08-27",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787882116-11",
+   "Imported At": "2026-09-01 22:59:42",
+   "Item": "Soulslither Spaulders",
+   "Player": "Augtiste",
+   "Raid Date": "2026-08-27",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787881547-1",
+   "Imported At": "2026-09-01 22:59:42",
+   "Item": "Girdle of Toxic Regret",
+   "Player": "Ludiously",
+   "Raid Date": "2026-08-27",
+   "Response / Reason": "Personal Loot - Non tradeable",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787881571-3",
+   "Imported At": "2026-09-01 22:59:42",
+   "Item": "Girdle of Toxic Regret",
+   "Player": "Ludiously",
+   "Raid Date": "2026-08-27",
+   "Response / Reason": "Bonus Loot",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787882108-9",
+   "Imported At": "2026-09-01 22:59:42",
+   "Item": "Soulslither Spaulders",
+   "Player": "Donkersloot",
+   "Raid Date": "2026-08-27",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787881543-0",
+   "Imported At": "2026-09-01 22:59:42",
+   "Item": "Reckless Spirit Breastplate",
+   "Player": "Johnsonn",
+   "Raid Date": "2026-08-27",
+   "Response / Reason": "Bonus Loot",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787881880-7",
+   "Imported At": "2026-09-01 22:59:42",
+   "Item": "Zul'jin's Guillotine Technique",
+   "Player": "Jarco",
+   "Raid Date": "2026-08-27",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1787881584-6",
+   "Imported At": "2026-09-01 22:59:42",
+   "Item": "Sash of the Forlorn Vessel",
+   "Player": "Kyki",
+   "Raid Date": "2026-08-27",
+   "Response / Reason": "Bonus Loot",
+   "Tier Item?": "FALSE"
+  },
+  {
    "Entry ID": "",
    "Imported At": "",
    "Item": "",
@@ -2047,12 +2911,12 @@
   },
   {
    "Class": "Death Knight",
-   "Full Tier History": "Slumbering Coil Curio (2026-08-20)",
-   "Last Received Date": "2026-08-20",
-   "Last Tier Item": "Slumbering Coil Curio",
+   "Full Tier History": "Slumbering Coil Curio (2026-08-20); Venomforged Icon (2026-09-01)",
+   "Last Received Date": "2026-09-01",
+   "Last Tier Item": "Venomforged Icon",
    "Player": "Bwonsuckdik",
    "Roster Status": "Main",
-   "Tier Pieces Received": "1"
+   "Tier Pieces Received": "2"
   },
   {
    "Class": "Warlock",
@@ -2065,12 +2929,12 @@
   },
   {
    "Class": "Mage",
-   "Full Tier History": "Slumbering Coil Curio (2026-08-23)",
-   "Last Received Date": "2026-08-23",
+   "Full Tier History": "Slumbering Coil Curio (2026-08-23); Slumbering Coil Curio (2026-09-01)",
+   "Last Received Date": "2026-09-01",
    "Last Tier Item": "Slumbering Coil Curio",
    "Player": "Divari",
    "Roster Status": "Main",
-   "Tier Pieces Received": "1"
+   "Tier Pieces Received": "2"
   },
   {
    "Class": "Shaman",
@@ -2078,15 +2942,6 @@
    "Last Received Date": "2026-08-20",
    "Last Tier Item": "Venomcast Idol",
    "Player": "Donkersloot",
-   "Roster Status": "Main",
-   "Tier Pieces Received": "1"
-  },
-  {
-   "Class": "Demon Hunter",
-   "Full Tier History": "Venomcured Remnant (2026-08-18)",
-   "Last Received Date": "2026-08-18",
-   "Last Tier Item": "Venomcured Remnant",
-   "Player": "Exxer",
    "Roster Status": "Main",
    "Tier Pieces Received": "1"
   },
@@ -2118,6 +2973,15 @@
    "Tier Pieces Received": "1"
   },
   {
+   "Class": "Rogue",
+   "Full Tier History": "",
+   "Last Received Date": "",
+   "Last Tier Item": "",
+   "Player": "Jarco",
+   "Roster Status": "Main",
+   "Tier Pieces Received": "0"
+  },
+  {
    "Class": "Death Knight",
    "Full Tier History": "",
    "Last Received Date": "",
@@ -2128,21 +2992,21 @@
   },
   {
    "Class": "Monk",
-   "Full Tier History": "",
-   "Last Received Date": "",
-   "Last Tier Item": "",
+   "Full Tier History": "Venomcured Remnant (2026-09-01)",
+   "Last Received Date": "2026-09-01",
+   "Last Tier Item": "Venomcured Remnant",
    "Player": "Karthmonk",
    "Roster Status": "Main",
-   "Tier Pieces Received": "0"
+   "Tier Pieces Received": "1"
   },
   {
    "Class": "Hunter",
-   "Full Tier History": "Venomcast Effigy (2026-08-18); Venomcast Relic (2026-08-18)",
-   "Last Received Date": "2026-08-18",
-   "Last Tier Item": "Venomcast Relic",
+   "Full Tier History": "Venomcast Effigy (2026-08-18); Venomcast Relic (2026-08-18); Slumbering Coil Curio (2026-09-01)",
+   "Last Received Date": "2026-09-01",
+   "Last Tier Item": "Slumbering Coil Curio",
    "Player": "Kdvt",
    "Roster Status": "Main",
-   "Tier Pieces Received": "2"
+   "Tier Pieces Received": "3"
   },
   {
    "Class": "Evoker",
@@ -2152,6 +3016,15 @@
    "Player": "Keraxya",
    "Roster Status": "Main",
    "Tier Pieces Received": "1"
+  },
+  {
+   "Class": "Rogue",
+   "Full Tier History": "",
+   "Last Received Date": "",
+   "Last Tier Item": "",
+   "Player": "Kyki",
+   "Roster Status": "Main",
+   "Tier Pieces Received": "0"
   },
   {
    "Class": "Death Knight",
@@ -2164,12 +3037,12 @@
   },
   {
    "Class": "Paladin",
-   "Full Tier History": "Venomforged Remnant (2026-08-20)",
-   "Last Received Date": "2026-08-20",
-   "Last Tier Item": "Venomforged Remnant",
+   "Full Tier History": "Venomforged Remnant (2026-08-20); Venomforged Idol (2026-09-01); Slumbering Coil Curio (2026-09-01)",
+   "Last Received Date": "2026-09-01",
+   "Last Tier Item": "Slumbering Coil Curio",
    "Player": "Miglight",
    "Roster Status": "Main",
-   "Tier Pieces Received": "1"
+   "Tier Pieces Received": "3"
   },
   {
    "Class": "Monk",
@@ -2190,22 +3063,31 @@
    "Tier Pieces Received": "1"
   },
   {
+   "Class": "Druid",
+   "Full Tier History": "",
+   "Last Received Date": "",
+   "Last Tier Item": "",
+   "Player": "Rexxss",
+   "Roster Status": "Main",
+   "Tier Pieces Received": "0"
+  },
+  {
    "Class": "Priest",
-   "Full Tier History": "Venomwoven Icon (2026-08-23); Venomwoven Remnant (2026-08-23)",
-   "Last Received Date": "2026-08-23",
+   "Full Tier History": "Venomwoven Icon (2026-08-23); Venomwoven Remnant (2026-08-23); Venomwoven Remnant (2026-09-01)",
+   "Last Received Date": "2026-09-01",
    "Last Tier Item": "Venomwoven Remnant",
    "Player": "Sal",
    "Roster Status": "Main",
-   "Tier Pieces Received": "2"
+   "Tier Pieces Received": "3"
   },
   {
    "Class": "Warrior",
-   "Full Tier History": "Slumbering Coil Curio (2026-08-23)",
-   "Last Received Date": "2026-08-23",
-   "Last Tier Item": "Slumbering Coil Curio",
+   "Full Tier History": "Slumbering Coil Curio (2026-08-23); Venomforged Effigy (2026-09-01)",
+   "Last Received Date": "2026-09-01",
+   "Last Tier Item": "Venomforged Effigy",
    "Player": "Thagin",
    "Roster Status": "Main",
-   "Tier Pieces Received": "1"
+   "Tier Pieces Received": "2"
   },
   {
    "Class": "Priest",
@@ -2218,12 +3100,21 @@
   },
   {
    "Class": "Paladin",
-   "Full Tier History": "",
-   "Last Received Date": "",
-   "Last Tier Item": "",
+   "Full Tier History": "Venomforged Relic (2026-09-01)",
+   "Last Received Date": "2026-09-01",
+   "Last Tier Item": "Venomforged Relic",
    "Player": "Vilihame",
    "Roster Status": "Main",
-   "Tier Pieces Received": "0"
+   "Tier Pieces Received": "1"
+  },
+  {
+   "Class": "Demon Hunter",
+   "Full Tier History": "Venomcured Remnant (2026-08-18)",
+   "Last Received Date": "2026-08-18",
+   "Last Tier Item": "Venomcured Remnant",
+   "Player": "Exxer",
+   "Roster Status": "Alt",
+   "Tier Pieces Received": "1"
   },
   {
    "Class": "Shaman",
@@ -2231,15 +3122,6 @@
    "Last Received Date": "",
    "Last Tier Item": "",
    "Player": "Mintsmoothie",
-   "Roster Status": "Alt",
-   "Tier Pieces Received": "0"
-  },
-  {
-   "Class": "Monk",
-   "Full Tier History": "",
-   "Last Received Date": "",
-   "Last Tier Item": "",
-   "Player": "Novaniyuhh",
    "Roster Status": "Alt",
    "Tier Pieces Received": "0"
   },
@@ -2253,13 +3135,13 @@
    "Tier Pieces Received": "0"
   },
   {
-   "Class": "Druid",
-   "Full Tier History": "",
-   "Last Received Date": "",
-   "Last Tier Item": "",
-   "Player": "Rexxss",
-   "Roster Status": "Alt",
-   "Tier Pieces Received": "0"
+   "Class": "",
+   "Full Tier History": "Venomcast Idol (2026-09-01)",
+   "Last Received Date": "2026-09-01",
+   "Last Tier Item": "Venomcast Idol",
+   "Player": "Wolfxhunt",
+   "Roster Status": "Not on Roster",
+   "Tier Pieces Received": "1"
   }
  ],
  "tierCols": [
