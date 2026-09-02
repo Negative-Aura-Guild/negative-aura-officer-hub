@@ -279,8 +279,8 @@
     {
      "difficulty": "heroic",
      "itemId": 268252,
-     "note": "",
-     "priority": 5,
+     "note": "Outlaw Want for Keys",
+     "priority": 3,
      "slot": "Finger",
      "source": "raid"
     },
@@ -295,8 +295,8 @@
     {
      "difficulty": "heroic",
      "itemId": 271509,
-     "note": "",
-     "priority": 5,
+     "note": "Outlaw Want for Keys",
+     "priority": 3,
      "slot": "Legs",
      "source": "raid"
     },
@@ -328,7 +328,7 @@
      "difficulty": "heroic",
      "itemId": 271513,
      "note": "",
-     "priority": 3,
+     "priority": 5,
      "slot": "Chest",
      "source": "raid"
     },
@@ -368,7 +368,7 @@
      "difficulty": "heroic",
      "itemId": 271511,
      "note": "",
-     "priority": 3,
+     "priority": 5,
      "slot": "Hands",
      "source": "raid"
     },
@@ -495,7 +495,7 @@
     {
      "difficulty": "heroic",
      "itemId": 268209,
-     "note": "",
+     "note": "Giga omega for outlaw",
      "priority": 1,
      "slot": "One-Hand",
      "source": "raid"
@@ -1182,7 +1182,7 @@
     }
    ],
    "spec": null,
-   "updatedAt": "2026-09-01T20:25:34.819Z"
+   "updatedAt": "2026-09-02T00:10:06.111Z"
   },
   {
    "character": "bobbyshammy",

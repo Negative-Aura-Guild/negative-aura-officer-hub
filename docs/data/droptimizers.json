@@ -3,6 +3,33 @@
   {
    "character": "Jarco",
    "class": "Rogue",
+   "dps": 201561,
+   "importedAt": "2026-09-02T00:12:05.954Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/xcrMt9AJGNTdwBTR86dTcJ",
+   "spec": "outlaw"
+  },
+  {
+   "character": "Jarco",
+   "class": "Rogue",
+   "dps": 201524,
+   "importedAt": "2026-09-02T00:12:04.948Z",
+   "profile": "heroic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/wR81NYSxRTKjKDbienhswY",
+   "spec": "outlaw"
+  },
+  {
+   "character": "Uoepriest",
+   "class": "Priest",
+   "dps": 163853,
+   "importedAt": "2026-09-02T00:09:30.381Z",
+   "profile": "mythic-base",
+   "reportUrl": "https://www.raidbots.com/simbot/report/1h71aWsNGLVi6vbpPfZJvP",
+   "spec": "shadow"
+  },
+  {
+   "character": "Jarco",
+   "class": "Rogue",
    "dps": 213065,
    "importedAt": "2026-09-01T20:19:03.492Z",
    "profile": "mythic-max",
