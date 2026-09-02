@@ -512,7 +512,7 @@
      "difficulty": "mythic",
      "itemId": 268235,
      "note": "",
-     "priority": 2,
+     "priority": 1,
      "slot": "Chest",
      "source": "raid"
     },
@@ -1182,7 +1182,7 @@
     }
    ],
    "spec": null,
-   "updatedAt": "2026-09-02T00:10:06.111Z"
+   "updatedAt": "2026-09-02T00:42:27.185Z"
   },
   {
    "character": "bobbyshammy",
