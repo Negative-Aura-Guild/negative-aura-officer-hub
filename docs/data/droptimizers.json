@@ -1,6 +1,15 @@
 {
  "data": [
   {
+   "character": "Augtiste",
+   "class": "Evoker",
+   "dps": 1373034,
+   "importedAt": "2026-09-03T22:17:09.796Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/kssXWc2fzPG9F9DTEQ8xuZ",
+   "spec": "augmentation"
+  },
+  {
    "character": "Jarco",
    "class": "Rogue",
    "dps": 201561,
