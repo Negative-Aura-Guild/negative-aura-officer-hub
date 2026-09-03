@@ -3,7 +3,7 @@
   {
    "counts": {
     "absent": 1,
-    "present": 5
+    "present": 24
    },
    "date": "2026-09-03",
    "difficulty": "Mythic",
@@ -15,7 +15,7 @@
   },
   {
    "counts": {
-    "present": 6
+    "present": 25
    },
    "date": "2026-09-08",
    "difficulty": "Mythic",
@@ -27,7 +27,7 @@
   },
   {
    "counts": {
-    "present": 6
+    "present": 25
    },
    "date": "2026-09-10",
    "difficulty": "Mythic",
@@ -39,7 +39,7 @@
   },
   {
    "counts": {
-    "present": 6
+    "present": 25
    },
    "date": "2026-09-15",
    "difficulty": "Mythic",
@@ -51,7 +51,7 @@
   },
   {
    "counts": {
-    "present": 6
+    "present": 25
    },
    "date": "2026-09-17",
    "difficulty": "Mythic",
@@ -63,7 +63,7 @@
   },
   {
    "counts": {
-    "present": 6
+    "present": 25
    },
    "date": "2026-09-22",
    "difficulty": "Mythic",
@@ -75,7 +75,7 @@
   },
   {
    "counts": {
-    "present": 6
+    "present": 25
    },
    "date": "2026-09-24",
    "difficulty": "Mythic",
@@ -87,7 +87,7 @@
   },
   {
    "counts": {
-    "present": 6
+    "present": 25
    },
    "date": "2026-09-29",
    "difficulty": "Mythic",
