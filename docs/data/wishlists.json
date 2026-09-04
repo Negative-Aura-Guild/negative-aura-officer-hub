@@ -504,15 +504,15 @@
      "difficulty": "mythic",
      "itemId": 268240,
      "note": "",
-     "priority": 2,
+     "priority": 1,
      "slot": "Wrist",
      "source": "raid"
     },
     {
      "difficulty": "mythic",
      "itemId": 268235,
-     "note": "",
-     "priority": 1,
+     "note": "Bis for Sub",
+     "priority": 2,
      "slot": "Chest",
      "source": "raid"
     },
@@ -520,7 +520,7 @@
      "difficulty": "mythic",
      "itemId": 270930,
      "note": "",
-     "priority": 2,
+     "priority": 5,
      "slot": "One-Hand",
      "source": "raid"
     },
@@ -528,7 +528,7 @@
      "difficulty": "mythic",
      "itemId": 268248,
      "note": "",
-     "priority": 3,
+     "priority": 1,
      "slot": "Back",
      "source": "raid"
     },
@@ -536,7 +536,7 @@
      "difficulty": "mythic",
      "itemId": 270165,
      "note": "",
-     "priority": 3,
+     "priority": 2,
      "slot": "Trinket",
      "source": "raid"
     },
@@ -560,7 +560,7 @@
      "difficulty": "mythic",
      "itemId": 268219,
      "note": "",
-     "priority": 2,
+     "priority": 5,
      "slot": "Head",
      "source": "raid"
     },
@@ -568,7 +568,7 @@
      "difficulty": "mythic",
      "itemId": 268204,
      "note": "",
-     "priority": 3,
+     "priority": 5,
      "slot": "One-Hand",
      "source": "raid"
     },
@@ -576,7 +576,7 @@
      "difficulty": "mythic",
      "itemId": 271513,
      "note": "",
-     "priority": 2,
+     "priority": 1,
      "slot": "Chest",
      "source": "raid"
     },
@@ -591,8 +591,8 @@
     {
      "difficulty": "mythic",
      "itemId": 268246,
-     "note": "",
-     "priority": 1,
+     "note": "Bis for Sub",
+     "priority": 2,
      "slot": "Shoulder",
      "source": "raid"
     },
@@ -600,7 +600,7 @@
      "difficulty": "mythic",
      "itemId": 268249,
      "note": "",
-     "priority": 2,
+     "priority": 5,
      "slot": "Finger",
      "source": "raid"
     },
@@ -624,7 +624,7 @@
      "difficulty": "mythic",
      "itemId": 271508,
      "note": "",
-     "priority": 2,
+     "priority": 1,
      "slot": "Shoulder",
      "source": "raid"
     },
@@ -632,7 +632,7 @@
      "difficulty": "mythic",
      "itemId": 271509,
      "note": "",
-     "priority": 3,
+     "priority": 1,
      "slot": "Legs",
      "source": "raid"
     },
@@ -640,7 +640,7 @@
      "difficulty": "mythic",
      "itemId": 268252,
      "note": "",
-     "priority": 5,
+     "priority": 1,
      "slot": "Finger",
      "source": "raid"
     },
@@ -648,15 +648,15 @@
      "difficulty": "mythic",
      "itemId": 268206,
      "note": "",
-     "priority": 3,
+     "priority": 5,
      "slot": "One-Hand",
      "source": "raid"
     },
     {
      "difficulty": "mythic",
      "itemId": 268234,
-     "note": "",
-     "priority": 1,
+     "note": "Bis for Sub",
+     "priority": 2,
      "slot": "Hands",
      "source": "raid"
     },
@@ -664,7 +664,7 @@
      "difficulty": "mythic",
      "itemId": 271510,
      "note": "",
-     "priority": 2,
+     "priority": 5,
      "slot": "Head",
      "source": "raid"
     },
@@ -688,7 +688,7 @@
      "difficulty": "mythic",
      "itemId": 268264,
      "note": "",
-     "priority": 3,
+     "priority": 5,
      "slot": "One-Hand",
      "source": "raid"
     },
@@ -711,24 +711,24 @@
     {
      "difficulty": "mythic",
      "itemId": 268225,
-     "note": "",
-     "priority": 1,
+     "note": "Bis for Sub",
+     "priority": 2,
      "slot": "Legs",
      "source": "raid"
     },
     {
      "difficulty": "mythic",
      "itemId": 268256,
-     "note": "",
-     "priority": 1,
+     "note": "Bis for Sub",
+     "priority": 2,
      "slot": "Waist",
      "source": "raid"
     },
     {
      "difficulty": "mythic",
      "itemId": 268253,
-     "note": "",
-     "priority": 1,
+     "note": "Bis for Sub",
+     "priority": 2,
      "slot": "Back",
      "source": "raid"
     },
@@ -808,7 +808,7 @@
      "difficulty": "mythic",
      "itemId": 268266,
      "note": "",
-     "priority": 5,
+     "priority": 1,
      "slot": "Finger",
      "source": "raid"
     },
@@ -1182,7 +1182,7 @@
     }
    ],
    "spec": null,
-   "updatedAt": "2026-09-02T00:42:27.185Z"
+   "updatedAt": "2026-09-03T23:54:44.888Z"
   },
   {
    "character": "bobbyshammy",

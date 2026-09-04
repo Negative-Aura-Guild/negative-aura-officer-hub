@@ -1,6 +1,114 @@
 {
  "data": [
   {
+   "character": "Divari",
+   "class": "Mage",
+   "dps": 180360,
+   "importedAt": "2026-09-04T00:32:36.066Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/ePZYohcJ4Zsmk6PiGdgtwd",
+   "spec": "arcane"
+  },
+  {
+   "character": "Thagin",
+   "class": "Warrior",
+   "dps": 155498,
+   "importedAt": "2026-09-04T00:31:33.809Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/henPkQJxozU7AhiBKC77yz",
+   "spec": "arms"
+  },
+  {
+   "character": "Indrra",
+   "class": "Demon Hunter",
+   "dps": 181405,
+   "importedAt": "2026-09-04T00:29:53.125Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/byqTPt4EQqp69mKgd138tf",
+   "spec": "havoc"
+  },
+  {
+   "character": "Kdvt",
+   "class": "Hunter",
+   "dps": 202197,
+   "importedAt": "2026-09-04T00:29:38.190Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/8hHXfq4p395x7MsrsPKBnB",
+   "spec": "beastmastery"
+  },
+  {
+   "character": "Pillowtrove",
+   "class": "Druid",
+   "dps": null,
+   "importedAt": "2026-09-04T00:29:36.664Z",
+   "profile": "mplus-vault",
+   "reportUrl": "https://questionablyepic.com/live/upgradereport/qfbfpkptnduy",
+   "spec": "restoration"
+  },
+  {
+   "character": "Pillowtrove",
+   "class": "Druid",
+   "dps": null,
+   "importedAt": "2026-09-04T00:29:35.860Z",
+   "profile": "mplus-drops",
+   "reportUrl": "https://questionablyepic.com/live/upgradereport/qfbfpkptnduy",
+   "spec": "restoration"
+  },
+  {
+   "character": "Pillowtrove",
+   "class": "Druid",
+   "dps": null,
+   "importedAt": "2026-09-04T00:29:35.627Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://questionablyepic.com/live/upgradereport/qfbfpkptnduy",
+   "spec": "restoration"
+  },
+  {
+   "character": "Indrra",
+   "class": "Demon Hunter",
+   "dps": 235551,
+   "importedAt": "2026-09-04T00:27:18.699Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/s2ee2Zzjfme4qY83mSeMHw",
+   "spec": "havoc"
+  },
+  {
+   "character": "Uoepriest",
+   "class": "Priest",
+   "dps": 174765,
+   "importedAt": "2026-09-04T00:11:45.151Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/qGhmXYjSwfrSgjPQiFJva7",
+   "spec": "shadow"
+  },
+  {
+   "character": "Johnsonn",
+   "class": "Death Knight",
+   "dps": 84603,
+   "importedAt": "2026-09-04T00:01:36.423Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/2i2hAdXzyvo9vp4YY83261",
+   "spec": "blood"
+  },
+  {
+   "character": "Jarco",
+   "class": "Rogue",
+   "dps": 206865,
+   "importedAt": "2026-09-03T23:55:40.923Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/hethT5QqNVTYGnicTAEFi7",
+   "spec": "outlaw"
+  },
+  {
+   "character": "Jarco",
+   "class": "Rogue",
+   "dps": 218082,
+   "importedAt": "2026-09-03T23:50:21.814Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/wJGqLys2Qw2okAAdJ9kkz9",
+   "spec": "subtlety"
+  },
+  {
    "character": "Augtiste",
    "class": "Evoker",
    "dps": 1373034,
@@ -10,24 +118,6 @@
    "spec": "augmentation"
   },
   {
-   "character": "Jarco",
-   "class": "Rogue",
-   "dps": 201561,
-   "importedAt": "2026-09-02T00:12:05.954Z",
-   "profile": "mythic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/xcrMt9AJGNTdwBTR86dTcJ",
-   "spec": "outlaw"
-  },
-  {
-   "character": "Jarco",
-   "class": "Rogue",
-   "dps": 201524,
-   "importedAt": "2026-09-02T00:12:04.948Z",
-   "profile": "heroic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/wR81NYSxRTKjKDbienhswY",
-   "spec": "outlaw"
-  },
-  {
    "character": "Uoepriest",
    "class": "Priest",
    "dps": 163853,
@@ -35,24 +125,6 @@
    "profile": "mythic-base",
    "reportUrl": "https://www.raidbots.com/simbot/report/1h71aWsNGLVi6vbpPfZJvP",
    "spec": "shadow"
-  },
-  {
-   "character": "Jarco",
-   "class": "Rogue",
-   "dps": 213065,
-   "importedAt": "2026-09-01T20:19:03.492Z",
-   "profile": "mythic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/rcMj7ipMaaZRaHCa9ZpxNg",
-   "spec": "subtlety"
-  },
-  {
-   "character": "Jarco",
-   "class": "Rogue",
-   "dps": 213090,
-   "importedAt": "2026-09-01T20:19:00.106Z",
-   "profile": "heroic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/h1K9Kdk4jN3PM6NuwiVwKj",
-   "spec": "subtlety"
   },
   {
    "character": "Bobbyshammy",
@@ -80,15 +152,6 @@
    "profile": "heroic-max",
    "reportUrl": "https://www.raidbots.com/simbot/report/jkcVn5FErWmwWhMvJRtcDj",
    "spec": "arms"
-  },
-  {
-   "character": "Divari",
-   "class": "Mage",
-   "dps": 167631,
-   "importedAt": "2026-08-27T23:55:22.994Z",
-   "profile": "mythic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/rfN1XpLE6urjygmFRM2Kdv",
-   "spec": "arcane"
   },
   {
    "character": "Divari",
@@ -151,15 +214,6 @@
    "importedAt": "2026-08-26T05:47:21.094Z",
    "profile": "normal-max",
    "reportUrl": "https://www.raidbots.com/simbot/report/19vUKWZs3NiWNKvXrd1WpR",
-   "spec": "beastmastery"
-  },
-  {
-   "character": "Kdvt",
-   "class": "Hunter",
-   "dps": 157831,
-   "importedAt": "2026-08-26T05:46:14.845Z",
-   "profile": "mythic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/7G4hhcyDRiDAphAMFaXP5r",
    "spec": "beastmastery"
   },
   {

@@ -2,6 +2,28 @@
  "guildPage": "https://www.warcraftlogs.com/guild/reports-list/738983",
  "reports": [
   {
+   "code": "yVBQ1NFPGcTn7f6d",
+   "durationMin": 13,
+   "end": 1788481092804,
+   "owner": "Zebracakes",
+   "start": 1788480283917,
+   "title": "7",
+   "url": "https://www.warcraftlogs.com/reports/yVBQ1NFPGcTn7f6d",
+   "zone": null,
+   "zoneId": -1
+  },
+  {
+   "code": "aArk2z89QVJ3LXyR",
+   "durationMin": 286,
+   "end": 1788481769857,
+   "owner": "adrum67",
+   "start": 1788464639261,
+   "title": "Mythic (9-3-36)",
+   "url": "https://www.warcraftlogs.com/reports/aArk2z89QVJ3LXyR",
+   "zone": null,
+   "zoneId": -1
+  },
+  {
    "code": "JHVzvAKDr6nCRLcW",
    "durationMin": 181,
    "end": 1788319986049,
@@ -251,28 +273,6 @@
    "start": 1756684794657,
    "title": "Guild prospers",
    "url": "https://www.warcraftlogs.com/reports/xLrGbQ9Dk1dcHzYN",
-   "zone": "Manaforge Omega",
-   "zoneId": 44
-  },
-  {
-   "code": "dakNp1Pf7VQGqWL2",
-   "durationMin": 24,
-   "end": 1756671796697,
-   "owner": "Papacharly",
-   "start": 1756670354559,
-   "title": "I'm also logging 8/31/2025",
-   "url": "https://www.warcraftlogs.com/reports/dakNp1Pf7VQGqWL2",
-   "zone": "Mythic+ Season 3",
-   "zoneId": 45
-  },
-  {
-   "code": "7nMcwFjZY28L3v9B",
-   "durationMin": 189,
-   "end": 1756438159928,
-   "owner": "adrum67",
-   "start": 1756426792770,
-   "title": "Heroic Reclear 8/28/25",
-   "url": "https://www.warcraftlogs.com/reports/7nMcwFjZY28L3v9B",
    "zone": "Manaforge Omega",
    "zoneId": 44
   }
