@@ -1,4 +1,27 @@
 {
- "applicants": [],
+ "applicants": [
+  {
+   "applied": "9/4/2026 13:48:17",
+   "battletag": "Trex#1912",
+   "classPref": "Arms warrior or whatever warrior spec you want",
+   "discord": "Trex68",
+   "history": "CE in voidspire but never downed Lura. Raided with some complexity limit guys in BFA during covid when I didn't have kids. This guild is very toxic and the guild leader has no interest in any kind of feedback or how his raiders feel.",
+   "nameServer": "Fortressw - Area 52",
+   "notes": "I love playing this game and want to always get better. Love pumping numbers and killing bosses. Willing to sacrifice some numbers to do mechanics. I learn fast.",
+   "rio": {
+    "class": "Warrior",
+    "ilvl": 318.125,
+    "ioScore": 3265,
+    "progress": "8/9 M",
+    "rioProfile": "https://raider.io/characters/us/area-52/Fortressw",
+    "spec": "Fury"
+   },
+   "rioError": null,
+   "rioUrl": "https://raider.io/characters/us/area-52/Fortressw",
+   "uiLink": "",
+   "wclUrl": "https://www.warcraftlogs.com/character/us/area-52/fortressw          Also got Umbral Champion last season if you care.",
+   "whyJoin": "Looking for a competitive group that is chill and competent along with wanting to find cool guys and girls to play with. I also know Noevil in your guild and I had just asked him about you all."
+  }
+ ],
  "formUrl": "https://docs.google.com/forms/d/1ElyYQ9qLSF1lG2I6K66x4_PCqCy1q_Q1eihZLTOriqA/viewform"
 }
