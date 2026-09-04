@@ -1567,6 +1567,38 @@
    ],
    "spec": null,
    "updatedAt": "2026-09-01T18:17:15.788Z"
+  },
+  {
+   "character": "thagin",
+   "class": "Warrior",
+   "selections": [
+    {
+     "difficulty": "mythic",
+     "itemId": 268245,
+     "note": "",
+     "priority": 1,
+     "slot": "Feet",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268229,
+     "note": "",
+     "priority": 1,
+     "slot": "Head",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268248,
+     "note": "",
+     "priority": 2,
+     "slot": "Back",
+     "source": "raid"
+    }
+   ],
+   "spec": null,
+   "updatedAt": "2026-09-04T00:33:29.901Z"
   }
  ]
 }

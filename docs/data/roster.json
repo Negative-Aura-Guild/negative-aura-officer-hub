@@ -1,6 +1,6 @@
 {
- "characterCount": 40,
- "memberCount": 25,
+ "characterCount": 41,
+ "memberCount": 26,
  "members": [
   {
    "battletag": "Tsunami#12275",
@@ -379,7 +379,7 @@
    "role": "melee"
   },
   {
-   "battletag": null,
+   "battletag": "Erzieher#1365",
    "characters": [
     {
      "class": "Monk",
@@ -719,6 +719,30 @@
     "status": "main"
    },
    "name": "Uoe",
+   "rank": "Raider",
+   "role": "ranged"
+  },
+  {
+   "battletag": "Wolfshock#11794",
+   "characters": [
+    {
+     "class": "Hunter",
+     "inactive": false,
+     "name": "Wolfxhunt",
+     "realm": "Bleeding Hollow",
+     "spec": "Marksmanship",
+     "status": "main"
+    }
+   ],
+   "main": {
+    "class": "Hunter",
+    "inactive": false,
+    "name": "Wolfxhunt",
+    "realm": "Bleeding Hollow",
+    "spec": "Marksmanship",
+    "status": "main"
+   },
+   "name": "Wolfxhunt",
    "rank": "Raider",
    "role": "ranged"
   }

@@ -1,6 +1,51 @@
 {
  "data": [
   {
+   "character": "Wolfxhunt",
+   "class": "",
+   "dps": 186187,
+   "importedAt": "2026-09-04T00:45:05.670Z",
+   "profile": "mplus-drops",
+   "reportUrl": "https://www.raidbots.com/simbot/report/tsrAfKY8nVMq1URfwChj1A",
+   "spec": "marksmanship"
+  },
+  {
+   "character": "Wolfxhunt",
+   "class": "",
+   "dps": 270187,
+   "importedAt": "2026-09-04T00:44:03.905Z",
+   "profile": "mplus-drops",
+   "reportUrl": "https://www.raidbots.com/simbot/report/7JddJhKRsAbYdMcNZBBjFm",
+   "spec": "marksmanship"
+  },
+  {
+   "character": "Wolfxhunt",
+   "class": "Hunter",
+   "dps": 186176,
+   "importedAt": "2026-09-04T00:40:36.631Z",
+   "profile": "heroic-base",
+   "reportUrl": "https://www.raidbots.com/simbot/report/amJ5t9GqbbmwiFwqCLVSrW",
+   "spec": "marksmanship"
+  },
+  {
+   "character": "Norberto",
+   "class": "Monk",
+   "dps": 177575,
+   "importedAt": "2026-09-04T00:38:04.052Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/gmr8QbByz1vBQWx4VnM4He",
+   "spec": "windwalker"
+  },
+  {
+   "character": "Wolfxhunt",
+   "class": "Hunter",
+   "dps": 186096,
+   "importedAt": "2026-09-04T00:36:15.393Z",
+   "profile": "mythic-base",
+   "reportUrl": "https://www.raidbots.com/simbot/report/nEHP6HnbecsqTzKZwdV1WM",
+   "spec": "marksmanship"
+  },
+  {
    "character": "Divari",
    "class": "Mage",
    "dps": 180360,
