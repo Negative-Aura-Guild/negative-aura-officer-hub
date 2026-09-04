@@ -160,7 +160,7 @@
      "difficulty": "heroic",
      "itemId": 271093,
      "note": "",
-     "priority": 1,
+     "priority": 5,
      "slot": "Main Hand",
      "source": "raid"
     },
@@ -224,7 +224,7 @@
      "difficulty": "heroic",
      "itemId": 268225,
      "note": "",
-     "priority": 1,
+     "priority": 2,
      "slot": "Legs",
      "source": "raid"
     },
@@ -232,7 +232,7 @@
      "difficulty": "heroic",
      "itemId": 268253,
      "note": "",
-     "priority": 1,
+     "priority": 2,
      "slot": "Back",
      "source": "raid"
     },
@@ -240,7 +240,7 @@
      "difficulty": "heroic",
      "itemId": 268256,
      "note": "",
-     "priority": 1,
+     "priority": 2,
      "slot": "Waist",
      "source": "raid"
     },
@@ -280,7 +280,7 @@
      "difficulty": "heroic",
      "itemId": 268252,
      "note": "Outlaw Want for Keys",
-     "priority": 3,
+     "priority": 1,
      "slot": "Finger",
      "source": "raid"
     },
@@ -288,7 +288,7 @@
      "difficulty": "heroic",
      "itemId": 268234,
      "note": "",
-     "priority": 1,
+     "priority": 3,
      "slot": "Hands",
      "source": "raid"
     },
@@ -296,7 +296,7 @@
      "difficulty": "heroic",
      "itemId": 271509,
      "note": "Outlaw Want for Keys",
-     "priority": 3,
+     "priority": 1,
      "slot": "Legs",
      "source": "raid"
     },
@@ -312,7 +312,7 @@
      "difficulty": "heroic",
      "itemId": 271508,
      "note": "",
-     "priority": 3,
+     "priority": 1,
      "slot": "Shoulder",
      "source": "raid"
     },
@@ -328,7 +328,7 @@
      "difficulty": "heroic",
      "itemId": 271513,
      "note": "",
-     "priority": 5,
+     "priority": 1,
      "slot": "Chest",
      "source": "raid"
     },
@@ -336,7 +336,7 @@
      "difficulty": "heroic",
      "itemId": 268246,
      "note": "",
-     "priority": 1,
+     "priority": 3,
      "slot": "Shoulder",
      "source": "raid"
     },
@@ -344,7 +344,7 @@
      "difficulty": "heroic",
      "itemId": 268249,
      "note": "",
-     "priority": 3,
+     "priority": 5,
      "slot": "Finger",
      "source": "raid"
     },
@@ -392,7 +392,7 @@
      "difficulty": "heroic",
      "itemId": 270165,
      "note": "",
-     "priority": 5,
+     "priority": 2,
      "slot": "Trinket",
      "source": "raid"
     },
@@ -408,7 +408,7 @@
      "difficulty": "heroic",
      "itemId": 268240,
      "note": "",
-     "priority": 2,
+     "priority": 5,
      "slot": "Wrist",
      "source": "raid"
     },
@@ -1182,7 +1182,7 @@
     }
    ],
    "spec": null,
-   "updatedAt": "2026-09-03T23:54:44.888Z"
+   "updatedAt": "2026-09-04T03:39:29.529Z"
   },
   {
    "character": "bobbyshammy",

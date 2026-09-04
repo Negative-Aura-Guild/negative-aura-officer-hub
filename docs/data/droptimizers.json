@@ -1,6 +1,15 @@
 {
  "data": [
   {
+   "character": "Jarco",
+   "class": "Rogue",
+   "dps": 207401,
+   "importedAt": "2026-09-04T03:37:54.463Z",
+   "profile": "heroic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/nPXw5Kea7vMhPi5Jviaeiy",
+   "spec": "outlaw"
+  },
+  {
    "character": "Wolfxhunt",
    "class": "",
    "dps": 186187,
