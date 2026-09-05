@@ -504,7 +504,7 @@
      "difficulty": "mythic",
      "itemId": 268240,
      "note": "",
-     "priority": 1,
+     "priority": 5,
      "slot": "Wrist",
      "source": "raid"
     },
@@ -1182,7 +1182,7 @@
     }
    ],
    "spec": null,
-   "updatedAt": "2026-09-04T03:39:29.529Z"
+   "updatedAt": "2026-09-04T23:37:09.327Z"
   },
   {
    "character": "bobbyshammy",
