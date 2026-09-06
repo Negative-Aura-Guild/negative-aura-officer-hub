@@ -3,10 +3,19 @@
   {
    "character": "Jarco",
    "class": "Rogue",
-   "dps": 207401,
-   "importedAt": "2026-09-04T03:37:54.463Z",
+   "dps": 206097,
+   "importedAt": "2026-09-06T01:18:34.551Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/rKDNKiPgBUfcveBWKcYqqA",
+   "spec": "outlaw"
+  },
+  {
+   "character": "Jarco",
+   "class": "Rogue",
+   "dps": 211939,
+   "importedAt": "2026-09-06T01:15:08.167Z",
    "profile": "heroic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/nPXw5Kea7vMhPi5Jviaeiy",
+   "reportUrl": "https://www.raidbots.com/simbot/report/wEf14b5iCtAfAtYJhciGm4",
    "spec": "outlaw"
   },
   {
@@ -143,24 +152,6 @@
    "profile": "mythic-max",
    "reportUrl": "https://www.raidbots.com/simbot/report/2i2hAdXzyvo9vp4YY83261",
    "spec": "blood"
-  },
-  {
-   "character": "Jarco",
-   "class": "Rogue",
-   "dps": 206865,
-   "importedAt": "2026-09-03T23:55:40.923Z",
-   "profile": "mythic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/hethT5QqNVTYGnicTAEFi7",
-   "spec": "outlaw"
-  },
-  {
-   "character": "Jarco",
-   "class": "Rogue",
-   "dps": 218082,
-   "importedAt": "2026-09-03T23:50:21.814Z",
-   "profile": "mythic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/wJGqLys2Qw2okAAdJ9kkz9",
-   "spec": "subtlety"
   },
   {
    "character": "Augtiste",

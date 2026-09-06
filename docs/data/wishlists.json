@@ -32,7 +32,7 @@
      "difficulty": "mplus",
      "itemId": 251124,
      "note": "",
-     "priority": 5,
+     "priority": 1,
      "slot": "Hands",
      "source": "mplus"
     },
@@ -96,7 +96,7 @@
      "difficulty": "mplus",
      "itemId": 251194,
      "note": "",
-     "priority": 1,
+     "priority": 5,
      "slot": "Finger",
      "source": "mplus"
     },
@@ -200,7 +200,7 @@
      "difficulty": "heroic",
      "itemId": 268266,
      "note": "",
-     "priority": 5,
+     "priority": 1,
      "slot": "Finger",
      "source": "raid"
     },
@@ -224,7 +224,7 @@
      "difficulty": "heroic",
      "itemId": 268225,
      "note": "",
-     "priority": 2,
+     "priority": 5,
      "slot": "Legs",
      "source": "raid"
     },
@@ -232,7 +232,7 @@
      "difficulty": "heroic",
      "itemId": 268253,
      "note": "",
-     "priority": 2,
+     "priority": 5,
      "slot": "Back",
      "source": "raid"
     },
@@ -240,7 +240,7 @@
      "difficulty": "heroic",
      "itemId": 268256,
      "note": "",
-     "priority": 2,
+     "priority": 5,
      "slot": "Waist",
      "source": "raid"
     },
@@ -288,7 +288,7 @@
      "difficulty": "heroic",
      "itemId": 268234,
      "note": "",
-     "priority": 3,
+     "priority": 5,
      "slot": "Hands",
      "source": "raid"
     },
@@ -304,7 +304,7 @@
      "difficulty": "heroic",
      "itemId": 268227,
      "note": "",
-     "priority": 3,
+     "priority": 5,
      "slot": "Waist",
      "source": "raid"
     },
@@ -336,7 +336,7 @@
      "difficulty": "heroic",
      "itemId": 268246,
      "note": "",
-     "priority": 3,
+     "priority": 5,
      "slot": "Shoulder",
      "source": "raid"
     },
@@ -392,7 +392,7 @@
      "difficulty": "heroic",
      "itemId": 270165,
      "note": "",
-     "priority": 2,
+     "priority": 3,
      "slot": "Trinket",
      "source": "raid"
     },
@@ -416,7 +416,7 @@
      "difficulty": "heroic",
      "itemId": 268235,
      "note": "",
-     "priority": 3,
+     "priority": 5,
      "slot": "Chest",
      "source": "raid"
     },
@@ -888,7 +888,7 @@
      "difficulty": "mplus",
      "itemId": 273797,
      "note": "",
-     "priority": 2,
+     "priority": 5,
      "slot": "Trinket",
      "source": "mplus"
     },
@@ -984,7 +984,7 @@
      "difficulty": "mplus",
      "itemId": 159304,
      "note": "",
-     "priority": 1,
+     "priority": 5,
      "slot": "Feet",
      "source": "mplus"
     },
@@ -1096,7 +1096,7 @@
      "difficulty": "mplus",
      "itemId": 162544,
      "note": "",
-     "priority": 1,
+     "priority": 5,
      "slot": "Finger",
      "source": "mplus"
     },
@@ -1179,10 +1179,58 @@
      "priority": 5,
      "slot": "Trinket",
      "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 251186,
+     "note": "",
+     "priority": 5,
+     "slot": "One-Hand",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 251143,
+     "note": "",
+     "priority": 5,
+     "slot": "One-Hand",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 159645,
+     "note": "",
+     "priority": 5,
+     "slot": "One-Hand",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 193767,
+     "note": "",
+     "priority": 5,
+     "slot": "One-Hand",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 158714,
+     "note": "",
+     "priority": 5,
+     "slot": "One-Hand",
+     "source": "mplus"
+    },
+    {
+     "difficulty": "mplus",
+     "itemId": 251224,
+     "note": "",
+     "priority": 5,
+     "slot": "One-Hand",
+     "source": "mplus"
     }
    ],
    "spec": null,
-   "updatedAt": "2026-09-04T23:37:09.327Z"
+   "updatedAt": "2026-09-06T01:21:59.924Z"
   },
   {
    "character": "bobbyshammy",
