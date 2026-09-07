@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-09-07T09:29:01Z",
+ "generatedAt": "2026-09-07T11:26:57Z",
  "sources": {
   "applicants": "ok",
   "calendar": "ok",
   "droptimizers": "ok",
   "logs": "ok",
-  "loot": "error:TimeoutError",
+  "loot": "ok",
   "roster": "ok",
   "wishlists": "ok"
  }
