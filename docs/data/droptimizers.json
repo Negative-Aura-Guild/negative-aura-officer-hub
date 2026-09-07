@@ -1,6 +1,15 @@
 {
  "data": [
   {
+   "character": "Wolfxhunt",
+   "class": "Hunter",
+   "dps": 276282,
+   "importedAt": "2026-09-07T18:41:45.466Z",
+   "profile": "mythic-base",
+   "reportUrl": "https://www.raidbots.com/simbot/report/59TqJsMZnUPpNXB5sLqgPa",
+   "spec": "marksmanship"
+  },
+  {
    "character": "Jarco",
    "class": "Rogue",
    "dps": 206097,

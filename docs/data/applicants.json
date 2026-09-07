@@ -1,6 +1,28 @@
 {
  "applicants": [
   {
+   "applied": "9/7/2026 11:46:14",
+   "battletag": "Drakond#1617",
+   "classPref": "Paladin/Ret",
+   "discord": "allthingsdrakond",
+   "history": "Got to mythic L'ura last season , looking to not raid weekends",
+   "nameServer": "Drakkadin - Area 52",
+   "notes": "I'm always tried to be prepared for fights , positive attitude . played since classic",
+   "rio": {
+    "class": "Paladin",
+    "ilvl": 314,
+    "ioScore": 2672,
+    "progress": "1/9 M",
+    "rioProfile": "https://raider.io/characters/us/area-52/Drakkadin",
+    "spec": "Retribution"
+   },
+   "rioError": null,
+   "rioUrl": "https://raider.io/characters/us/area-52/Drakkadin",
+   "uiLink": "",
+   "wclUrl": "https://www.warcraftlogs.com/character/us/area-52/drakkadin?boss=3492",
+   "whyJoin": "Looking for a midcore guild to progress with"
+  },
+  {
    "applied": "9/4/2026 13:48:17",
    "battletag": "Trex#1912",
    "classPref": "Arms warrior or whatever warrior spec you want",
