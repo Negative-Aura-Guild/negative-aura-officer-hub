@@ -1,6 +1,78 @@
 {
  "data": [
   {
+   "character": "Augtiste",
+   "class": "Evoker",
+   "dps": 1373595,
+   "importedAt": "2026-09-09T00:31:41.195Z",
+   "profile": "heroic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/hoyB4MxnZ7HcShbS9g9tp2",
+   "spec": "augmentation"
+  },
+  {
+   "character": "Thagin",
+   "class": "Warrior",
+   "dps": 157876,
+   "importedAt": "2026-09-09T00:21:31.109Z",
+   "profile": "mythic-base",
+   "reportUrl": "https://www.raidbots.com/simbot/report/ptWmAviaNUyifMAcYbC3jb",
+   "spec": "arms"
+  },
+  {
+   "character": "Kyki",
+   "class": "Rogue",
+   "dps": 177340,
+   "importedAt": "2026-09-09T00:11:14.202Z",
+   "profile": "heroic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/8LN9ZYVgnag1DCQU3QaCVy",
+   "spec": "assassination"
+  },
+  {
+   "character": "Jarco",
+   "class": "Rogue",
+   "dps": 209674,
+   "importedAt": "2026-09-09T00:07:59.825Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/rFQ58KEw12cGVP6M2pUqfT",
+   "spec": "outlaw"
+  },
+  {
+   "character": "Jarco",
+   "class": "Rogue",
+   "dps": 214420,
+   "importedAt": "2026-09-09T00:06:40.221Z",
+   "profile": "heroic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/66kYysdgud5XRBEAHzuneA",
+   "spec": "outlaw"
+  },
+  {
+   "character": "Kyki",
+   "class": "Rogue",
+   "dps": 188237,
+   "importedAt": "2026-09-09T00:06:15.625Z",
+   "profile": "heroic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/rgSmQW6wotKBwtJYPDGyca",
+   "spec": "subtlety"
+  },
+  {
+   "character": "Kdvt",
+   "class": "Hunter",
+   "dps": 209350,
+   "importedAt": "2026-09-08T23:47:43.138Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/chZwmrxkKGDdJWJnr681Th",
+   "spec": "beastmastery"
+  },
+  {
+   "character": "Kdvt",
+   "class": "Hunter",
+   "dps": 203482,
+   "importedAt": "2026-09-08T23:47:19.218Z",
+   "profile": "heroic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/8HTpSxr2kvLnEhxrNpdDoT",
+   "spec": "beastmastery"
+  },
+  {
    "character": "Wolfxhunt",
    "class": "Hunter",
    "dps": 276282,
@@ -8,24 +80,6 @@
    "profile": "mythic-base",
    "reportUrl": "https://www.raidbots.com/simbot/report/59TqJsMZnUPpNXB5sLqgPa",
    "spec": "marksmanship"
-  },
-  {
-   "character": "Jarco",
-   "class": "Rogue",
-   "dps": 206097,
-   "importedAt": "2026-09-06T01:18:34.551Z",
-   "profile": "mythic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/rKDNKiPgBUfcveBWKcYqqA",
-   "spec": "outlaw"
-  },
-  {
-   "character": "Jarco",
-   "class": "Rogue",
-   "dps": 211939,
-   "importedAt": "2026-09-06T01:15:08.167Z",
-   "profile": "heroic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/wEf14b5iCtAfAtYJhciGm4",
-   "spec": "outlaw"
   },
   {
    "character": "Wolfxhunt",
@@ -98,15 +152,6 @@
    "profile": "mythic-max",
    "reportUrl": "https://www.raidbots.com/simbot/report/byqTPt4EQqp69mKgd138tf",
    "spec": "havoc"
-  },
-  {
-   "character": "Kdvt",
-   "class": "Hunter",
-   "dps": 202197,
-   "importedAt": "2026-09-04T00:29:38.190Z",
-   "profile": "mythic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/8hHXfq4p395x7MsrsPKBnB",
-   "spec": "beastmastery"
   },
   {
    "character": "Pillowtrove",
@@ -226,15 +271,6 @@
    "spec": "arms"
   },
   {
-   "character": "Kyki",
-   "class": "Rogue",
-   "dps": 179773,
-   "importedAt": "2026-08-27T23:45:06.803Z",
-   "profile": "heroic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/hV1A2RH5o3cw7RHsPuzhzm",
-   "spec": "subtlety"
-  },
-  {
    "character": "Indrra",
    "class": "Demon Hunter",
    "dps": 198493,
@@ -268,15 +304,6 @@
    "importedAt": "2026-08-26T05:47:21.094Z",
    "profile": "normal-max",
    "reportUrl": "https://www.raidbots.com/simbot/report/19vUKWZs3NiWNKvXrd1WpR",
-   "spec": "beastmastery"
-  },
-  {
-   "character": "Kdvt",
-   "class": "Hunter",
-   "dps": 157740,
-   "importedAt": "2026-08-26T05:44:32.041Z",
-   "profile": "heroic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/4fumfjKXm1gJWuxCFs9Cep",
    "spec": "beastmastery"
   },
   {

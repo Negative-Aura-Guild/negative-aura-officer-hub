@@ -656,7 +656,7 @@
      "difficulty": "mythic",
      "itemId": 268234,
      "note": "Bis for Sub",
-     "priority": 2,
+     "priority": 3,
      "slot": "Hands",
      "source": "raid"
     },
@@ -728,7 +728,7 @@
      "difficulty": "mythic",
      "itemId": 268253,
      "note": "Bis for Sub",
-     "priority": 2,
+     "priority": 3,
      "slot": "Back",
      "source": "raid"
     },
@@ -1227,10 +1227,82 @@
      "priority": 5,
      "slot": "One-Hand",
      "source": "mplus"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 270162,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 270161,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 270160,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 270174,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 270163,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 270171,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 270170,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 270169,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 270167,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
     }
    ],
    "spec": null,
-   "updatedAt": "2026-09-06T01:21:59.924Z"
+   "updatedAt": "2026-09-09T00:09:15.512Z"
   },
   {
    "character": "bobbyshammy",
