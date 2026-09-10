@@ -1,6 +1,15 @@
 {
  "data": [
   {
+   "character": "Indrra",
+   "class": "Demon Hunter",
+   "dps": 192533,
+   "importedAt": "2026-09-10T08:23:36.620Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/tiLmm4Avtbijk69FErhENk",
+   "spec": "havoc"
+  },
+  {
    "character": "Augtiste",
    "class": "Evoker",
    "dps": 1373595,
@@ -143,15 +152,6 @@
    "profile": "mythic-max",
    "reportUrl": "https://www.raidbots.com/simbot/report/henPkQJxozU7AhiBKC77yz",
    "spec": "arms"
-  },
-  {
-   "character": "Indrra",
-   "class": "Demon Hunter",
-   "dps": 181405,
-   "importedAt": "2026-09-04T00:29:53.125Z",
-   "profile": "mythic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/byqTPt4EQqp69mKgd138tf",
-   "spec": "havoc"
   },
   {
    "character": "Pillowtrove",
