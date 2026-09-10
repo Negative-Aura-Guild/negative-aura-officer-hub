@@ -3,6 +3,15 @@
   {
    "character": "Indrra",
    "class": "Demon Hunter",
+   "dps": 192746,
+   "importedAt": "2026-09-10T08:37:46.077Z",
+   "profile": "heroic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/kGx6hqRFbpksHzTTSkJKhe",
+   "spec": "havoc"
+  },
+  {
+   "character": "Indrra",
+   "class": "Demon Hunter",
    "dps": 192533,
    "importedAt": "2026-09-10T08:23:36.620Z",
    "profile": "mythic-max",
