@@ -1,6 +1,6 @@
 {
- "characterCount": 41,
- "memberCount": 26,
+ "characterCount": 39,
+ "memberCount": 25,
  "members": [
   {
    "battletag": "Tsunami#12275",
@@ -73,38 +73,6 @@
    "name": "Pom",
    "rank": "Raider",
    "role": "tank"
-  },
-  {
-   "battletag": "Bobbyfrank#11803",
-   "characters": [
-    {
-     "class": "Shaman",
-     "inactive": false,
-     "name": "Bobbyshammy",
-     "realm": "Area 52",
-     "spec": "Restoration",
-     "status": "main"
-    },
-    {
-     "class": "Evoker",
-     "inactive": true,
-     "name": "Bobbyevo",
-     "realm": "Area 52",
-     "spec": "Devastation",
-     "status": "inactive"
-    }
-   ],
-   "main": {
-    "class": "Shaman",
-    "inactive": false,
-    "name": "Bobbyshammy",
-    "realm": "Area 52",
-    "spec": "Restoration",
-    "status": "main"
-   },
-   "name": "Bobby",
-   "rank": "Raider",
-   "role": "healer"
   },
   {
    "battletag": "Karth#11900",
