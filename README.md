@@ -31,7 +31,7 @@ WarcraftLogs API v1 ──────────────┤→  scripts/re
 | `docs/pages/roster.html` | wowutils `/roster` | Raiders grouped by role, mains + alts, class colors |
 | `docs/pages/loot.html` | Google Sheet embed + wowutils `/droptimizers` + `/wishlists` | Sheet = the loot-tracker sheet; wishlists currently disabled (wowutils API returns 500) |
 | `docs/pages/logs.html` | WarcraftLogs v1 guild reports | Recent reports, links to WarcraftLogs |
-| `docs/pages/recruitment.html` | — | Placeholder until the Discord integration is built |
+| `docs/pages/recruitment.html` | Google Form responses + Raider.IO | Applicant table (iLvl, M+ score, raid progress), sourced from the recruitment form's responses sheet |
 | `docs/index.html` | `/calendar-events` | Landing page + next raid nights |
 
 ## Setup
