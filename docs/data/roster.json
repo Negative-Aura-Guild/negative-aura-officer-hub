@@ -1,6 +1,6 @@
 {
- "characterCount": 39,
- "memberCount": 25,
+ "characterCount": 46,
+ "memberCount": 27,
  "members": [
   {
    "battletag": "Tsunami#12275",
@@ -443,6 +443,46 @@
    "role": "melee"
   },
   {
+   "battletag": "Rat#12792",
+   "characters": [
+    {
+     "class": "Warlock",
+     "inactive": false,
+     "name": "Jgwife",
+     "realm": "Zul'jin",
+     "spec": "Demonology",
+     "status": "alt"
+    },
+    {
+     "class": "Hunter",
+     "inactive": false,
+     "name": "Batann",
+     "realm": "Zul'jin",
+     "spec": "Beast Mastery",
+     "status": "main"
+    },
+    {
+     "class": "Death Knight",
+     "inactive": false,
+     "name": "Jgbaddie",
+     "realm": "Zul'jin",
+     "spec": "Frost",
+     "status": "alt"
+    }
+   ],
+   "main": {
+    "class": "Hunter",
+    "inactive": false,
+    "name": "Batann",
+    "realm": "Zul'jin",
+    "spec": "Beast Mastery",
+    "status": "main"
+   },
+   "name": "ann",
+   "rank": "Raider",
+   "role": "ranged"
+  },
+  {
    "battletag": null,
    "characters": [
     {
@@ -543,6 +583,54 @@
     "status": "main"
    },
    "name": "Fresh",
+   "rank": "Raider",
+   "role": "ranged"
+  },
+  {
+   "battletag": "ImJG#1194",
+   "characters": [
+    {
+     "class": "Demon Hunter",
+     "inactive": false,
+     "name": "Catenjoyer",
+     "realm": "Zul'jin",
+     "spec": "Vengeance",
+     "status": "alt"
+    },
+    {
+     "class": "Mage",
+     "inactive": false,
+     "name": "Fannatic",
+     "realm": "Zul'jin",
+     "spec": "Arcane",
+     "status": "alt"
+    },
+    {
+     "class": "Rogue",
+     "inactive": false,
+     "name": "Jeanstab",
+     "realm": "Zul'jin",
+     "spec": "Assassination",
+     "status": "alt"
+    },
+    {
+     "class": "Druid",
+     "inactive": false,
+     "name": "Thdalailgan",
+     "realm": "Zul'jin",
+     "spec": "Balance",
+     "status": "main"
+    }
+   ],
+   "main": {
+    "class": "Druid",
+    "inactive": false,
+    "name": "Thdalailgan",
+    "realm": "Zul'jin",
+    "spec": "Balance",
+    "status": "main"
+   },
+   "name": "ImJG",
    "rank": "Raider",
    "role": "ranged"
   },

@@ -1,6 +1,51 @@
 {
  "data": [
   {
+   "character": "Kdvt",
+   "class": "Hunter",
+   "dps": 219442,
+   "importedAt": "2026-09-16T00:30:23.369Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/vceh9R99WVLGJHUMgmjckM",
+   "spec": "beastmastery"
+  },
+  {
+   "character": "Batann",
+   "class": "Hunter",
+   "dps": 184614,
+   "importedAt": "2026-09-15T23:58:09.894Z",
+   "profile": "mythic-base",
+   "reportUrl": "https://www.raidbots.com/simbot/report/3uGuu3H4JRyVzKwiC6hzdG",
+   "spec": "beastmastery"
+  },
+  {
+   "character": "Jarco",
+   "class": "Rogue",
+   "dps": 216592,
+   "importedAt": "2026-09-15T23:55:46.737Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/eNg3xfN9MNRp7f6TvBsaFg",
+   "spec": "outlaw"
+  },
+  {
+   "character": "Jarco",
+   "class": "Rogue",
+   "dps": 218754,
+   "importedAt": "2026-09-15T23:54:38.498Z",
+   "profile": "heroic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/azvp8iGiMJpnHuoyZjHLM6",
+   "spec": "outlaw"
+  },
+  {
+   "character": "Kyki",
+   "class": "Rogue",
+   "dps": 212205,
+   "importedAt": "2026-09-15T23:39:08.435Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/fBBCSSCoLMPyWWnVX7uxy4",
+   "spec": "subtlety"
+  },
+  {
    "character": "Indrra",
    "class": "Demon Hunter",
    "dps": 192746,
@@ -46,24 +91,6 @@
    "spec": "assassination"
   },
   {
-   "character": "Jarco",
-   "class": "Rogue",
-   "dps": 209674,
-   "importedAt": "2026-09-09T00:07:59.825Z",
-   "profile": "mythic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/rFQ58KEw12cGVP6M2pUqfT",
-   "spec": "outlaw"
-  },
-  {
-   "character": "Jarco",
-   "class": "Rogue",
-   "dps": 214420,
-   "importedAt": "2026-09-09T00:06:40.221Z",
-   "profile": "heroic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/66kYysdgud5XRBEAHzuneA",
-   "spec": "outlaw"
-  },
-  {
    "character": "Kyki",
    "class": "Rogue",
    "dps": 188237,
@@ -71,15 +98,6 @@
    "profile": "heroic-max",
    "reportUrl": "https://www.raidbots.com/simbot/report/rgSmQW6wotKBwtJYPDGyca",
    "spec": "subtlety"
-  },
-  {
-   "character": "Kdvt",
-   "class": "Hunter",
-   "dps": 209350,
-   "importedAt": "2026-09-08T23:47:43.138Z",
-   "profile": "mythic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/chZwmrxkKGDdJWJnr681Th",
-   "spec": "beastmastery"
   },
   {
    "character": "Kdvt",

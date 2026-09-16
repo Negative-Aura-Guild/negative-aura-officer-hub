@@ -512,7 +512,7 @@
      "difficulty": "mythic",
      "itemId": 268235,
      "note": "Bis for Sub",
-     "priority": 2,
+     "priority": 5,
      "slot": "Chest",
      "source": "raid"
     },
@@ -520,7 +520,7 @@
      "difficulty": "mythic",
      "itemId": 270930,
      "note": "",
-     "priority": 5,
+     "priority": 3,
      "slot": "One-Hand",
      "source": "raid"
     },
@@ -616,7 +616,7 @@
      "difficulty": "mythic",
      "itemId": 268227,
      "note": "",
-     "priority": 2,
+     "priority": 5,
      "slot": "Waist",
      "source": "raid"
     },
@@ -1302,7 +1302,7 @@
     }
    ],
    "spec": null,
-   "updatedAt": "2026-09-11T06:24:44.726Z"
+   "updatedAt": "2026-09-15T23:56:57.225Z"
   },
   {
    "character": "thagin",
