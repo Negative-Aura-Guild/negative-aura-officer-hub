@@ -1,6 +1,15 @@
 {
  "data": [
   {
+   "character": "Thagin",
+   "class": "Warrior",
+   "dps": 165722,
+   "importedAt": "2026-09-16T00:43:04.019Z",
+   "profile": "mythic-base",
+   "reportUrl": "https://www.raidbots.com/simbot/report/4Nke9dYXeAXrNvzoNYFbr8",
+   "spec": "arms"
+  },
+  {
    "character": "Kdvt",
    "class": "Hunter",
    "dps": 219442,
@@ -71,15 +80,6 @@
    "profile": "heroic-max",
    "reportUrl": "https://www.raidbots.com/simbot/report/hoyB4MxnZ7HcShbS9g9tp2",
    "spec": "augmentation"
-  },
-  {
-   "character": "Thagin",
-   "class": "Warrior",
-   "dps": 157876,
-   "importedAt": "2026-09-09T00:21:31.109Z",
-   "profile": "mythic-base",
-   "reportUrl": "https://www.raidbots.com/simbot/report/ptWmAviaNUyifMAcYbC3jb",
-   "spec": "arms"
   },
   {
    "character": "Kyki",
