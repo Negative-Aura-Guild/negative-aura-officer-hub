@@ -1,6 +1,33 @@
 {
  "data": [
   {
+   "character": "Thdalailgan",
+   "class": "Druid",
+   "dps": 187845,
+   "importedAt": "2026-09-17T20:16:42.281Z",
+   "profile": "normal-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/4e5mp7AXgxb2mjhHmr8u7f",
+   "spec": "balance"
+  },
+  {
+   "character": "Thdalailgan",
+   "class": "Druid",
+   "dps": 187779,
+   "importedAt": "2026-09-17T19:45:32.080Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/ptzdwNhk5hdu19uXddiatW",
+   "spec": "balance"
+  },
+  {
+   "character": "Thdalailgan",
+   "class": "Druid",
+   "dps": 190038,
+   "importedAt": "2026-09-17T19:42:56.230Z",
+   "profile": "heroic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/uL64nFPYqrN3s6z1wXoSCC",
+   "spec": "balance"
+  },
+  {
    "character": "Thagin",
    "class": "Warrior",
    "dps": 165722,
