@@ -76,11 +76,11 @@
    "notes": "No",
    "rio": {
     "class": "Priest",
-    "ilvl": 324.938,
+    "ilvl": 324,
     "ioScore": 3190,
     "progress": "3/9 M",
     "rioProfile": "https://raider.io/characters/us/illidan/Uoepriest",
-    "spec": "Shadow"
+    "spec": "Holy"
    },
    "rioError": null,
    "rioUrl": "https://www.warcraftlogs.com/character/us/illidan/uoepriest",
