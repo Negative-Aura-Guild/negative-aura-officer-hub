@@ -1,6 +1,33 @@
 {
  "data": [
   {
+   "character": "Thagin",
+   "class": "Warrior",
+   "dps": 167705,
+   "importedAt": "2026-09-22T16:34:21.475Z",
+   "profile": "mythic-base",
+   "reportUrl": "https://www.raidbots.com/simbot/report/mPcAwEibUuSfuEWR6vBJ2V",
+   "spec": "arms"
+  },
+  {
+   "character": "Thagin",
+   "class": "Warrior",
+   "dps": 167770,
+   "importedAt": "2026-09-22T16:27:25.921Z",
+   "profile": "heroic-base",
+   "reportUrl": "https://www.raidbots.com/simbot/report/2aL18UhJXVPgN856w2NAKB",
+   "spec": "arms"
+  },
+  {
+   "character": "Indrra",
+   "class": "Demon Hunter",
+   "dps": 211600,
+   "importedAt": "2026-09-22T15:28:47.324Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/ndbn6zsh5TmsvdLr4gmP3R",
+   "spec": "havoc"
+  },
+  {
    "character": "Thdalailgan",
    "class": "Druid",
    "dps": 187845,
@@ -26,15 +53,6 @@
    "profile": "heroic-max",
    "reportUrl": "https://www.raidbots.com/simbot/report/uL64nFPYqrN3s6z1wXoSCC",
    "spec": "balance"
-  },
-  {
-   "character": "Thagin",
-   "class": "Warrior",
-   "dps": 165722,
-   "importedAt": "2026-09-16T00:43:04.019Z",
-   "profile": "mythic-base",
-   "reportUrl": "https://www.raidbots.com/simbot/report/4Nke9dYXeAXrNvzoNYFbr8",
-   "spec": "arms"
   },
   {
    "character": "Kdvt",
@@ -88,15 +106,6 @@
    "importedAt": "2026-09-10T08:37:46.077Z",
    "profile": "heroic-max",
    "reportUrl": "https://www.raidbots.com/simbot/report/kGx6hqRFbpksHzTTSkJKhe",
-   "spec": "havoc"
-  },
-  {
-   "character": "Indrra",
-   "class": "Demon Hunter",
-   "dps": 192533,
-   "importedAt": "2026-09-10T08:23:36.620Z",
-   "profile": "mythic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/tiLmm4Avtbijk69FErhENk",
    "spec": "havoc"
   },
   {
