@@ -1,21 +1,39 @@
 {
  "data": [
   {
+   "character": "Thdalailgan",
+   "class": "Druid",
+   "dps": 193378,
+   "importedAt": "2026-09-23T01:44:35.583Z",
+   "profile": "heroic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/ext258txcAx1fNAS3yJkh3",
+   "spec": "balance"
+  },
+  {
+   "character": "Thdalailgan",
+   "class": "Druid",
+   "dps": 193336,
+   "importedAt": "2026-09-23T01:35:59.823Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/qLkjsKnRzuBnQQz4rBvxrw",
+   "spec": "balance"
+  },
+  {
+   "character": "Jarco",
+   "class": "Rogue",
+   "dps": 227056,
+   "importedAt": "2026-09-23T01:29:11.039Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/xBqSQ7vtWamiEKQtejow9N",
+   "spec": "outlaw"
+  },
+  {
    "character": "Jarco",
    "class": "Rogue",
    "dps": 224832,
    "importedAt": "2026-09-23T00:26:43.187Z",
    "profile": "heroic-max",
    "reportUrl": "https://www.raidbots.com/simbot/report/vWijbSue9U27Jak1p4A8hc",
-   "spec": "outlaw"
-  },
-  {
-   "character": "Jarco",
-   "class": "Rogue",
-   "dps": 224538,
-   "importedAt": "2026-09-23T00:26:40.398Z",
-   "profile": "mythic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/1vfP6ECDZCCjA9YeSs7np6",
    "spec": "outlaw"
   },
   {
@@ -88,24 +106,6 @@
    "importedAt": "2026-09-17T20:16:42.281Z",
    "profile": "normal-max",
    "reportUrl": "https://www.raidbots.com/simbot/report/4e5mp7AXgxb2mjhHmr8u7f",
-   "spec": "balance"
-  },
-  {
-   "character": "Thdalailgan",
-   "class": "Druid",
-   "dps": 187779,
-   "importedAt": "2026-09-17T19:45:32.080Z",
-   "profile": "mythic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/ptzdwNhk5hdu19uXddiatW",
-   "spec": "balance"
-  },
-  {
-   "character": "Thdalailgan",
-   "class": "Druid",
-   "dps": 190038,
-   "importedAt": "2026-09-17T19:42:56.230Z",
-   "profile": "heroic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/uL64nFPYqrN3s6z1wXoSCC",
    "spec": "balance"
   },
   {
