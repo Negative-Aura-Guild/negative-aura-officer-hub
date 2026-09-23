@@ -144,7 +144,7 @@
      "difficulty": "heroic",
      "itemId": 271875,
      "note": "",
-     "priority": 1,
+     "priority": 5,
      "slot": "Head",
      "source": "raid"
     },
@@ -312,7 +312,7 @@
      "difficulty": "heroic",
      "itemId": 271508,
      "note": "",
-     "priority": 1,
+     "priority": 5,
      "slot": "Shoulder",
      "source": "raid"
     },
@@ -392,7 +392,7 @@
      "difficulty": "heroic",
      "itemId": 270165,
      "note": "",
-     "priority": 3,
+     "priority": 5,
      "slot": "Trinket",
      "source": "raid"
     },
@@ -536,7 +536,7 @@
      "difficulty": "mythic",
      "itemId": 270165,
      "note": "",
-     "priority": 2,
+     "priority": 5,
      "slot": "Trinket",
      "source": "raid"
     },
@@ -1302,7 +1302,7 @@
     }
    ],
    "spec": null,
-   "updatedAt": "2026-09-15T23:56:57.225Z"
+   "updatedAt": "2026-09-23T00:27:25.302Z"
   },
   {
    "character": "thagin",
@@ -1331,10 +1331,346 @@
      "priority": 2,
      "slot": "Back",
      "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268198,
+     "note": "",
+     "priority": 2,
+     "slot": "Two-Hand",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268250,
+     "note": "",
+     "priority": 5,
+     "slot": "Neck",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268224,
+     "note": "",
+     "priority": 5,
+     "slot": "Legs",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 270165,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 271457,
+     "note": "",
+     "priority": 1,
+     "slot": "Hands",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268260,
+     "note": "",
+     "priority": 5,
+     "slot": "Feet",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268249,
+     "note": "",
+     "priority": 5,
+     "slot": "Finger",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 271459,
+     "note": "",
+     "priority": 1,
+     "slot": "Chest",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268239,
+     "note": "",
+     "priority": 5,
+     "slot": "Wrist",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 270164,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 271454,
+     "note": "",
+     "priority": 1,
+     "slot": "Shoulder",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268252,
+     "note": "",
+     "priority": 1,
+     "slot": "Finger",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 270163,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 271455,
+     "note": "",
+     "priority": 5,
+     "slot": "Legs",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268251,
+     "note": "",
+     "priority": 5,
+     "slot": "Neck",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268220,
+     "note": "",
+     "priority": 1,
+     "slot": "Hands",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 271456,
+     "note": "",
+     "priority": 5,
+     "slot": "Head",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268213,
+     "note": "",
+     "priority": 1,
+     "slot": "Two-Hand",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268253,
+     "note": "",
+     "priority": 5,
+     "slot": "Back",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268222,
+     "note": "",
+     "priority": 2,
+     "slot": "Chest",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268259,
+     "note": "",
+     "priority": 5,
+     "slot": "Waist",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 270173,
+     "note": "",
+     "priority": 1,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268265,
+     "note": "",
+     "priority": 1,
+     "slot": "Neck",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 271878,
+     "note": "",
+     "priority": 1,
+     "slot": "Legs",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 270168,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 270175,
+     "note": "",
+     "priority": 1,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 270909,
+     "note": "",
+     "priority": 1,
+     "slot": "Head",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 271444,
+     "note": "",
+     "priority": 5,
+     "slot": "Shoulder",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 271445,
+     "note": "",
+     "priority": 5,
+     "slot": "Waist",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 271638,
+     "note": "",
+     "priority": 5,
+     "slot": "Neck",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268226,
+     "note": "",
+     "priority": 2,
+     "slot": "Shoulder",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268244,
+     "note": "",
+     "priority": 5,
+     "slot": "Waist",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 268266,
+     "note": "",
+     "priority": 5,
+     "slot": "Finger",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 270162,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 270161,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 270166,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 270160,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 270174,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 270170,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 270171,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 270169,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
+    },
+    {
+     "difficulty": "mythic",
+     "itemId": 270167,
+     "note": "",
+     "priority": 5,
+     "slot": "Trinket",
+     "source": "raid"
     }
    ],
    "spec": null,
-   "updatedAt": "2026-09-04T00:33:29.901Z"
+   "updatedAt": "2026-09-22T23:38:28.700Z"
   }
  ]
 }

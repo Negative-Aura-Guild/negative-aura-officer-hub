@@ -1,22 +1,76 @@
 {
  "data": [
   {
+   "character": "Jarco",
+   "class": "Rogue",
+   "dps": 224832,
+   "importedAt": "2026-09-23T00:26:43.187Z",
+   "profile": "heroic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/vWijbSue9U27Jak1p4A8hc",
+   "spec": "outlaw"
+  },
+  {
+   "character": "Jarco",
+   "class": "Rogue",
+   "dps": 224538,
+   "importedAt": "2026-09-23T00:26:40.398Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/1vfP6ECDZCCjA9YeSs7np6",
+   "spec": "outlaw"
+  },
+  {
+   "character": "Miglight",
+   "class": "Paladin",
+   "dps": null,
+   "importedAt": "2026-09-23T00:06:39.398Z",
+   "profile": "mplus-vault",
+   "reportUrl": "https://questionablyepic.com/live/upgradereport/vkdcuiohsztk",
+   "spec": "holy"
+  },
+  {
+   "character": "Miglight",
+   "class": "Paladin",
+   "dps": null,
+   "importedAt": "2026-09-23T00:06:39.251Z",
+   "profile": "mplus-drops",
+   "reportUrl": "https://questionablyepic.com/live/upgradereport/vkdcuiohsztk",
+   "spec": "holy"
+  },
+  {
+   "character": "Miglight",
+   "class": "Paladin",
+   "dps": null,
+   "importedAt": "2026-09-23T00:06:39.079Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://questionablyepic.com/live/upgradereport/vkdcuiohsztk",
+   "spec": "holy"
+  },
+  {
    "character": "Thagin",
    "class": "Warrior",
-   "dps": 167705,
-   "importedAt": "2026-09-22T16:34:21.475Z",
-   "profile": "mythic-base",
-   "reportUrl": "https://www.raidbots.com/simbot/report/mPcAwEibUuSfuEWR6vBJ2V",
+   "dps": 168053,
+   "importedAt": "2026-09-22T23:52:24.001Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/7XTDHUvCEF1o2P9bhFFDcW",
    "spec": "arms"
   },
   {
    "character": "Thagin",
    "class": "Warrior",
-   "dps": 167770,
-   "importedAt": "2026-09-22T16:27:25.921Z",
-   "profile": "heroic-base",
-   "reportUrl": "https://www.raidbots.com/simbot/report/2aL18UhJXVPgN856w2NAKB",
+   "dps": 167961,
+   "importedAt": "2026-09-22T23:51:40.124Z",
+   "profile": "mythic-base",
+   "reportUrl": "https://www.raidbots.com/simbot/report/1n7fwXE1Z9W1C6YYjKNqZZ",
    "spec": "arms"
+  },
+  {
+   "character": "Uoepriest",
+   "class": "Priest",
+   "dps": 194312,
+   "importedAt": "2026-09-22T22:49:18.752Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/eEGfavDKNMpm6LswoHq6Eh",
+   "spec": "shadow"
   },
   {
    "character": "Indrra",
@@ -71,24 +125,6 @@
    "profile": "mythic-base",
    "reportUrl": "https://www.raidbots.com/simbot/report/3uGuu3H4JRyVzKwiC6hzdG",
    "spec": "beastmastery"
-  },
-  {
-   "character": "Jarco",
-   "class": "Rogue",
-   "dps": 216592,
-   "importedAt": "2026-09-15T23:55:46.737Z",
-   "profile": "mythic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/eNg3xfN9MNRp7f6TvBsaFg",
-   "spec": "outlaw"
-  },
-  {
-   "character": "Jarco",
-   "class": "Rogue",
-   "dps": 218754,
-   "importedAt": "2026-09-15T23:54:38.498Z",
-   "profile": "heroic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/azvp8iGiMJpnHuoyZjHLM6",
-   "spec": "outlaw"
   },
   {
    "character": "Kyki",
@@ -208,15 +244,6 @@
    "spec": "arcane"
   },
   {
-   "character": "Thagin",
-   "class": "Warrior",
-   "dps": 155498,
-   "importedAt": "2026-09-04T00:31:33.809Z",
-   "profile": "mythic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/henPkQJxozU7AhiBKC77yz",
-   "spec": "arms"
-  },
-  {
    "character": "Pillowtrove",
    "class": "Druid",
    "dps": null,
@@ -253,15 +280,6 @@
    "spec": "havoc"
   },
   {
-   "character": "Uoepriest",
-   "class": "Priest",
-   "dps": 174765,
-   "importedAt": "2026-09-04T00:11:45.151Z",
-   "profile": "mythic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/qGhmXYjSwfrSgjPQiFJva7",
-   "spec": "shadow"
-  },
-  {
    "character": "Johnsonn",
    "class": "Death Knight",
    "dps": 84603,
@@ -289,15 +307,6 @@
    "spec": "shadow"
   },
   {
-   "character": "Thagin",
-   "class": "Warrior",
-   "dps": 142343,
-   "importedAt": "2026-08-27T23:55:49.912Z",
-   "profile": "heroic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/jkcVn5FErWmwWhMvJRtcDj",
-   "spec": "arms"
-  },
-  {
    "character": "Divari",
    "class": "Mage",
    "dps": 167652,
@@ -305,15 +314,6 @@
    "profile": "heroic-max",
    "reportUrl": "https://www.raidbots.com/simbot/report/uZ2uh1Pd1BjEMZNZifN3cV",
    "spec": "arcane"
-  },
-  {
-   "character": "Thagin",
-   "class": "Warrior",
-   "dps": 142270,
-   "importedAt": "2026-08-27T23:51:13.152Z",
-   "profile": "normal-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/vn3ZNBdqzgC1i9sP9BL2RL",
-   "spec": "arms"
   },
   {
    "character": "Indrra",
