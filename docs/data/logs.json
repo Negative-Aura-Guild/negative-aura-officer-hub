@@ -2,6 +2,28 @@
  "guildPage": "https://www.warcraftlogs.com/guild/reports-list/738983",
  "reports": [
   {
+   "code": "NkfBXVT9dwajn3QA",
+   "durationMin": 64,
+   "end": 1790299625031,
+   "owner": "adrum67",
+   "start": 1790295792531,
+   "title": "Sszorak 9-24-26",
+   "url": "https://www.warcraftlogs.com/reports/NkfBXVT9dwajn3QA",
+   "zone": "The Venomous Abyss",
+   "zoneId": 53
+  },
+  {
+   "code": "b3Yrp9MnH8NfyzXt",
+   "durationMin": 77,
+   "end": 1790299626031,
+   "owner": "Zebracakes",
+   "start": 1790295019375,
+   "title": "twelve",
+   "url": "https://www.warcraftlogs.com/reports/b3Yrp9MnH8NfyzXt",
+   "zone": "The Venomous Abyss",
+   "zoneId": 53
+  },
+  {
    "code": "xrhCMwQqV1jZkdKW",
    "durationMin": 208,
    "end": 1790134336290,
@@ -253,28 +275,6 @@
    "url": "https://www.warcraftlogs.com/reports/Fj9c3HxVgka6bR84",
    "zone": "The Venomous Abyss",
    "zoneId": 53
-  },
-  {
-   "code": "BMax8q7Gr69VjXwQ",
-   "durationMin": 169,
-   "end": 1787282605849,
-   "owner": "adrum67",
-   "start": 1787272480949,
-   "title": "Heroic Split #2 (2026-08-20)",
-   "url": "https://www.warcraftlogs.com/reports/BMax8q7Gr69VjXwQ",
-   "zone": "The Venomous Abyss",
-   "zoneId": 53
-  },
-  {
-   "code": "Xm2VJvpf8jRhWaMF",
-   "durationMin": null,
-   "end": 1787106501584,
-   "owner": "Zebracakes",
-   "start": 1787106501584,
-   "title": "A block of cheese is a loaf of milk",
-   "url": "https://www.warcraftlogs.com/reports/Xm2VJvpf8jRhWaMF",
-   "zone": null,
-   "zoneId": -1
   }
  ]
 }
