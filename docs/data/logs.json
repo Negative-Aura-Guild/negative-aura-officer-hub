@@ -3,14 +3,14 @@
  "reports": [
   {
    "code": "mCHjYpa8rgnMWhvf",
-   "durationMin": null,
-   "end": 1790727704536,
+   "durationMin": 189,
+   "end": 1790739154336,
    "owner": "adrum67",
-   "start": 1790727704536,
+   "start": 1790727838952,
    "title": "Twin Fangs (9-29-26)",
    "url": "https://www.warcraftlogs.com/reports/mCHjYpa8rgnMWhvf",
-   "zone": null,
-   "zoneId": -1
+   "zone": "The Venomous Abyss",
+   "zoneId": 53
   },
   {
    "code": "3N1tr9QghywXmFAT",

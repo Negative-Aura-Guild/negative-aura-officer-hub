@@ -1,6 +1,69 @@
 {
  "data": [
   {
+   "character": "Thdalailgan",
+   "class": "Druid",
+   "dps": 209900,
+   "importedAt": "2026-09-30T01:06:35.308Z",
+   "profile": "mplus-drops",
+   "reportUrl": "https://www.raidbots.com/simbot/report/gyQWPsucwWfFmSXwMcDn91",
+   "spec": "balance"
+  },
+  {
+   "character": "Thdalailgan",
+   "class": "Druid",
+   "dps": 209994,
+   "importedAt": "2026-09-30T01:05:29.120Z",
+   "profile": "normal-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/pt1cvQLUWWmWjyJwquec3w",
+   "spec": "balance"
+  },
+  {
+   "character": "Thdalailgan",
+   "class": "Druid",
+   "dps": 210063,
+   "importedAt": "2026-09-30T01:05:22.677Z",
+   "profile": "heroic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/kiWX2TqCfoVJc5CoyhEaRE",
+   "spec": "balance"
+  },
+  {
+   "character": "Thdalailgan",
+   "class": "Druid",
+   "dps": 210933,
+   "importedAt": "2026-09-30T01:05:16.610Z",
+   "profile": "mplus-vault",
+   "reportUrl": "https://www.raidbots.com/simbot/report/3s2KPxzQoAFpTyrPEPVG9N",
+   "spec": "balance"
+  },
+  {
+   "character": "Pillowtrove",
+   "class": "Druid",
+   "dps": null,
+   "importedAt": "2026-09-30T01:00:30.870Z",
+   "profile": "mplus-vault",
+   "reportUrl": "https://questionablyepic.com/live/upgradereport/psaxikyuiovh",
+   "spec": "restoration"
+  },
+  {
+   "character": "Pillowtrove",
+   "class": "Druid",
+   "dps": null,
+   "importedAt": "2026-09-30T01:00:30.571Z",
+   "profile": "mplus-drops",
+   "reportUrl": "https://questionablyepic.com/live/upgradereport/psaxikyuiovh",
+   "spec": "restoration"
+  },
+  {
+   "character": "Pillowtrove",
+   "class": "Druid",
+   "dps": null,
+   "importedAt": "2026-09-30T01:00:30.297Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://questionablyepic.com/live/upgradereport/psaxikyuiovh",
+   "spec": "restoration"
+  },
+  {
    "character": "Kdvt",
    "class": "Hunter",
    "dps": 203647,
@@ -109,15 +172,6 @@
    "spec": "arms"
   },
   {
-   "character": "Thdalailgan",
-   "class": "Druid",
-   "dps": 196358,
-   "importedAt": "2026-09-23T19:02:08.002Z",
-   "profile": "heroic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/53tPVUxyrBNazRVq6NWQCm",
-   "spec": "balance"
-  },
-  {
    "character": "Jarco",
    "class": "Rogue",
    "dps": 227056,
@@ -152,15 +206,6 @@
    "profile": "mythic-max",
    "reportUrl": "https://www.raidbots.com/simbot/report/ndbn6zsh5TmsvdLr4gmP3R",
    "spec": "havoc"
-  },
-  {
-   "character": "Thdalailgan",
-   "class": "Druid",
-   "dps": 187845,
-   "importedAt": "2026-09-17T20:16:42.281Z",
-   "profile": "normal-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/4e5mp7AXgxb2mjhHmr8u7f",
-   "spec": "balance"
   },
   {
    "character": "Kdvt",
@@ -278,33 +323,6 @@
    "profile": "mythic-max",
    "reportUrl": "https://www.raidbots.com/simbot/report/ePZYohcJ4Zsmk6PiGdgtwd",
    "spec": "arcane"
-  },
-  {
-   "character": "Pillowtrove",
-   "class": "Druid",
-   "dps": null,
-   "importedAt": "2026-09-04T00:29:36.664Z",
-   "profile": "mplus-vault",
-   "reportUrl": "https://questionablyepic.com/live/upgradereport/qfbfpkptnduy",
-   "spec": "restoration"
-  },
-  {
-   "character": "Pillowtrove",
-   "class": "Druid",
-   "dps": null,
-   "importedAt": "2026-09-04T00:29:35.860Z",
-   "profile": "mplus-drops",
-   "reportUrl": "https://questionablyepic.com/live/upgradereport/qfbfpkptnduy",
-   "spec": "restoration"
-  },
-  {
-   "character": "Pillowtrove",
-   "class": "Druid",
-   "dps": null,
-   "importedAt": "2026-09-04T00:29:35.627Z",
-   "profile": "mythic-max",
-   "reportUrl": "https://questionablyepic.com/live/upgradereport/qfbfpkptnduy",
-   "spec": "restoration"
   },
   {
    "character": "Indrra",

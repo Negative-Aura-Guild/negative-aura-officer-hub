@@ -2557,6 +2557,60 @@
    "Tier Item?": "FALSE"
   },
   {
+   "Entry ID": "1790729697-5",
+   "Imported At": "2026-09-29 22:32:41",
+   "Item": "Swelling Sea Spaulders",
+   "Player": "Miglight",
+   "Raid Date": "2026-09-29",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1790729520-0",
+   "Imported At": "2026-09-29 22:32:41",
+   "Item": "Grips of Swirling Fury",
+   "Player": "Thagin",
+   "Raid Date": "2026-09-29",
+   "Response / Reason": "Personal Loot - Non tradeable",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1790729691-4",
+   "Imported At": "2026-09-29 22:32:41",
+   "Item": "Swelling Sea Spaulders",
+   "Player": "Thagin",
+   "Raid Date": "2026-09-29",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1790729531-1",
+   "Imported At": "2026-09-29 22:32:41",
+   "Item": "Wavecaller's Seastone",
+   "Player": "Pillowtrove",
+   "Raid Date": "2026-09-29",
+   "Response / Reason": "Bonus Loot",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1790729592-2",
+   "Imported At": "2026-09-29 22:32:41",
+   "Item": "Breakwater Boots",
+   "Player": "Karthmonk",
+   "Raid Date": "2026-09-29",
+   "Response / Reason": "BIS (for difficulty)",
+   "Tier Item?": "FALSE"
+  },
+  {
+   "Entry ID": "1790729656-3",
+   "Imported At": "2026-09-29 22:32:41",
+   "Item": "Forgotten Grotto Girdle",
+   "Player": "Johnsonn",
+   "Raid Date": "2026-09-29",
+   "Response / Reason": "Stat allocation",
+   "Tier Item?": "FALSE"
+  },
+  {
    "Entry ID": "",
    "Imported At": "",
    "Item": "",
@@ -3477,11 +3531,11 @@
    "Tier Pieces Received": "1"
   },
   {
-   "Class": "Shaman",
+   "Class": "Hunter",
    "Full Tier History": "",
    "Last Received Date": "",
    "Last Tier Item": "",
-   "Player": "Bobbyshammy",
+   "Player": "Batann",
    "Roster Status": "Main",
    "Tier Pieces Received": "0"
   },
@@ -3666,6 +3720,15 @@
    "Tier Pieces Received": "2"
   },
   {
+   "Class": "Druid",
+   "Full Tier History": "",
+   "Last Received Date": "",
+   "Last Tier Item": "",
+   "Player": "Thdalailgan",
+   "Roster Status": "Main",
+   "Tier Pieces Received": "0"
+  },
+  {
    "Class": "Priest",
    "Full Tier History": "Venomwoven Idol (2026-08-23); Venomwoven Remnant (2026-09-08)",
    "Last Received Date": "2026-09-08",
@@ -3684,6 +3747,15 @@
    "Tier Pieces Received": "1"
   },
   {
+   "Class": "Hunter",
+   "Full Tier History": "Venomcast Idol (2026-09-01); Venomcast Icon (2026-09-10)",
+   "Last Received Date": "2026-09-10",
+   "Last Tier Item": "Venomcast Icon",
+   "Player": "Wolfxhunt",
+   "Roster Status": "Main",
+   "Tier Pieces Received": "2"
+  },
+  {
    "Class": "",
    "Full Tier History": "Venomcured Remnant (2026-08-18)",
    "Last Received Date": "2026-08-18",
@@ -3691,15 +3763,6 @@
    "Player": "Exxer",
    "Roster Status": "Not on Roster",
    "Tier Pieces Received": "1"
-  },
-  {
-   "Class": "",
-   "Full Tier History": "Venomcast Idol (2026-09-01); Venomcast Icon (2026-09-10)",
-   "Last Received Date": "2026-09-10",
-   "Last Tier Item": "Venomcast Icon",
-   "Player": "Wolfxhunt",
-   "Roster Status": "Not on Roster",
-   "Tier Pieces Received": "2"
   }
  ],
  "tierCols": [
