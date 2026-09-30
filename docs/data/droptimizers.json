@@ -1,13 +1,112 @@
 {
  "data": [
   {
+   "character": "Kdvt",
+   "class": "Hunter",
+   "dps": 203647,
+   "importedAt": "2026-09-30T00:22:10.708Z",
+   "profile": "heroic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/8AMxAEb6nbMcHbQRYhfFdm",
+   "spec": "marksmanship"
+  },
+  {
+   "character": "Kdvt",
+   "class": "Hunter",
+   "dps": 203685,
+   "importedAt": "2026-09-30T00:21:56.055Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/v5S3FjoiYAejksy9tVKsLt",
+   "spec": "marksmanship"
+  },
+  {
+   "character": "Thdalailgan",
+   "class": "Druid",
+   "dps": 210057,
+   "importedAt": "2026-09-29T23:34:36.378Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/4RaMEyjaSi96btVVi41QMq",
+   "spec": "balance"
+  },
+  {
    "character": "Augtiste",
    "class": "Evoker",
-   "dps": 1439676,
-   "importedAt": "2026-09-25T02:04:37.734Z",
-   "profile": "mythic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/mRpAJFuLvtCkgDxDVsF9MP",
+   "dps": 1442885,
+   "importedAt": "2026-09-29T23:31:10.510Z",
+   "profile": "heroic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/kCJSHx7Yycc7WgV3xy9tGH",
    "spec": "augmentation"
+  },
+  {
+   "character": "Augtiste",
+   "class": "Evoker",
+   "dps": 1443156,
+   "importedAt": "2026-09-29T23:28:53.164Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/gbXEoDqUbyoNDQ4zGckna8",
+   "spec": "augmentation"
+  },
+  {
+   "character": "Miglight",
+   "class": "Paladin",
+   "dps": null,
+   "importedAt": "2026-09-29T23:08:04.864Z",
+   "profile": "mplus-vault",
+   "reportUrl": "https://questionablyepic.com/live/upgradereport/xtyydnrizwmx",
+   "spec": "holy"
+  },
+  {
+   "character": "Miglight",
+   "class": "Paladin",
+   "dps": null,
+   "importedAt": "2026-09-29T23:08:04.699Z",
+   "profile": "mplus-drops",
+   "reportUrl": "https://questionablyepic.com/live/upgradereport/xtyydnrizwmx",
+   "spec": "holy"
+  },
+  {
+   "character": "Miglight",
+   "class": "Paladin",
+   "dps": null,
+   "importedAt": "2026-09-29T23:08:04.498Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://questionablyepic.com/live/upgradereport/xtyydnrizwmx",
+   "spec": "holy"
+  },
+  {
+   "character": "Ilovewow",
+   "class": "Mage",
+   "dps": 186577,
+   "importedAt": "2026-09-29T22:29:43.423Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/7CMH4vuGZwmyKpiUx6wMNQ",
+   "spec": "frost"
+  },
+  {
+   "character": "Batann",
+   "class": "Hunter",
+   "dps": 210846,
+   "importedAt": "2026-09-29T21:40:14.985Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/gxWE2hZw1FNxH12LjzJZZB",
+   "spec": "beastmastery"
+  },
+  {
+   "character": "Jgwife",
+   "class": "Warlock",
+   "dps": 187280,
+   "importedAt": "2026-09-29T21:13:09.656Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/kwnqFHX4w9BZQsqKaxQ2fA",
+   "spec": "demonology"
+  },
+  {
+   "character": "Thagin",
+   "class": "Warrior",
+   "dps": 170230,
+   "importedAt": "2026-09-29T20:50:55.233Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/i5JUXiK9YtMCdyJ4CYaJA9",
+   "spec": "arms"
   },
   {
    "character": "Thdalailgan",
@@ -16,15 +115,6 @@
    "importedAt": "2026-09-23T19:02:08.002Z",
    "profile": "heroic-max",
    "reportUrl": "https://www.raidbots.com/simbot/report/53tPVUxyrBNazRVq6NWQCm",
-   "spec": "balance"
-  },
-  {
-   "character": "Thdalailgan",
-   "class": "Druid",
-   "dps": 196329,
-   "importedAt": "2026-09-23T18:57:32.186Z",
-   "profile": "mythic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/q2LF2WSTJH5AZLLPi8u1rL",
    "spec": "balance"
   },
   {
@@ -44,51 +134,6 @@
    "profile": "heroic-max",
    "reportUrl": "https://www.raidbots.com/simbot/report/vWijbSue9U27Jak1p4A8hc",
    "spec": "outlaw"
-  },
-  {
-   "character": "Miglight",
-   "class": "Paladin",
-   "dps": null,
-   "importedAt": "2026-09-23T00:06:39.398Z",
-   "profile": "mplus-vault",
-   "reportUrl": "https://questionablyepic.com/live/upgradereport/vkdcuiohsztk",
-   "spec": "holy"
-  },
-  {
-   "character": "Miglight",
-   "class": "Paladin",
-   "dps": null,
-   "importedAt": "2026-09-23T00:06:39.251Z",
-   "profile": "mplus-drops",
-   "reportUrl": "https://questionablyepic.com/live/upgradereport/vkdcuiohsztk",
-   "spec": "holy"
-  },
-  {
-   "character": "Miglight",
-   "class": "Paladin",
-   "dps": null,
-   "importedAt": "2026-09-23T00:06:39.079Z",
-   "profile": "mythic-max",
-   "reportUrl": "https://questionablyepic.com/live/upgradereport/vkdcuiohsztk",
-   "spec": "holy"
-  },
-  {
-   "character": "Thagin",
-   "class": "Warrior",
-   "dps": 168053,
-   "importedAt": "2026-09-22T23:52:24.001Z",
-   "profile": "mythic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/7XTDHUvCEF1o2P9bhFFDcW",
-   "spec": "arms"
-  },
-  {
-   "character": "Thagin",
-   "class": "Warrior",
-   "dps": 167961,
-   "importedAt": "2026-09-22T23:51:40.124Z",
-   "profile": "mythic-base",
-   "reportUrl": "https://www.raidbots.com/simbot/report/1n7fwXE1Z9W1C6YYjKNqZZ",
-   "spec": "arms"
   },
   {
    "character": "Uoepriest",
@@ -127,15 +172,6 @@
    "spec": "beastmastery"
   },
   {
-   "character": "Batann",
-   "class": "Hunter",
-   "dps": 184614,
-   "importedAt": "2026-09-15T23:58:09.894Z",
-   "profile": "mythic-base",
-   "reportUrl": "https://www.raidbots.com/simbot/report/3uGuu3H4JRyVzKwiC6hzdG",
-   "spec": "beastmastery"
-  },
-  {
    "character": "Kyki",
    "class": "Rogue",
    "dps": 212205,
@@ -152,15 +188,6 @@
    "profile": "heroic-max",
    "reportUrl": "https://www.raidbots.com/simbot/report/kGx6hqRFbpksHzTTSkJKhe",
    "spec": "havoc"
-  },
-  {
-   "character": "Augtiste",
-   "class": "Evoker",
-   "dps": 1373595,
-   "importedAt": "2026-09-09T00:31:41.195Z",
-   "profile": "heroic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/hoyB4MxnZ7HcShbS9g9tp2",
-   "spec": "augmentation"
   },
   {
    "character": "Kyki",

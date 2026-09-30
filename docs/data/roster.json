@@ -1,5 +1,5 @@
 {
- "characterCount": 46,
+ "characterCount": 48,
  "memberCount": 27,
  "members": [
   {
@@ -59,6 +59,14 @@
      "name": "Pomelor",
      "realm": "Dalaran",
      "spec": "Guardian",
+     "status": "alt"
+    },
+    {
+     "class": "Paladin",
+     "inactive": false,
+     "name": "Coloniel",
+     "realm": "Dalaran",
+     "spec": "Protection",
      "status": "alt"
     }
    ],
@@ -294,12 +302,20 @@
    "battletag": "Leonarvo#11797",
    "characters": [
     {
+     "class": "Mage",
+     "inactive": false,
+     "name": "Ilovewow",
+     "realm": "Illidan",
+     "spec": "Arcane",
+     "status": "main"
+    },
+    {
      "class": "Death Knight",
      "inactive": false,
      "name": "Goygrips",
      "realm": "Stormrage",
      "spec": "Unholy",
-     "status": "main"
+     "status": "alt"
     },
     {
      "class": "Hunter",
@@ -311,11 +327,11 @@
     }
    ],
    "main": {
-    "class": "Death Knight",
+    "class": "Mage",
     "inactive": false,
-    "name": "Goygrips",
-    "realm": "Stormrage",
-    "spec": "Unholy",
+    "name": "Ilovewow",
+    "realm": "Illidan",
+    "spec": "Arcane",
     "status": "main"
    },
    "name": "Leo",
@@ -451,7 +467,7 @@
      "name": "Jgwife",
      "realm": "Zul'jin",
      "spec": "Demonology",
-     "status": "alt"
+     "status": "main"
     },
     {
      "class": "Hunter",
@@ -459,7 +475,7 @@
      "name": "Batann",
      "realm": "Zul'jin",
      "spec": "Beast Mastery",
-     "status": "main"
+     "status": "alt"
     },
     {
      "class": "Death Knight",
@@ -471,11 +487,11 @@
     }
    ],
    "main": {
-    "class": "Hunter",
+    "class": "Warlock",
     "inactive": false,
-    "name": "Batann",
+    "name": "Jgwife",
     "realm": "Zul'jin",
-    "spec": "Beast Mastery",
+    "spec": "Demonology",
     "status": "main"
    },
    "name": "ann",
