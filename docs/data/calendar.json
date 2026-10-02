@@ -2,19 +2,6 @@
  "events": [
   {
    "counts": {
-    "absent": 1,
-    "present": 26
-   },
-   "date": "2026-10-01",
-   "difficulty": "Mythic",
-   "end": "23:00",
-   "name": "Tue/Thu Mythic",
-   "rosterSize": 27,
-   "start": "20:30",
-   "status": "planned"
-  },
-  {
-   "counts": {
     "present": 27
    },
    "date": "2026-10-06",
@@ -92,6 +79,18 @@
    "date": "2026-10-27",
    "difficulty": "Mythic",
    "end": "23:30",
+   "name": "Tue/Thu Mythic",
+   "rosterSize": 27,
+   "start": "20:30",
+   "status": "planned"
+  },
+  {
+   "counts": {
+    "present": 27
+   },
+   "date": "2026-10-29",
+   "difficulty": "Mythic",
+   "end": "23:00",
    "name": "Tue/Thu Mythic",
    "rosterSize": 27,
    "start": "20:30",

@@ -2,6 +2,17 @@
  "guildPage": "https://www.warcraftlogs.com/guild/reports-list/738983",
  "reports": [
   {
+   "code": "t1PJKfNdZkVWDqTA",
+   "durationMin": 109,
+   "end": 1790907132307,
+   "owner": "adrum67",
+   "start": 1790900616628,
+   "title": "Twin Fangs 10-1-26",
+   "url": "https://www.warcraftlogs.com/reports/t1PJKfNdZkVWDqTA",
+   "zone": "The Venomous Abyss",
+   "zoneId": 53
+  },
+  {
    "code": "mCHjYpa8rgnMWhvf",
    "durationMin": 189,
    "end": 1790739154336,
@@ -262,17 +273,6 @@
    "start": 1787705813230,
    "title": "2026-08-25",
    "url": "https://www.warcraftlogs.com/reports/xqaHJ2ZAT9zPLCYW",
-   "zone": "The Venomous Abyss",
-   "zoneId": 53
-  },
-  {
-   "code": "rHg6NbqCWPRcd7Vv",
-   "durationMin": 25,
-   "end": 1787705952229,
-   "owner": "adrum67",
-   "start": 1787704471811,
-   "title": "2026-08-25",
-   "url": "https://www.warcraftlogs.com/reports/rHg6NbqCWPRcd7Vv",
    "zone": "The Venomous Abyss",
    "zoneId": 53
   }

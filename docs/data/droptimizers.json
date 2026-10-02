@@ -1,6 +1,15 @@
 {
  "data": [
   {
+   "character": "Indrra",
+   "class": "Demon Hunter",
+   "dps": 207386,
+   "importedAt": "2026-10-01T23:28:04.108Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/3BHTy8cYLnQuMQ688a6VAn",
+   "spec": "havoc"
+  },
+  {
    "character": "Thdalailgan",
    "class": "Druid",
    "dps": 209900,
@@ -197,15 +206,6 @@
    "profile": "mythic-max",
    "reportUrl": "https://www.raidbots.com/simbot/report/eEGfavDKNMpm6LswoHq6Eh",
    "spec": "shadow"
-  },
-  {
-   "character": "Indrra",
-   "class": "Demon Hunter",
-   "dps": 211600,
-   "importedAt": "2026-09-22T15:28:47.324Z",
-   "profile": "mythic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/ndbn6zsh5TmsvdLr4gmP3R",
-   "spec": "havoc"
   },
   {
    "character": "Kdvt",
