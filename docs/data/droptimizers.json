@@ -1,6 +1,33 @@
 {
  "data": [
   {
+   "character": "Pillowtrove",
+   "class": "Druid",
+   "dps": null,
+   "importedAt": "2026-10-06T20:04:06.770Z",
+   "profile": "mplus-vault",
+   "reportUrl": "https://questionablyepic.com/live/upgradereport/twihtlehwicp",
+   "spec": "restoration"
+  },
+  {
+   "character": "Pillowtrove",
+   "class": "Druid",
+   "dps": null,
+   "importedAt": "2026-10-06T20:04:06.469Z",
+   "profile": "mplus-drops",
+   "reportUrl": "https://questionablyepic.com/live/upgradereport/twihtlehwicp",
+   "spec": "restoration"
+  },
+  {
+   "character": "Pillowtrove",
+   "class": "Druid",
+   "dps": null,
+   "importedAt": "2026-10-06T20:04:06.160Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://questionablyepic.com/live/upgradereport/twihtlehwicp",
+   "spec": "restoration"
+  },
+  {
    "character": "Indrra",
    "class": "Demon Hunter",
    "dps": 207386,
@@ -44,33 +71,6 @@
    "profile": "mplus-vault",
    "reportUrl": "https://www.raidbots.com/simbot/report/3s2KPxzQoAFpTyrPEPVG9N",
    "spec": "balance"
-  },
-  {
-   "character": "Pillowtrove",
-   "class": "Druid",
-   "dps": null,
-   "importedAt": "2026-09-30T01:00:30.870Z",
-   "profile": "mplus-vault",
-   "reportUrl": "https://questionablyepic.com/live/upgradereport/psaxikyuiovh",
-   "spec": "restoration"
-  },
-  {
-   "character": "Pillowtrove",
-   "class": "Druid",
-   "dps": null,
-   "importedAt": "2026-09-30T01:00:30.571Z",
-   "profile": "mplus-drops",
-   "reportUrl": "https://questionablyepic.com/live/upgradereport/psaxikyuiovh",
-   "spec": "restoration"
-  },
-  {
-   "character": "Pillowtrove",
-   "class": "Druid",
-   "dps": null,
-   "importedAt": "2026-09-30T01:00:30.297Z",
-   "profile": "mythic-max",
-   "reportUrl": "https://questionablyepic.com/live/upgradereport/psaxikyuiovh",
-   "spec": "restoration"
   },
   {
    "character": "Kdvt",
