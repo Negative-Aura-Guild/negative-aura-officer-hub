@@ -76,7 +76,7 @@
    "notes": "No",
    "rio": {
     "class": "Priest",
-    "ilvl": 329,
+    "ilvl": 329.188,
     "ioScore": 3304,
     "progress": "3/9 M",
     "rioProfile": "https://raider.io/characters/us/illidan/Uoepriest",
@@ -187,7 +187,7 @@
    "rio": {
     "class": "Rogue",
     "ilvl": 330,
-    "ioScore": 3224,
+    "ioScore": 3263,
     "progress": "2/9 M",
     "rioProfile": "https://raider.io/characters/us/area-52/Sneakyninya",
     "spec": "Assassination"
