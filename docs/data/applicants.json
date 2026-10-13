@@ -120,7 +120,7 @@
    "notes": "Nothing in particular springs to mind.",
    "rio": {
     "class": "Evoker",
-    "ilvl": 327,
+    "ilvl": 327.938,
     "ioScore": 3033,
     "progress": "7/9 M",
     "rioProfile": "https://raider.io/characters/us/tichondrius/Berylizal",
@@ -177,6 +177,28 @@
    "whyJoin": "I am looking to continue raiding in a guild with experience and history. A guild that will stand the tests of time and allow me to improve."
   },
   {
+   "applied": "10/12/2026 17:18:13",
+   "battletag": "Bayla#1700",
+   "classPref": "Priest/Holy - Geared and cleared Heroic. Ready for Mythic. Shaman / Resto - Ready for Heroic and still gearing.",
+   "discord": "Baylaboo",
+   "history": "Life long PvPer changed PvEer last season. This is my first season raiding and I want to do it competitively. I will still help my current guild on alts because loyalty is everything. They will not be doing Mythic raiding though.",
+   "nameServer": "Baylaboo-Moonguard",
+   "notes": "I excel at competitive games. I was able to take several OW accounts to GM and several accounts in Rivals to GM in days. My PvP blitz last season was in the 3000 rating. I love chalenging myself and being the best that I can be.",
+   "rio": {
+    "class": "Priest",
+    "ilvl": 322.438,
+    "ioScore": 3229,
+    "progress": "",
+    "rioProfile": "https://raider.io/characters/us/moon-guard/Baylaboo",
+    "spec": "Holy"
+   },
+   "rioError": null,
+   "rioUrl": "https://raider.io/characters/us/moon-guard/Baylaboo",
+   "uiLink": "I can supply another screenshot",
+   "wclUrl": "Killed Ula'Tek with pug: https://www.warcraftlogs.com/reports/LWnCfcjwDXpZQqJy?fight=7&type=healing&modal=fight-selection    Night 2 logs with my regular H group: https://www.warcraftlogs.com/reports/v2MYB4zG6rjy3Q1m      Night 1 with regular group: https://www.warcraftlogs.com/reports/rtVzKhZyH3w9Fpm2?fight=last&type=summary&modal=fight-selection",
+   "whyJoin": "I am doing really well with Heroic raiding that I want to challenge myself with Mythic raiding competitively."
+  },
+  {
    "applied": "10/11/2026 11:35:51",
    "battletag": "Shadowphyph#1864",
    "classPref": "Mage - All (Change as needeed)",
@@ -208,8 +230,8 @@
    "notes": "I could care less about loot, I just wanna kill bosses fast and improve as much as possible. I'm a pretty laid back raider and can be a bit shy at first, but I am more than happy to put in the work required to succeed. I am however not very tolerant of slurs/\"gamer words\", so if that's running rampant then I don't think that it'd be a good fit (hopefully not, but since I don't know y'all respectfully I don't wanna waste anyone's time)",
    "rio": {
     "class": "Rogue",
-    "ilvl": 330.188,
-    "ioScore": 3320,
+    "ilvl": 330,
+    "ioScore": 3349,
     "progress": "2/9 M",
     "rioProfile": "https://raider.io/characters/us/area-52/Sneakyninya",
     "spec": "Assassination"
