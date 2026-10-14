@@ -1,6 +1,15 @@
 {
  "data": [
   {
+   "character": "Augtiste",
+   "class": "Evoker",
+   "dps": 1445387,
+   "importedAt": "2026-10-14T00:07:18.783Z",
+   "profile": "mythic-max",
+   "reportUrl": "https://www.raidbots.com/simbot/report/7LefeSq5D1GbPb3wpSXgPZ",
+   "spec": "augmentation"
+  },
+  {
    "character": "Keraxya",
    "class": "Evoker",
    "dps": null,
@@ -26,15 +35,6 @@
    "profile": "mythic-max",
    "reportUrl": "https://questionablyepic.com/live/upgradereport/hrqnmbxhowsc",
    "spec": "preservation"
-  },
-  {
-   "character": "Augtiste",
-   "class": "Evoker",
-   "dps": 1443475,
-   "importedAt": "2026-10-07T00:21:54.888Z",
-   "profile": "mythic-max",
-   "reportUrl": "https://www.raidbots.com/simbot/report/kzwFMEJodYPjE5BEghkUWQ",
-   "spec": "augmentation"
   },
   {
    "character": "Uoepriest",
