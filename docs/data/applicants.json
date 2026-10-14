@@ -118,8 +118,15 @@
    "history": "(Re)started raiding in TWW S2 with a more casual guild, but decided to push for something more serious after they broke up at the end of MN S1 due to time issues and had rather routine performance/attendance holding them back. Trialed for a different guild but ultimately didn't make the cut presumably due to my competition having more raid experience under their belt.",
    "nameServer": "Berylizal, Tichondrius",
    "notes": "Nothing in particular springs to mind.",
-   "rio": null,
-   "rioError": "HTTP 504",
+   "rio": {
+    "class": "Evoker",
+    "ilvl": 329,
+    "ioScore": 3033,
+    "progress": "7/9 M",
+    "rioProfile": "https://raider.io/characters/us/tichondrius/Berylizal",
+    "spec": "Devastation"
+   },
+   "rioError": null,
    "rioUrl": "https://raider.io/characters/us/tichondrius/Berylizal",
    "uiLink": "",
    "wclUrl": "https://www.warcraftlogs.com/character/id/90927770 (The mythic nek'zali logs are awful because I was stuck on soulwell add duty despite suggesting otherwise as devastation evoker is one if not the worst class for that)",
