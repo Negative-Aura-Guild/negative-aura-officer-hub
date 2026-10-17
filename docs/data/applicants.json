@@ -142,7 +142,7 @@
    "notes": "I'm 24, a remote software engineer for a defense contractor, so I'm free every evening from 3pm CT and all weekend. Former Tier 2 Overwatch competitor (2019) and top rank in Marvel Rivals, Apex and Fortnite; I also played and coached college football. When I lock in on a game I don't stop until I'm at the top. I sim on Raidbots, study fights before prog, use DBM, and take feedback without ego.",
    "rio": {
     "class": "Warrior",
-    "ilvl": 326,
+    "ilvl": 326.938,
     "ioScore": 3181,
     "progress": "",
     "rioProfile": "https://raider.io/characters/us/darkspear/Huffyy",
@@ -177,6 +177,28 @@
    "whyJoin": "I am looking to continue raiding in a guild with experience and history. A guild that will stand the tests of time and allow me to improve."
   },
   {
+   "applied": "10/16/2026 21:15:12",
+   "battletag": "Gilthresa#1593",
+   "classPref": "Shadow Priest - Demo Lock",
+   "discord": "gilthresa",
+   "history": "I've played with the people in my current guild for about 10 years now, until I left midway through S1 of Midnight to join a Mythic guild. Progressed through VS and got CE Alleria with them, and then for S2 they went to a 3 day schedule, which I couldn't realistically make, so I went back to the guild I'd been in for the last 10 years. I get AotC every tier I play the game in a halfway decent capacity, but I'm tired of that and want to move to a CE focused guild now.",
+   "nameServer": "Gilthresa - Area 52",
+   "notes": "I loathe drama and people who expect to be carried. I show up every night on time with gems/enchants/consumables/etc. I watch videos, go through my logs, practice on dummies, run M+ for crests/gear, ask questions in my class discord, that kinda stuff, so I'm not wasting other people's time with poor performance. If I'm not performing to the level that's expected, I expect to be sat and I'll understand it's not personal.\n\nI can sometimes take a little bit to get the swing of mechanics, and I'm very much the kind of person where I need to see and run through the fight a few times to get a good feel for it, but after that I usually get it pretty well.",
+   "rio": {
+    "class": "Priest",
+    "ilvl": 329,
+    "ioScore": 3277,
+    "progress": "7/9 M",
+    "rioProfile": "https://raider.io/characters/us/area-52/Gilthresa",
+    "spec": "Shadow"
+   },
+   "rioError": null,
+   "rioUrl": "https://raider.io/characters/us/area-52/Gilthresa",
+   "uiLink": "",
+   "wclUrl": "https://www.warcraftlogs.com/character/id/71232069",
+   "whyJoin": "I'm interested in you guys because you guys are recruiting a shadow priest. And honestly the name is kinda neat"
+  },
+  {
    "applied": "10/12/2026 17:18:13",
    "battletag": "Bayla#1700",
    "classPref": "Priest/Holy - Geared and cleared Heroic. Ready for Mythic. Shaman / Resto - Ready for Heroic and still gearing.",
@@ -187,7 +209,7 @@
    "rio": {
     "class": "Priest",
     "ilvl": 323.875,
-    "ioScore": 3347,
+    "ioScore": 3376,
     "progress": "",
     "rioProfile": "https://raider.io/characters/us/moon-guard/Baylaboo",
     "spec": "Holy"
