@@ -162,8 +162,15 @@
    "history": "MN S1 - CE - BDK/Protpal\nTWW - S3 - 7/8 - HPriest - Healing lead\nTWW - S2 - 5/8 - ret/HPal\nTWW - S1 - 6/8 - ret/HPal/Rogue\nDF - S3 - 3/9\n\nGuild I left was created in TWW S3. CE MN S1 but dissolved last week.",
    "nameServer": "Purch - Dalaran",
    "notes": "Dependable. No ego. Open to criticism & able to improve.",
-   "rio": null,
-   "rioError": "HTTP 504",
+   "rio": {
+    "class": "Hunter",
+    "ilvl": 328,
+    "ioScore": 2879,
+    "progress": "4/9 M",
+    "rioProfile": "https://raider.io/characters/us/dalaran/Purch",
+    "spec": "Beast Mastery"
+   },
+   "rioError": null,
    "rioUrl": "https://raider.io/characters/us/dalaran/Purch",
    "uiLink": "",
    "wclUrl": "https://www.warcraftlogs.com/character/id/73243139?difficulty=5  https://www.warcraftlogs.com/character/id/105385516?zone=46&metric=hps  https://www.warcraftlogs.com/character/id/77263685?zone=44",
