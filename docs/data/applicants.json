@@ -54,11 +54,11 @@
    "notes": "I love playing this game and want to always get better. Love pumping numbers and killing bosses. Willing to sacrifice some numbers to do mechanics. I learn fast.",
    "rio": {
     "class": "Warrior",
-    "ilvl": 328.75,
+    "ilvl": 328,
     "ioScore": 3692,
     "progress": "8/9 M",
     "rioProfile": "https://raider.io/characters/us/area-52/Fortressw",
-    "spec": "Arms"
+    "spec": "Fury"
    },
    "rioError": null,
    "rioUrl": "https://raider.io/characters/us/area-52/Fortressw",
@@ -177,6 +177,28 @@
    "whyJoin": "I am looking to continue raiding in a guild with experience and history. A guild that will stand the tests of time and allow me to improve."
   },
   {
+   "applied": "10/17/2026 16:44:09",
+   "battletag": "bigsimon#11461",
+   "classPref": "All 3 specs warlock. dps dk/enhance shaman but not geared in S2 midnight yet.",
+   "discord": "earthwormwang",
+   "history": "I played this game on and off like many of us over 20yeras. Resto druid was my main in WLK till Fireland, and I started this warlock since S1 TWW raiding and enjoy it so far. I was in a very good guild but I took my time off this season and joined my old buddy's guild as a casual player. but the raiding groups disbanded due to lack of people. I still want to participate and finish this CE.",
+   "nameServer": "Badsimon - Illidan",
+   "notes": "Funny and handsome. love logs and parse, willing to play with mature players.",
+   "rio": {
+    "class": "Warlock",
+    "ilvl": 329,
+    "ioScore": 3355,
+    "progress": "8/9 M",
+    "rioProfile": "https://raider.io/characters/us/illidan/Badsimon",
+    "spec": "Demonology"
+   },
+   "rioError": null,
+   "rioUrl": "https://raider.io/characters/us/illidan/Badsimon",
+   "uiLink": "",
+   "wclUrl": "https://www.warcraftlogs.com/character/id/48506633",
+   "whyJoin": "time schedule fits for me since I am in Toronto, Canada. And I am a positive person who could balance the negative aura for you guys a little bit."
+  },
+  {
    "applied": "10/16/2026 21:15:12",
    "battletag": "Gilthresa#1593",
    "classPref": "Shadow Priest - Demo Lock",
@@ -253,7 +275,7 @@
    "rio": {
     "class": "Rogue",
     "ilvl": 331.625,
-    "ioScore": 3349,
+    "ioScore": 3382,
     "progress": "2/9 M",
     "rioProfile": "https://raider.io/characters/us/area-52/Sneakyninya",
     "spec": "Assassination"
