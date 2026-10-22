@@ -80,7 +80,7 @@
     "ioScore": 3335,
     "progress": "3/9 M",
     "rioProfile": "https://raider.io/characters/us/illidan/Uoepriest",
-    "spec": "Shadow"
+    "spec": "Discipline"
    },
    "rioError": null,
    "rioUrl": "https://www.warcraftlogs.com/character/us/illidan/uoepriest",
@@ -120,11 +120,11 @@
    "notes": "Nothing in particular springs to mind.",
    "rio": {
     "class": "Evoker",
-    "ilvl": 330,
+    "ilvl": 329,
     "ioScore": 3033,
     "progress": "7/9 M",
     "rioProfile": "https://raider.io/characters/us/tichondrius/Berylizal",
-    "spec": "Augmentation"
+    "spec": "Devastation"
    },
    "rioError": null,
    "rioUrl": "https://raider.io/characters/us/tichondrius/Berylizal",
@@ -252,7 +252,7 @@
    "notes": "I excel at competitive games. I was able to take several OW accounts to GM and several accounts in Rivals to GM in days. My PvP blitz last season was in the 3000 rating. I love chalenging myself and being the best that I can be.",
    "rio": {
     "class": "Priest",
-    "ilvl": 323,
+    "ilvl": 323.875,
     "ioScore": 3376,
     "progress": "",
     "rioProfile": "https://raider.io/characters/us/moon-guard/Baylaboo",
