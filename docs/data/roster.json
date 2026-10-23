@@ -1,5 +1,5 @@
 {
- "characterCount": 45,
+ "characterCount": 47,
  "memberCount": 27,
  "members": [
   {
@@ -716,6 +716,14 @@
      "realm": "Khadgar",
      "spec": "Shadow",
      "status": "main"
+    },
+    {
+     "class": "Warlock",
+     "inactive": false,
+     "name": "Parple",
+     "realm": "Khadgar",
+     "spec": "Affliction",
+     "status": "alt"
     }
    ],
    "main": {
@@ -780,6 +788,14 @@
      "realm": "Bleeding Hollow",
      "spec": "Marksmanship",
      "status": "main"
+    },
+    {
+     "class": "Shaman",
+     "inactive": false,
+     "name": "Wolfshock",
+     "realm": "Bleeding Hollow",
+     "spec": "Restoration",
+     "status": "alt"
     }
    ],
    "main": {
