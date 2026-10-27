@@ -76,11 +76,11 @@
    "notes": "No",
    "rio": {
     "class": "Priest",
-    "ilvl": 332.688,
+    "ilvl": 333,
     "ioScore": 3335,
     "progress": "3/9 M",
     "rioProfile": "https://raider.io/characters/us/illidan/Uoepriest",
-    "spec": "Discipline"
+    "spec": "Shadow"
    },
    "rioError": null,
    "rioUrl": "https://www.warcraftlogs.com/character/us/illidan/uoepriest",
@@ -98,7 +98,7 @@
    "notes": "I think I am a player that prioritizes mechanics over damage. I consider myself someone that learns fast and open to feedback!",
    "rio": {
     "class": "Druid",
-    "ilvl": 329.438,
+    "ilvl": 329,
     "ioScore": 3738,
     "progress": "6/9 M",
     "rioProfile": "https://raider.io/characters/us/illidan/Muunragery",
