@@ -76,7 +76,7 @@
    "notes": "No",
    "rio": {
     "class": "Priest",
-    "ilvl": 333,
+    "ilvl": 332.688,
     "ioScore": 3335,
     "progress": "3/9 M",
     "rioProfile": "https://raider.io/characters/us/illidan/Uoepriest",
@@ -98,8 +98,8 @@
    "notes": "I think I am a player that prioritizes mechanics over damage. I consider myself someone that learns fast and open to feedback!",
    "rio": {
     "class": "Druid",
-    "ilvl": 329,
-    "ioScore": 3738,
+    "ilvl": 330.25,
+    "ioScore": 3751,
     "progress": "6/9 M",
     "rioProfile": "https://raider.io/characters/us/illidan/Muunragery",
     "spec": "Balance"
@@ -208,7 +208,7 @@
    "notes": "Veteran and current Leo and dad of three boys who just enjoys unwinding with games",
    "rio": {
     "class": "Paladin",
-    "ilvl": 331,
+    "ilvl": 331.938,
     "ioScore": 3254,
     "progress": "7/9 M",
     "rioProfile": "https://raider.io/characters/us/the-forgotten-coast/Clõüd",
@@ -230,7 +230,7 @@
    "notes": "Can reliably handle mechanics and always looking to improve",
    "rio": {
     "class": "Shaman",
-    "ilvl": 329,
+    "ilvl": 329.562,
     "ioScore": 3600,
     "progress": "9/9 M",
     "rioProfile": "https://raider.io/characters/us/tichondrius/Fogel",
@@ -252,11 +252,11 @@
    "notes": "Funny and handsome. love logs and parse, willing to play with mature players.",
    "rio": {
     "class": "Warlock",
-    "ilvl": 332.25,
+    "ilvl": 332,
     "ioScore": 3355,
     "progress": "8/9 M",
     "rioProfile": "https://raider.io/characters/us/illidan/Badsimon",
-    "spec": "Demonology"
+    "spec": "Affliction"
    },
    "rioError": null,
    "rioUrl": "https://raider.io/characters/us/illidan/Badsimon",
