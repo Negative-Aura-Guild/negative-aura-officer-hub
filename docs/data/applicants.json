@@ -54,7 +54,7 @@
    "notes": "I love playing this game and want to always get better. Love pumping numbers and killing bosses. Willing to sacrifice some numbers to do mechanics. I learn fast.",
    "rio": {
     "class": "Warrior",
-    "ilvl": 331,
+    "ilvl": 333.312,
     "ioScore": 3706,
     "progress": "8/9 M",
     "rioProfile": "https://raider.io/characters/us/area-52/Fortressw",
@@ -230,11 +230,11 @@
    "notes": "Can reliably handle mechanics and always looking to improve",
    "rio": {
     "class": "Shaman",
-    "ilvl": 329.562,
+    "ilvl": 329,
     "ioScore": 3600,
     "progress": "9/9 M",
     "rioProfile": "https://raider.io/characters/us/tichondrius/Fogel",
-    "spec": "Restoration"
+    "spec": "Elemental"
    },
    "rioError": null,
    "rioUrl": "https://raider.io/characters/us/tichondrius/Fogel",
@@ -252,7 +252,7 @@
    "notes": "Funny and handsome. love logs and parse, willing to play with mature players.",
    "rio": {
     "class": "Warlock",
-    "ilvl": 332,
+    "ilvl": 333.5,
     "ioScore": 3355,
     "progress": "8/9 M",
     "rioProfile": "https://raider.io/characters/us/illidan/Badsimon",
