@@ -1,5 +1,5 @@
 {
- "characterCount": 47,
+ "characterCount": 46,
  "memberCount": 27,
  "members": [
   {
@@ -302,36 +302,28 @@
    "battletag": "Leonarvo#11797",
    "characters": [
     {
+     "class": "Hunter",
+     "inactive": false,
+     "name": "Lèo",
+     "realm": "Illidan",
+     "spec": "Survival",
+     "status": "main"
+    },
+    {
      "class": "Mage",
      "inactive": false,
      "name": "Ilovewow",
      "realm": "Illidan",
      "spec": "Arcane",
-     "status": "main"
-    },
-    {
-     "class": "Death Knight",
-     "inactive": false,
-     "name": "Goygrips",
-     "realm": "Stormrage",
-     "spec": "Unholy",
      "status": "alt"
-    },
-    {
-     "class": "Hunter",
-     "inactive": true,
-     "name": "Lèo",
-     "realm": "Illidan",
-     "spec": "Survival",
-     "status": "inactive"
     }
    ],
    "main": {
-    "class": "Mage",
+    "class": "Hunter",
     "inactive": false,
-    "name": "Ilovewow",
+    "name": "Lèo",
     "realm": "Illidan",
-    "spec": "Arcane",
+    "spec": "Survival",
     "status": "main"
    },
    "name": "Leo",
