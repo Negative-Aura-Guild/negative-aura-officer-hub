@@ -55,7 +55,7 @@
    "rio": {
     "class": "Warrior",
     "ilvl": 335.438,
-    "ioScore": 3818,
+    "ioScore": 3829,
     "progress": "8/9 M",
     "rioProfile": "https://raider.io/characters/us/area-52/Fortressw",
     "spec": "Arms"
@@ -98,7 +98,7 @@
    "notes": "I think I am a player that prioritizes mechanics over damage. I consider myself someone that learns fast and open to feedback!",
    "rio": {
     "class": "Druid",
-    "ilvl": 334,
+    "ilvl": 334.562,
     "ioScore": 3780,
     "progress": "6/9 M",
     "rioProfile": "https://raider.io/characters/us/illidan/Muunragery",
@@ -208,11 +208,11 @@
    "notes": "Veteran and current Leo and dad of three boys who just enjoys unwinding with games",
    "rio": {
     "class": "Paladin",
-    "ilvl": 333,
+    "ilvl": 334,
     "ioScore": 3254,
     "progress": "7/9 M",
     "rioProfile": "https://raider.io/characters/us/the-forgotten-coast/Clõüd",
-    "spec": "Protection"
+    "spec": "Retribution"
    },
    "rioError": null,
    "rioUrl": "https://raider.io/characters/us/the-forgotten-coast/Cl%C3%B5%C3%BCd",
