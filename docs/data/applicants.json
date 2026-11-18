@@ -55,7 +55,7 @@
    "rio": {
     "class": "Warrior",
     "ilvl": 335,
-    "ioScore": 3829,
+    "ioScore": 3844,
     "progress": "8/9 M",
     "rioProfile": "https://raider.io/characters/us/area-52/Fortressw",
     "spec": "Arms"
@@ -76,7 +76,7 @@
    "notes": "No",
    "rio": {
     "class": "Priest",
-    "ilvl": 335,
+    "ilvl": 335.812,
     "ioScore": 3335,
     "progress": "3/9 M",
     "rioProfile": "https://raider.io/characters/us/illidan/Uoepriest",
@@ -120,7 +120,7 @@
    "notes": "Nothing in particular springs to mind.",
    "rio": {
     "class": "Evoker",
-    "ilvl": 335.125,
+    "ilvl": 335,
     "ioScore": 3033,
     "progress": "8/9 M",
     "rioProfile": "https://raider.io/characters/us/tichondrius/Berylizal",
