@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-11-24T06:00:17Z",
+ "generatedAt": "2026-11-24T17:41:19Z",
  "sources": {
   "applicants": "ok",
-  "calendar": "ok",
-  "droptimizers": "ok",
+  "calendar": "error:503",
+  "droptimizers": "error:503",
   "logs": "ok",
   "loot": "ok",
-  "roster": "ok",
-  "wishlists": "ok"
+  "roster": "error:503",
+  "wishlists": "error:503"
  }
 }
