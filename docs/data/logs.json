@@ -2,6 +2,17 @@
  "guildPage": "https://www.warcraftlogs.com/guild/reports-list/738983",
  "reports": [
   {
+   "code": "gwbp3TjKMdWX17BQ",
+   "durationMin": 71,
+   "end": 1795573391216,
+   "owner": "adrum67",
+   "start": 1795569108759,
+   "title": "Ula'tek 11-24-26",
+   "url": "https://www.warcraftlogs.com/reports/gwbp3TjKMdWX17BQ",
+   "zone": "The Venomous Abyss",
+   "zoneId": 53
+  },
+  {
    "code": "2jzRbFnAVZmqfTcX",
    "durationMin": 190,
    "end": 1795148985850,
@@ -262,17 +273,6 @@
    "start": 1790482033368,
    "title": "M+ 9-27-26",
    "url": "https://www.warcraftlogs.com/reports/3N1tr9QghywXmFAT",
-   "zone": "Mythic+ Season 2",
-   "zoneId": 55
-  },
-  {
-   "code": "hDp8QX6z1CKj9aZP",
-   "durationMin": 321,
-   "end": 1790463000784,
-   "owner": "adrum67",
-   "start": 1790443759417,
-   "title": "M+ 9-27-26",
-   "url": "https://www.warcraftlogs.com/reports/hDp8QX6z1CKj9aZP",
    "zone": "Mythic+ Season 2",
    "zoneId": 55
   }
